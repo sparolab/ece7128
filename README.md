@@ -20,7 +20,7 @@ PDF나 첨부 파일을 업로드하지 않습니다. 학생에게 GitHub 계정
 - `npm test`: 모의 GitHub API 검증. 실제 GitHub에 테스트 데이터를 올리지 않습니다.
 - `npm run build`: GitHub Pages용 `_site/` 생성.
 
-**GitHub Pages 공개와 기존 Sites 서버 연결은 승인되어 설정 중입니다. 저장소 전용 인증키 발급·연결이 남아 있습니다.** 서버가 응답하기 전에는 정적 목록을 표시하고 등록 버튼을 비활성화합니다. `COURSE_PAGES_ENABLED=true`로 자동 배포를 켰습니다.
+**GitHub Pages 공개와 기존 Sites 서버 배포를 완료했습니다. 저장소 전용 인증키 발급·연결이 남아 있습니다.** 서버가 응답하기 전에는 정적 목록을 표시하고 등록 버튼을 비활성화합니다. `COURSE_PAGES_ENABLED=true`로 자동 배포를 켰습니다.
 
 ## 운영 연결
 
