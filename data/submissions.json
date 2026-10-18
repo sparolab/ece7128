@@ -1,1 +1,23 @@
-{"version":1,"papers":[],"teams":[]}
+{
+  "version": 1,
+  "papers": [
+    {
+      "id": "student-1b7fbc23cd910d4b4db64b28",
+      "title": "Structure-from-Motion Revisited",
+      "venue": "CVPR",
+      "year": 2016,
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "prerequisites": [],
+      "links": [],
+      "paperUrl": "https://openaccess.thecvf.com/content_cvpr_2016/html/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.html",
+      "projectUrl": "https://colmap.github.io/",
+      "codeUrl": "https://github.com/colmap/colmap",
+      "summary": "순서가 정해지지 않은 이미지 모음에서 카메라 자세와 3D 구조를 복원하는 incremental SfM 방법을 제안한다. 공개 구현은 COLMAP이다.",
+      "createdAt": "2026-10-18T07:15:24.119Z"
+    }
+  ],
+  "teams": []
+}
