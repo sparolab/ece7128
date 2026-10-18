@@ -1,0 +1,39 @@
+name: Update paper list and publish
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'data/**', 'scripts/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ece7128-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    # Enable only after the owner approves GitHub Pages configuration.
+    if: vars.COURSE_PAGES_ENABLED == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy course page
+        id: deployment
+        uses: actions/deploy-pages@v4

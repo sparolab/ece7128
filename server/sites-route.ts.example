@@ -1,0 +1,11 @@
+// Proposed adapter for the EXISTING Sites server. Do not deploy or change access without approval.
+// Copy handler.mjs beside this route and the catalog to the stated path.
+import { env } from 'cloudflare:workers';
+import { createHandler } from './handler.mjs';
+import catalog from '../../../public/catalog.json';
+export const dynamic = 'force-dynamic';
+const handle = createHandler({ catalog });
+export const GET = (request: Request) => handle(request, env);
+export const POST = (request: Request) => handle(request, env);
+export const PATCH = (request: Request) => handle(request, env);
+export const OPTIONS = (request: Request) => handle(request, env);
