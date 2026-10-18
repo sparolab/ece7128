@@ -8394,5 +8394,829 @@
     ],
     "doi": "10.1109/cvpr.2016.445",
     "metadataRetrieved": "2026-10-18"
+  },
+  "LAB-3a8282de70": {
+    "authors": [
+      "Zehuan Yu",
+      "Zhijian Qiao",
+      "Liuyang Qiu",
+      "Huan Yin",
+      "Shaojie Shen"
+    ],
+    "affiliations": [
+      "Hong Kong University of Science and Technology",
+      "Harbin Institute of Technology",
+      "The Hong Kong University of Science and Technology,Department of Electronic and Computer Engineering,Hong Kong,China",
+      "Harbin Institute of Technology,Shenzhen"
+    ],
+    "metadataAliases": [
+      "Zehuan Yu",
+      "Zhijian Qiao",
+      "Liuyang Qiu",
+      "Huan Yin",
+      "Shaojie Shen",
+      "The Hong Kong University of Science and Technology,Department of Electronic and Computer Engineering,Hong Kong,China",
+      "Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Hong Kong, China",
+      "Harbin Institute of Technology,Shenzhen",
+      "Harbin Institute of Technology, Shenzhen"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10341462",
+      "https://openalex.org/W4389665570"
+    ],
+    "doi": "10.1109/iros55552.2023.10341462",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-df1dc3c067": {
+    "authors": [
+      "Lena M. Downes",
+      "Dong-Ki Kim",
+      "Ted J. Steiner",
+      "Jonathan P. How"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "Draper Laboratory",
+      "Massachusetts Institute of Technology,Department of Aeronautics and Astronautics,Cambridge,MA,USA,02139",
+      "Massachusetts Institute of Technology,Laboratory for Information and Decision Systems,Cambridge,MA,USA,02139",
+      "Perception and Embedded ML Group,Draper,Cambridge,MA,USA,02139",
+      "Massachusetts Institute of Technology,Faculty of Aeronautics and Astronautics,Cambridge,MA,USA,02139"
+    ],
+    "metadataAliases": [
+      "Lena M. Downes",
+      "Dong-Ki Kim",
+      "Ted J. Steiner",
+      "Jonathan P. How",
+      "Massachusetts Institute of Technology,Department of Aeronautics and Astronautics,Cambridge,MA,USA,02139",
+      "Massachusetts Institute of Technology,Laboratory for Information and Decision Systems,Cambridge,MA,USA,02139",
+      "Perception and Embedded ML Group,Draper,Cambridge,MA,USA,02139",
+      "Massachusetts Institute of Technology,Faculty of Aeronautics and Astronautics,Cambridge,MA,USA,02139"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981996",
+      "https://openalex.org/W4225894136"
+    ],
+    "doi": "10.1109/iros47612.2022.9981996",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-dabb7beb26": {
+    "authors": [
+      "Rob Weston",
+      "Matthew Gadd",
+      "Daniele De Martini",
+      "Paul Newman",
+      "Ingmar Posner"
+    ],
+    "affiliations": [
+      "University of Oxford",
+      "Applied Artificial Intelligence Lab (A2I)",
+      "Mobile Robotics Group (MRG), University of Oxford"
+    ],
+    "metadataAliases": [
+      "Rob Weston",
+      "Matthew Gadd",
+      "Daniele De Martini",
+      "Paul M. Newman",
+      "Ingmar Posner",
+      "Applied Artificial Intelligence Lab (A2I)",
+      "Mobile Robotics Group (MRG), University of Oxford"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812063",
+      "https://openalex.org/W4285102317"
+    ],
+    "doi": "10.1109/icra46639.2022.9812063",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-c40c84f8ef": {
+    "authors": [
+      "Xin Wei",
+      "Jixin Lv",
+      "Jie Sun",
+      "Erbao Dong",
+      "Shiliang Pu"
+    ],
+    "affiliations": [
+      "Hikvision (China)",
+      "University of Science and Technology of China",
+      "Hikvision Research Institute (HRI), Hangzhou Hikvision Digital Technology Co.,Ltd.,Hangzhou,China",
+      "University of Science and Technology of China (USTC),Hefei,China"
+    ],
+    "metadataAliases": [
+      "Xin Wei",
+      "Jixin Lv",
+      "Jie Sun",
+      "Erbao Dong",
+      "Shiliang Pu",
+      "Hikvision Research Institute (HRI), Hangzhou Hikvision Digital Technology Co.,Ltd.,Hangzhou,China",
+      "Hikvision Research Institute (HRI), Hangzhou Hikvision Digital Technology Co.,Ltd., Hangzhou, China",
+      "University of Science and Technology of China (USTC),Hefei,China",
+      "University of Science and Technology of China (USTC), Hefei, China"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812336",
+      "https://openalex.org/W4285102123"
+    ],
+    "doi": "10.1109/icra46639.2022.9812336",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-49f578385d": {
+    "authors": [
+      "Ling Gao",
+      "Laurent Kneip"
+    ],
+    "affiliations": [
+      "Chinese Academy of Sciences",
+      "ShanghaiTech University",
+      "Shanghai Institute of Microsystem and Information Technology",
+      "University of Chinese Academy of Sciences"
+    ],
+    "metadataAliases": [
+      "Ling Gao",
+      "Laurent Kneip",
+      "ShanghaiTech University",
+      "Chinese Academy of Sciences, Shanghai Institute of Microsystem and Infor-mation Technology",
+      "University of Chinese Academy of Sciences",
+      "Shanghai Engineering Research Center of Intelligent Vision and Imaging"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812361",
+      "https://openalex.org/W4221149385"
+    ],
+    "doi": "10.1109/icra46639.2022.9812361",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-bf91aaf39f": {
+    "authors": [
+      "Ahmad Khaliq",
+      "Michael Milford",
+      "Sourav Garg"
+    ],
+    "affiliations": [
+      "Queensland University of Technology"
+    ],
+    "metadataAliases": [
+      "Ahmad Khaliq",
+      "Michael John Milford",
+      "Sourav Garg",
+      "School of Electrical Engineering and Robotics and QUT Centre of Robotics, Queensland University of Technology, Brisbane, QLD, Australia"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3147257",
+      "https://openalex.org/W4210786584"
+    ],
+    "doi": "10.1109/lra.2022.3147257",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-f5380bbf1b": {
+    "authors": [
+      "Lin Yen-Chen",
+      "Pete Florence",
+      "Jonathan T. Barron",
+      "Tsung-Yi Lin",
+      "Alberto Rodriguez",
+      "Phillip Isola"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "Google (United States)",
+      "Nvidia (United Kingdom)",
+      "Nvidia (United States)",
+      "MIT",
+      "Google",
+      "Nvidia"
+    ],
+    "metadataAliases": [
+      "Yen-Chen Lin",
+      "Pete Florence",
+      "Jonathan T. Barron",
+      "Tsung-Yi Lin",
+      "Alberto Rodríguez",
+      "Phillip Isola",
+      "MIT",
+      "Google",
+      "Nvidia"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812291",
+      "https://openalex.org/W4221155806"
+    ],
+    "doi": "10.1109/icra46639.2022.9812291",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-695e9c7a08": {
+    "authors": [
+      "Lipu Zhou",
+      "Guoquan Huang",
+      "Yinian Mao",
+      "Shengze Wang",
+      "Michael Kaess"
+    ],
+    "affiliations": [
+      "Meituan (China)",
+      "University of North Carolina at Chapel Hill",
+      "Carnegie Mellon University",
+      "Meituan,Beijing,China,100012",
+      "University of North Carolina,Department of Computer Science,Chapel Hill,NC,USA,27599",
+      "Robotics Institute, Carnegie Mellon University,Pittsburgh,PA,USA,15213"
+    ],
+    "metadataAliases": [
+      "Lipu Zhou",
+      "Guoquan P. Huang",
+      "Yinian Mao",
+      "Shengze Wang",
+      "Michael Kaess",
+      "Meituan,Beijing,China,100012",
+      "University of North Carolina,Department of Computer Science,Chapel Hill,NC,USA,27599",
+      "Robotics Institute, Carnegie Mellon University,Pittsburgh,PA,USA,15213"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812133",
+      "https://openalex.org/W4285102352"
+    ],
+    "doi": "10.1109/icra46639.2022.9812133",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-5607211531": {
+    "authors": [
+      "Joseph Ortiz",
+      "Talfan Evans",
+      "Edgar Sucar",
+      "Andrew J. Davison"
+    ],
+    "affiliations": [
+      "Imperial College London",
+      "Imperial College London,Robot Vision Laboratory,United Kingdom"
+    ],
+    "metadataAliases": [
+      "Joseph Ortiz",
+      "Talfan Evans",
+      "Edgar Sucar",
+      "Andrew J. Davison",
+      "Imperial College London,Robot Vision Laboratory,United Kingdom",
+      "Robot Vision Laboratory, Imperial College London, United Kingdom"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812078",
+      "https://openalex.org/W3200883446"
+    ],
+    "doi": "10.1109/icra46639.2022.9812078",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-619b30e85e": {
+    "authors": [
+      "Lintong Zhang",
+      "David Wisth",
+      "Marco Camurri",
+      "Maurice Fallon"
+    ],
+    "affiliations": [
+      "University of Oxford"
+    ],
+    "metadataAliases": [
+      "Lintong Zhang",
+      "David Wisth",
+      "Marco Camurri",
+      "Maurice F. Fallon",
+      "Department of Engineering Science, Oxford Robotics Institute, University of Oxford, Oxford, U.K"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3137910",
+      "https://openalex.org/W3199417960"
+    ],
+    "doi": "10.1109/lra.2021.3137910",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "add-vggt-slam2-2026": {
+    "authors": [
+      "Dominic Maggio",
+      "Luca Carlone"
+    ],
+    "affiliations": [],
+    "metadataAliases": [
+      "Dominic Maggio",
+      "Luca Carlone"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2026.xxii.051",
+      "https://openalex.org/W7125949632"
+    ],
+    "doi": "10.15607/rss.2026.xxii.051",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "add-vggt-slam-2025": {
+    "authors": [
+      "Dominic Maggio",
+      "Hyungtae Lim",
+      "Luca Carlone"
+    ],
+    "affiliations": [
+      "Massachusetts Institute of Technology",
+      "MIT"
+    ],
+    "metadataAliases": [
+      "Dominic Maggio",
+      "Hyungtae Lim",
+      "Luca Carlone",
+      "Massachusetts Institute of Technology",
+      "MIT"
+    ],
+    "metadataSources": [
+      "https://api.crossref.org/works/10.52202/085713-4324",
+      "https://openalex.org/W7197033620"
+    ],
+    "doi": "10.52202/085713-4324",
+    "metadataRetrieved": "2026-10-19"
+  },
+  "LAB-bd00b88ce7": {
+    "authors": [
+      "Pierre-Yves Lajoie",
+      "Karthik Soma",
+      "Haechan Mark Bong",
+      "Alice Lemieux-Bourque",
+      "Rongge Zhang",
+      "Vivek Shankar Varadharajan",
+      "Giovanni Beltrame"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2601.21063"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2601.21063"
+    ]
+  },
+  "LAB-5da51ee93f": {
+    "authors": [
+      "Gongxin Yao",
+      "Xinyang Li",
+      "Luowei Fu",
+      "Yu Pan"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2410.06285"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2410.06285"
+    ]
+  },
+  "splatam": {
+    "authors": [
+      "Nikhil Keetha",
+      "Jay Karhade",
+      "Krishna Murthy Jatavallabhula",
+      "Gengshan Yang",
+      "Sebastian Scherer",
+      "Deva Ramanan",
+      "Jonathon Luiten"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2312.02126"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2312.02126"
+    ]
+  },
+  "add-pings-2025": {
+    "authors": [
+      "Yue Pan",
+      "Xingguang Zhong",
+      "Liren Jin",
+      "Louis Wiesmann",
+      "Marija Popovic",
+      "Jens Behley",
+      "Cyrill Stachniss"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://www.roboticsproceedings.org/rss21/p040.html"
+    ],
+    "metadataSources": [
+      "https://www.roboticsproceedings.org/rss21/p040.html"
+    ]
+  },
+  "add-bievr-lio-2026": {
+    "authors": [
+      "Patrick Pfreundschuh",
+      "Turcan Tuna",
+      "Cedric Le Gentil",
+      "Roland Siegwart",
+      "Cesar Cadena",
+      "Helen Oleynikova"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://roboticsproceedings.org/rss22/p049.html"
+    ],
+    "metadataSources": [
+      "https://roboticsproceedings.org/rss22/p049.html"
+    ]
+  },
+  "add-aergs-slam-2026": {
+    "authors": [
+      "Zhiyu Zhou",
+      "Feng Hui",
+      "Yu Liu"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://github.com/zzy-2021/AERGS-SLAM"
+    ],
+    "metadataSources": [
+      "https://github.com/zzy-2021/AERGS-SLAM"
+    ]
+  },
+  "add-wildgs-slam-2025": {
+    "authors": [
+      "Jianhao Zheng",
+      "Zihan Zhu",
+      "Valentin Bieri",
+      "Marc Pollefeys",
+      "Songyou Peng",
+      "Iro Armeni"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2504.03886"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2504.03886"
+    ]
+  },
+  "add-cg-slam-2024": {
+    "authors": [
+      "Jiarui Hu",
+      "Xianhao Chen",
+      "Boyin Feng",
+      "Guanglin Li",
+      "Liangjing Yang",
+      "Hujun Bao",
+      "Guofeng Zhang",
+      "Zhaopeng Cui"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3580_ECCV_2024_paper.php"
+    ],
+    "metadataSources": [
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3580_ECCV_2024_paper.php"
+    ]
+  },
+  "LAB-a8c05eed06": {
+    "authors": [
+      "Johan Hatleskog",
+      "Kostas Alexis"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2410.10784"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2410.10784"
+    ]
+  },
+  "LAB-896e7bfd95": {
+    "authors": [
+      "Chuchu Chen",
+      "Yuxiang Peng",
+      "Guoquan Huang"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://par.nsf.gov/servlets/purl/10625676"
+    ],
+    "metadataSources": [
+      "https://par.nsf.gov/servlets/purl/10625676"
+    ],
+    "affiliations": [
+      "University of Delaware"
+    ]
+  },
+  "LAB-7d1eda2d32": {
+    "authors": [
+      "Alec Reed",
+      "Lorin Achey",
+      "Brendan Crowe",
+      "Bradley Hayes",
+      "Christoffer Heckman"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2409.10681"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2409.10681",
+      "https://www.cairo-lab.com/papers/icra25.pdf"
+    ],
+    "affiliations": [
+      "University of Colorado Boulder"
+    ]
+  },
+  "LAB-4396d78e64": {
+    "authors": [
+      "Zeyu Han",
+      "Shuocheng Yang",
+      "Minghan Zhu",
+      "Fang Zhang",
+      "Shaobing Xu",
+      "Maani Ghaffari",
+      "Jianqiang Wang"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2509.20674"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2509.20674"
+    ]
+  },
+  "LAB-472c2785b6": {
+    "authors": [
+      "Naoki Yokoyama",
+      "Sehoon Ha",
+      "Dhruv Batra",
+      "Jiuguang Wang",
+      "Bernadette Bucher"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2312.03275"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2312.03275"
+    ]
+  },
+  "LAB-20f45623cb": {
+    "authors": [
+      "Lintong Zhang",
+      "Michael Helmberger",
+      "Lanke Frank Tarimo Fu",
+      "David Wisth",
+      "Marco Camurri",
+      "Davide Scaramuzza",
+      "Maurice Fallon"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://hilti-challenge.com/dataset-2022"
+    ],
+    "metadataSources": [
+      "https://hilti-challenge.com/dataset-2022"
+    ]
+  },
+  "LAB-c91fd6b83e": {
+    "authors": [
+      "Fangwen Shu",
+      "Jiaxuan Wang",
+      "Alain Pagani",
+      "Didier Stricker"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://www.dfki.uni-kl.de/~pagani/papers/Shu2023_ICRA.pdf"
+    ],
+    "metadataSources": [
+      "https://www.dfki.uni-kl.de/~pagani/papers/Shu2023_ICRA.pdf"
+    ]
+  },
+  "LAB-160594befc": {
+    "authors": [
+      "Nicky Zimmerman",
+      "Tiziano Guadagnino",
+      "Xieyuanli Chen",
+      "Jens Behley",
+      "Cyrill Stachniss"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2210.01456"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2210.01456"
+    ]
+  },
+  "LAB-e2c808ec6b": {
+    "authors": [
+      "Fahira Afzal Maken",
+      "Fabio Ramos",
+      "Lionel Ott"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2106.03287"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2106.03287"
+    ]
+  },
+  "LAB-fdf5bc459b": {
+    "authors": [
+      "Sungho Yoon",
+      "Ayoung Kim"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2109.04753"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2109.04753"
+    ]
+  },
+  "LAB-15a306be6b": {
+    "authors": [
+      "John McConnell",
+      "Yewei Huang",
+      "Paul Szenher",
+      "Ivana Collado-Gonzalez",
+      "Brendan Englot"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2210.00867"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2210.00867"
+    ]
+  },
+  "LAB-cd92da4af9": {
+    "authors": [
+      "Kavisha Vidanapathirana",
+      "Milad Ramezani",
+      "Peyman Moghadam",
+      "Sridha Sridharan",
+      "Clinton Fookes"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://github.com/csiro-robotics/LoGG3D-Net"
+    ],
+    "metadataSources": [
+      "https://github.com/csiro-robotics/LoGG3D-Net"
+    ]
+  },
+  "LAB-5b435ab3fb": {
+    "authors": [
+      "Jingwei Song",
+      "Mitesh Patel",
+      "Maani Ghaffari"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2201.01408"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2201.01408"
+    ]
+  },
+  "LAB-9a58b17df5": {
+    "authors": [
+      "Kenny Chen",
+      "Brett T. Lopez",
+      "Ali-akbar Agha-mohammadi",
+      "Ankur Mehta"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://uclalemur.com/publications/Chen2022_DLO.pdf"
+    ],
+    "metadataSources": [
+      "https://uclalemur.com/publications/Chen2022_DLO.pdf"
+    ]
+  },
+  "LAB-bee9428154": {
+    "authors": [
+      "Naoki Akai"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://researchmap.jp/naokiakai.researchma"
+    ],
+    "metadataSources": [
+      "https://researchmap.jp/naokiakai.researchma"
+    ]
+  },
+  "LAB-9b6f3622a5": {
+    "authors": [
+      "Giovanni Cioffi",
+      "Titus Cieslewski",
+      "Davide Scaramuzza"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2202.08894"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2202.08894"
+    ]
+  },
+  "LAB-0242ece298": {
+    "authors": [
+      "Zachary Ravichandran",
+      "Lisa Peng",
+      "Nathan Hughes",
+      "J. Daniel Griffith",
+      "Luca Carlone"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2108.01176"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2108.01176"
+    ]
+  },
+  "add-openvo-2026": {
+    "authors": [
+      "Phuc D. A. Nguyen",
+      "Anh N. Nhu",
+      "Ming C. Lin"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "authorSources": [
+      "https://arxiv.org/abs/2602.19035"
+    ],
+    "metadataSources": [
+      "https://arxiv.org/abs/2602.19035",
+      "https://openvo.github.io/"
+    ],
+    "affiliations": [
+      "University of Maryland, College Park"
+    ]
+  },
+  "LAB-827e2cb710": {
+    "authors": [
+      "Yonghao Li",
+      "Ping Ye",
+      "Qingxuan Jia"
+    ],
+    "authorSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3643274"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3643274"
+    ],
+    "affiliations": [
+      "Beijing University of Posts and Telecommunications"
+    ]
+  },
+  "LAB-dbf37c2afc": {
+    "authors": [
+      "Hengwang Zhao",
+      "Hanyang Zhuang",
+      "Chunxiang Wang",
+      "Ming Yang"
+    ],
+    "authorSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3142733"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3142733"
+    ]
+  },
+  "LAB-c49c056cd3": {
+    "authors": [
+      "Huayou Wang",
+      "Changliang Xue",
+      "Yu Tang",
+      "Wanlong Li",
+      "Feng Wen",
+      "Hongbo Zhang"
+    ],
+    "authorSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811855"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811855"
+    ],
+    "affiliations": [
+      "Huawei Technologies, Noah's Ark Lab"
+    ]
+  },
+  "LAB-b7ef8e2337": {
+    "authors": [
+      "Yuzhou Cheng",
+      "Jianhao Jiao",
+      "Yue Wang",
+      "Dimitrios Kanoulas"
+    ],
+    "authorSources": [
+      "https://yuzhoucheng.com/logs.github.io/"
+    ],
+    "metadataRetrieved": "2026-10-19",
+    "metadataSources": [
+      "https://yuzhoucheng.com/logs.github.io/",
+      "https://www.proceedings.com/content/081/081087webtoc.pdf"
+    ],
+    "affiliations": [
+      "University College London",
+      "Zhejiang University",
+      "Athena RC"
+    ],
+    "metadataMatchNote": "Conference-program title matched to the author project by its complete author list; project title: LoGS: Visual Localization via Gaussian Splatting with Fewer Training Images."
   }
 }

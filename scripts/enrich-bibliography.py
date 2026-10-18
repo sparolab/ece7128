@@ -3,6 +3,7 @@ Run manually from repository root. Public bibliographic API reads, no credential
 """
 import concurrent.futures, html, json, re, subprocess, unicodedata, urllib.parse
 from pathlib import Path
+from datetime import date
 
 def norm(s):
     return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii','ignore').decode().lower())
@@ -39,7 +40,7 @@ def enrich(p):
     affiliations=unique([i.get('display_name','') for a in oa.get('authorships',[]) for i in a.get('institutions',[])]+[i.get('name','') for a in w.get('author',[]) for i in a.get('affiliation',[])])
     aliases=unique([a.get('author',{}).get('display_name','') for a in oa.get('authorships',[])]+[s for a in oa.get('authorships',[]) for s in a.get('raw_affiliation_strings',[])])
     if not authors and not affiliations: return p['id'],None
-    return p['id'],{'authors':authors,'affiliations':affiliations,'metadataAliases':aliases,'metadataSources':sources,'doi':doi or oa.get('doi',''),'metadataRetrieved':'2026-10-18'}
+    return p['id'],{'authors':authors,'affiliations':affiliations,'metadataAliases':aliases,'metadataSources':sources,'doi':doi or oa.get('doi',''),'metadataRetrieved':date.today().isoformat()}
 
 allpapers=catalog['papers']+submitted['papers']
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:

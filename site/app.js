@@ -5,9 +5,9 @@ const safeURL=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.pr
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('ece7128-saved-v1')||'[]'))}catch{saved=new Set()}
 let topic='',interest='',subtopic='',page=1,pageSize=20,view='library',filtered=[];
 const L=window.LibrarySearch;
-function withMetadata(p){return {...(data.bibliography?.[p.id]||{}),...p,authors:p.authors?.length?p.authors:(data.bibliography?.[p.id]?.authors||[]),affiliations:p.affiliations?.length?p.affiliations:(data.bibliography?.[p.id]?.affiliations||[])}}
+function withMetadata(p){return {...(data.bibliography?.[p.id]||{}),...p,summary:data.englishSummaries?.[p.id]?.summary||p.summary||data.summaries?.[p.id]?.summary||'',authors:p.authors?.length?p.authors:(data.bibliography?.[p.id]?.authors||[]),affiliations:p.affiliations?.length?p.affiliations:(data.bibliography?.[p.id]?.affiliations||[])}}
 function bibliographicLine(p){return `<dl class="paper-bibliography">${[['authors','저자','author'],['affiliations','소속','affiliation']].map(([key,label,field])=>`<div class="bibliography-row"><dt>${label}</dt><dd>${L.list(p[key]).length?L.list(p[key]).map(x=>`<button class="metadata-link" data-biblio="${field}" data-value="${esc(x)}" aria-label="${esc(x)} ${label} 검색">${esc(x)}</button>`).join('<span class="metadata-separator" aria-hidden="true"> · </span>'):'<span class="missing-metadata">정보 없음</span>'}</dd></div>`).join('')}</dl>`;}
-function paperSummary(p){return p.summary||'요약 정보 없음';}
+function paperSummary(p){return p.summary||'No summary available.';}
 function renderInterestGuide(){
  const selected=L.interests.find(i=>i.id===interest);
  $('#interest-guide').hidden=!selected;

@@ -4,13 +4,14 @@ import {createHash} from 'node:crypto';
 const catalog=JSON.parse(fs.readFileSync('site/catalog.json','utf8'));
 const bibliography=fs.existsSync('site/bibliography.json')?JSON.parse(fs.readFileSync('site/bibliography.json','utf8')):{};
 const summaries=JSON.parse(fs.readFileSync('site/summaries.json','utf8'));
-const enrich=p=>({...p,...bibliography[p.id],summary:p.summary||summaries[p.id]?.summary||'',authors:p.authors?.length?p.authors:(bibliography[p.id]?.authors||[]),affiliations:p.affiliations?.length?p.affiliations:(bibliography[p.id]?.affiliations||[])});
+const englishSummaries=Object.fromEntries(Object.entries(JSON.parse(fs.readFileSync('site/summaries-en.json','utf8'))).map(([id,{summary}])=>[id,{summary}]));
+const enrich=p=>({...p,...bibliography[p.id],summary:englishSummaries[p.id]?.summary||p.summary||summaries[p.id]?.summary||'',authors:p.authors?.length?p.authors:(bibliography[p.id]?.authors||[]),affiliations:p.affiliations?.length?p.affiliations:(bibliography[p.id]?.affiliations||[])});
 const data=JSON.parse(fs.readFileSync('data/submissions.json','utf8'));
 if(data.version!==1||!Array.isArray(data.papers)||!Array.isArray(data.teams))throw Error('Invalid submissions');
 const ids=new Set(catalog.papers.map(p=>p.id));
 for(const p of data.papers){if(ids.has(p.id)||typeof p.title!=='string'||!Array.isArray(p.tags))throw Error('Invalid/duplicate paper');ids.add(p.id);}
 fs.rmSync('_site',{recursive:true,force:true});fs.cpSync('site','_site',{recursive:true});
-const enriched={...catalog,papers:catalog.papers.map(enrich),bibliography,summaries};
+const enriched={...catalog,papers:catalog.papers.map(enrich),bibliography,summaries,englishSummaries};
 fs.writeFileSync('_site/catalog.json',JSON.stringify(enriched));
 fs.writeFileSync('_site/data.js','window.CATALOG='+JSON.stringify(enriched)+';\n');
 fs.writeFileSync('_site/community.json',JSON.stringify({papers:data.papers.map(enrich),teams:data.teams.map(({editHash,...t})=>t)}));
