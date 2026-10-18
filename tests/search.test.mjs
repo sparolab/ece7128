@@ -30,3 +30,9 @@ test('pagination defaults to 20, has no overlapping pages, clamps after filters'
  assert.equal(paginate(items,1,50).items.length,45);
  assert.equal(paginate([],100).start,0);
 });
+test('subtopics narrow an interest and never widen its scope',()=>{
+ assert.deepEqual(filter(papers,{interest:'motion',subtopic:'lidar'}).map(p=>p.id),['two']);
+ assert.deepEqual(filter(papers,{interest:'photos',subtopic:'bundle'}).map(p=>p.id),['one']);
+ assert.equal(filter(papers,{interest:'photos',subtopic:'bundle',author:'Alice'}).length,0);
+ assert.equal(filter(papers,{interest:'motion',subtopic:'radar'}).length,0);
+});

@@ -1,0 +1,3537 @@
+{
+  "LAB-670d5c8f47": {
+    "summary": "여러 RGB-D 카메라와 IMU를 결합할 때 신뢰도에 따른 잔차 가중치와 깊이 융합을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "The More the Better? Confidence-Driven Residual Weighting and Depth Fusion for Multi-RGB-D Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3601033",
+      "https://openalex.org/W4413349817"
+    ]
+  },
+  "LAB-bf80df0c64": {
+    "summary": "SE(3) 위 자세의 결합 분포와 연속적인 IMU 전파를 이용해 LiDAR-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SE(3)-LIO: Smooth IMU Propagation with Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://openalex.org/W7139008239"
+    ]
+  },
+  "LAB-340ea94c63": {
+    "summary": "동적 장면에서 불확실성 정보를 이용해 NeRF 지도를 복원한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Freeze-Frame with StaticNeRF: Uncertainty-Guided NeRF Map Reconstruction in Dynamic Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://openalex.org/W4416756217"
+    ]
+  },
+  "LAB-590e06898c": {
+    "summary": "불확실성을 분해하고 연속 상태 MEDIRL로 주행 가능성 비용 지도를 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning Traversability Cost Maps with Decomposed Uncertainties Via Continuous-State MEDIRL",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 7,
+    "metadataSources": []
+  },
+  "LAB-5d88d02f16": {
+    "summary": "3D foundation model을 분산 협력 SLAM의 loop closure에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://openalex.org/W4414116817"
+    ]
+  },
+  "LAB-0f9b9e9eba": {
+    "summary": "로봇 군집의 협력 LiDAR SLAM에서 중앙집중식과 분산식 구성을 전환한다.",
+    "basis": "paper-title",
+    "sourceTitle": "CDC-SLAM: Switchable Centralized and Distributed Collaborative LiDAR SLAM Framework for Robotic Swarms",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57385.2026.11697477",
+      "https://openalex.org/W7220847738"
+    ]
+  },
+  "LAB-90a5b9d1d8": {
+    "summary": "대규모 SLAM에서 최소 부분집합을 이용한 keyframe 선택을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://openalex.org/W4416756210"
+    ]
+  },
+  "LAB-74d8e35552": {
+    "summary": "수심 지도 기반 협력 SLAM에서 지도 데이터의 양자화를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "ID(O): Mapping Data Quantization for Bathymetric Collaborative SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://openalex.org/W7110922981"
+    ]
+  },
+  "LAB-7b4f8126f0": {
+    "summary": "게임 이론에서 착안한 keyframe 선택을 혼합 표현의 visual SLAM에 적용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Game-KFS: Game-Theory-Inspired Keyframe Selection for Hybrid Representation Visual SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3623036",
+      "https://openalex.org/W7092284714"
+    ]
+  },
+  "LAB-5840ccb430": {
+    "summary": "공간 좌표 변환을 이용해 3D neural implicit mapping을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Spatial Coordinate Transformation for 3D Neural Implicit Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 50,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3595031",
+      "https://openalex.org/W4412836817"
+    ]
+  },
+  "LAB-faf28d8263": {
+    "summary": "로봇 내비게이션에 사용할 implicit language map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LAMP: Implicit Language Map for Robot Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 51,
+    "metadataSources": [
+      "https://openalex.org/W4415003025"
+    ]
+  },
+  "LAB-fda8cbfbce": {
+    "summary": "LiDAR·영상·IMU·운동학 정보를 결합해 사족보행 로봇의 odometry를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LVI-Q: Robust LiDAR-Visual-Inertial-Kinematic Odometry for Quadruped Robots Using Tightly-Coupled and Efficient Alternating Optimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 98,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3598661",
+      "https://openalex.org/W4413157296"
+    ]
+  },
+  "LAB-49555ccc9e": {
+    "summary": "협력 SLAM의 최적화 방법을 평가하기 위한 벤치마크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "COSMO-Bench: A Benchmark for Collaborative SLAM Optimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 99,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57385.2026.11696499",
+      "https://openalex.org/W7077888696"
+    ]
+  },
+  "LAB-bd00b88ce7": {
+    "summary": "행성 유사 환경에서 여러 로봇의 분산 협력 SLAM을 위한 데이터와 과제를 정리한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Multi-Robot Decentralized Collaborative SLAM in Planetary Analogue Environments: Dataset, Challenges, and Lessons Learned (I)",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 100,
+    "metadataSources": []
+  },
+  "LAB-72c39ba0e5": {
+    "summary": "딥러닝 기반 단안 visual SLAM의 scale 추정을 평가하는 데이터셋과 벤치마크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Have We Mastered Scale in Deep Monocular Visual SLAM? the ScaleMaster Dataset and Benchmark",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 101,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57385.2026.11695731",
+      "https://openalex.org/W7131089518"
+    ]
+  },
+  "LAB-827e2cb710": {
+    "summary": "여러 에이전트의 neural submap과 Gaussian 표현을 이용해 dense map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MANG-SLAM: Multi-Agents Neural Submap and Gaussian Representation for Dense Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 102,
+    "metadataSources": []
+  },
+  "LAB-575d974df3": {
+    "summary": "장면 그래프를 정합하는 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "SG-Reg: Generalizable and Efficient Scene Graph Registration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 121,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2025.3577020",
+      "https://openalex.org/W4411055116"
+    ]
+  },
+  "LAB-986ada414f": {
+    "summary": "서로 다른 radar의 장소 인식을 이용해 cross-modal localization을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 148,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3623031",
+      "https://openalex.org/W7092294003"
+    ]
+  },
+  "LAB-4f413e025a": {
+    "summary": "여러 의미 라벨의 likelihood를 이용한 그래프 정합으로 물체 수준 전역 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MSG-Loc: Multi-Label Likelihood-Based Semantic Graph Matching for Object-Level Global Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 150,
+    "metadataSources": [
+      "https://openalex.org/W4417251997"
+    ]
+  },
+  "LAB-bfc813951e": {
+    "summary": "수면과 수중에서 작동하는 이기종 로봇들의 SLAM을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Above and Below: Heterogeneous Multi-Robot SLAM across Surface and Underwater Domains",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2026",
+    "sourceRow": 193,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2025.3632613",
+      "https://openalex.org/W4416381279"
+    ]
+  },
+  "LAB-20f61f6d8d": {
+    "summary": "Grassmann manifold의 geodesic distance를 이용해 affine subspace를 정렬한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Registration beyond Points: General Affine Subspace Alignment via Geodesic Distance on Grassmann Manifold",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICCV 2025",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iccv51701.2025.00359",
+      "https://openalex.org/W4416403597"
+    ]
+  },
+  "LAB-1a92cc631a": {
+    "summary": "다양한 장면의 point cloud를 zero-shot으로 정합하는 문제를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICCV 2025",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://openalex.org/W4414566951"
+    ]
+  },
+  "LAB-69c12d3fb2": {
+    "summary": "3D Gaussian 지도의 open-set 의미 그룹화를 vision-language navigation에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICCV 2025",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://openalex.org/W7160178199"
+    ]
+  },
+  "LAB-3c25d3a972": {
+    "summary": "여러 영상에서 생성한 3D scene graph를 통계적 신뢰도로 재평가한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICCV 2025",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iccv51701.2025.02318",
+      "https://openalex.org/W4416176014"
+    ]
+  },
+  "LAB-6408f75f82": {
+    "summary": "Voxelized surfel splatting을 이용해 SLAM의 기하 지도를 표현한다.",
+    "basis": "paper-title",
+    "sourceTitle": "VSS-SLAM: Voxelized Surfel Splatting for Geometally Accurate SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://openalex.org/W4413944818"
+    ]
+  },
+  "LAB-a8c05eed06": {
+    "summary": "Point-to-plane 오차 최소화에서 발생하는 퇴화를 확률적으로 탐지한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Probability Degeneracy Detection for Point-to-Plane Error Minimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 4,
+    "metadataSources": []
+  },
+  "LAB-36f55351f4": {
+    "summary": "Submap 사이의 제약을 구성해 LiDAR-inertial odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SCE-LIO: An Enhanced Lidar Inertial Odometry by Constructing Submap Constraints",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3471459",
+      "https://openalex.org/W4402978139"
+    ]
+  },
+  "LAB-afbe0ba517": {
+    "summary": "Structureless visual-inertial bundle adjustment로 단안 VIO의 초기화를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Improving Monocular Visual-Inertial Initialization with Structureless Visual-Inertial Bundle Adjustment",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127304",
+      "https://openalex.org/W4413918218"
+    ]
+  },
+  "LAB-6d75689abe": {
+    "summary": "ORB 정보를 활용한 자기지도 visual odometry에 선택적 온라인 적응을 결합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "ORB-SfMLearner: ORB-Guided Self-Supervised Visual Odometry with Selective Online Adaptation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://openalex.org/W4413925183"
+    ]
+  },
+  "LAB-7daed39318": {
+    "summary": "그래프 거리와 topological map 정합을 로봇 탐사에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "New Graph Distance Measures and Matching of Topological Maps for Robotic Exploration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://openalex.org/W4413917685"
+    ]
+  },
+  "LAB-708b633a63": {
+    "summary": "양자화된 MAP 추정을 이용해 visual-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "QVIO2: Quantized MAP-Based Visual-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127636",
+      "https://openalex.org/W4413926087"
+    ]
+  },
+  "LAB-896e7bfd95": {
+    "summary": "Sliding-window VIO에서 반복 계산이 미치는 영향을 살펴본다.",
+    "basis": "paper-title",
+    "sourceTitle": "Is Iteration Worth It? Revisit Its Impact in Sliding-Window VIO",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 11,
+    "metadataSources": []
+  },
+  "LAB-875e29514d": {
+    "summary": "지상·공중 주행이 가능한 차량의 환경 인지 기반 위치 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "EAR-SLAM: Environment-Aware Robust Localization System for Terrestrial-Aerial Bimodal Vehicles",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://openalex.org/W4413925814"
+    ]
+  },
+  "LAB-9ad4d9d3aa": {
+    "summary": "동적 환경에서 적응적 truncated least squares와 상태 복구를 이용해 VIO를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DynaVINS++: Robust Visual-Inertial State Estimator in Dynamic Environments by Adaptive Truncated Least Squares and Stable State Recovery",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 14,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3455905",
+      "https://openalex.org/W4402299972"
+    ]
+  },
+  "LAB-3c7d0c06bf": {
+    "summary": "점진적 지식 증류를 이용해 vision-language navigation 모델을 경량화한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MiniVLN: Efficient Vision-And-Language Navigation by Progressive Knowledge Distillation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 17,
+    "metadataSources": [
+      "https://openalex.org/W4413917085"
+    ]
+  },
+  "LAB-c3e4f67e0a": {
+    "summary": "Open-set 의미 정보의 불확실성을 고려해 metric-semantic graph를 정합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Open-Set Semantic Uncertainty Aware Metric-Semantic Graph Matching",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 31,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128388",
+      "https://openalex.org/W4413945683"
+    ]
+  },
+  "LAB-55ada3312a": {
+    "summary": "연속 시간 factor graph 최적화로 GNSS와 여러 센서를 융합해 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GNSS/Multi-Sensor Fusion Using Continuous-Time Factor Graph Optimization for Robust Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 32,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2024.3443699",
+      "https://openalex.org/W4401607316"
+    ]
+  },
+  "LAB-2d143cb335": {
+    "summary": "Equivariant filter를 이용해 LiDAR와 IMU를 긴밀하게 결합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Equivariant Filter for Tightly Coupled LiDAR-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 33,
+    "metadataSources": [
+      "https://openalex.org/W4413926263"
+    ]
+  },
+  "LAB-3c02d750a5": {
+    "summary": "LiDAR-visual bundle adjustment로 RGB point cloud 지도를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LVBA: LiDAR-Visual Bundle Adjustment for RGB Point Cloud Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 36,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127400",
+      "https://openalex.org/W4413925088"
+    ]
+  },
+  "LAB-5da51ee93f": {
+    "summary": "Cross-modal state space model을 이용해 단안 영상으로 LiDAR 지도에서 장소를 찾는다.",
+    "basis": "paper-title",
+    "sourceTitle": "Monocular Visual Place Recognition in LiDAR Maps Via Cross-Modal State Space Model and Multi-View Mat",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 37,
+    "metadataSources": []
+  },
+  "LAB-cd9374e4bc": {
+    "summary": "영상 시퀀스 기반 장소 인식에서 적응적으로 임계값을 설정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Adaptive Thresholding for Sequence-Based Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 38,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128422",
+      "https://openalex.org/W4413917907"
+    ]
+  },
+  "LAB-d040538e98": {
+    "summary": "깊이·영상·IMU를 결합해 실내 3D 지도를 복원한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Depth-Visual-Inertial (DVI) Mapping System for Robust Indoor 3D Reconstruction",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 39,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3487496",
+      "https://openalex.org/W4403863414"
+    ]
+  },
+  "LAB-2746bec290": {
+    "summary": "자율적인 지도 병합을 위한 모듈형 프레임워크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 40,
+    "metadataSources": [
+      "https://openalex.org/W4400114438"
+    ]
+  },
+  "LAB-c40ffb4704": {
+    "summary": "Digital twin을 활용해 visual SLAM의 drift를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Drift-Free Visual SLAM Using Digital Twins",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 41,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3518840",
+      "https://openalex.org/W4405429248"
+    ]
+  },
+  "LAB-e3e7ab7737": {
+    "summary": "LiDAR 정보를 3D Gaussian Splatting 기반 지도 작성에 결합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LiDAR-Enhanced 3D Gaussian Splatting Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 45,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127556",
+      "https://openalex.org/W4413945193"
+    ]
+  },
+  "LAB-f1bdb45609": {
+    "summary": "회전형 LiDAR를 사용하는 사족보행 로봇의 대규모 SLAM을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "ARS-SLAM: Accurate Robust Spinning LiDAR SLAM for a Quadruped Robot in Large-Scale Scenario",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 54,
+    "metadataSources": [
+      "https://openalex.org/W4413918440"
+    ]
+  },
+  "LAB-e03103855e": {
+    "summary": "Gaussian process로 대규모 UWB anchor 보정과 one-shot 위치 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Large-Scale UWB Anchor Calibration and One-Shot Localization Using Gaussian Process",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 56,
+    "metadataSources": [
+      "https://openalex.org/W4413917662"
+    ]
+  },
+  "LAB-23e4cc2394": {
+    "summary": "SLAM의 front-end와 back-end를 양방향으로 연결해 서로 보정하는 자기지도 학습을 수행한다.",
+    "basis": "paper-abstract",
+    "sourceTitle": "iSLAM: Imperative SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 57,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3382533",
+      "https://openalex.org/W4393285927",
+      "https://arxiv.org/abs/2306.07894"
+    ]
+  },
+  "LAB-f987b57681": {
+    "summary": "Stochastic cloning square-root information filter와 feature tracking으로 VIO를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "A Stochastic Cloning Square-Root Information Filter with Accurate Feature Tracking for Visual-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 58,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128386",
+      "https://openalex.org/W4413918060"
+    ]
+  },
+  "LAB-25248e6592": {
+    "summary": "여러 시점의 motion flow를 이용해 LiDAR 지도에서 카메라 자세를 추적한다.",
+    "basis": "paper-title",
+    "sourceTitle": "I2D-Loc++: Camera Pose Tracking in LiDAR Maps with Multi-View Motion Flows",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 59,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3440851",
+      "https://openalex.org/W4401415381"
+    ]
+  },
+  "LAB-58314ff45a": {
+    "summary": "영상 선택과 point cloud densification으로 RGB 색상을 가진 지도를 생성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "RISED: Accurate and Efficient RGB-Colorized Mapping Using Image Selection and Point Cloud Densification",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 60,
+    "metadataSources": [
+      "https://openalex.org/W4413926109"
+    ]
+  },
+  "LAB-3f0acaa3a4": {
+    "summary": "Point cloud downsampling을 결합한 range-inertial odometry와 mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Tightly Coupled Range Inertial Odometry and Mapping with Exact Point Cloud Downsampling",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 61,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128146",
+      "https://openalex.org/W4413925084"
+    ]
+  },
+  "LAB-8549703872": {
+    "summary": "Subgraph 최적화로 대규모 장면의 여러 세션을 연결하는 visual SLAM을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Scalable Multi-Session Visual SLAM in Large-Scale Scenes with Subgraph Optimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 62,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128582",
+      "https://openalex.org/W4413926019"
+    ]
+  },
+  "LAB-7efa617eac": {
+    "summary": "최적화 기반 visual-inertial navigation의 시간 보정을 온라인으로 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Universal Online Temporal Calibration for Optimization-Based Visual-Inertial Navigation Systems",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 63,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127433",
+      "https://openalex.org/W4413925776"
+    ]
+  },
+  "LAB-188afcfec3": {
+    "summary": "GMM과 Gaussian process로 불확실성을 가진 3D implicit surface 지도를 표현한다.",
+    "basis": "paper-title",
+    "sourceTitle": "3D Uncertain Implicit Surface Mapping Using GMM and GP",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 66,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3475873",
+      "https://openalex.org/W4403182713"
+    ]
+  },
+  "LAB-d0388b2f9e": {
+    "summary": "일시적으로 존재하는 환경 요소를 LiDAR 기반 lifelong mapping에서 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Ephemerality Meets LiDAR-Based Lifelong Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 68,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127618",
+      "https://openalex.org/W4413917520"
+    ]
+  },
+  "LAB-7d1eda2d32": {
+    "summary": "탐사 경계에서 diffusion 기반 3D occupancy 예측과 확률적 지도 조정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliatio",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 70,
+    "metadataSources": []
+  },
+  "LAB-2eeea826e5": {
+    "summary": "복잡한 도시 환경의 multi-session radar SLAM을 위한 이기종 radar 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-Session Radar SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 75,
+    "metadataSources": [
+      "https://openalex.org/W4413917555"
+    ]
+  },
+  "LAB-0a92f0b4b6": {
+    "summary": "Gaussian process 기반 연속 속도 적분으로 지상 radar-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Ground-Optimized 4D Radar-Inertial Odometry Via Continuous Velocity Integration Using Gaussian Process",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 76,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127572",
+      "https://openalex.org/W4413925011"
+    ]
+  },
+  "LAB-4826deec22": {
+    "summary": "Digital beamforming을 radar odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Digital Beamforming Enhanced Radar Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 77,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127292",
+      "https://openalex.org/W4413925230"
+    ]
+  },
+  "LAB-b275faefe3": {
+    "summary": "단일 radar scan에서 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SPR: Single-Scan Radar Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 79,
+    "metadataSources": [
+      "https://openalex.org/W4400488047"
+    ]
+  },
+  "LAB-2d9ee1a668": {
+    "summary": "Gaussian process motion prior로 연속 시간 radar-inertial 및 LiDAR-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Continuous-Time Radar-Inertial and Lidar-Inertial Odometry Using a Gaussian Process Motion Prior",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 80,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2024.3521856",
+      "https://openalex.org/W4405800330"
+    ]
+  },
+  "LAB-15e19f0cb5": {
+    "summary": "표면 법선 벡터를 이용해 여러 층으로 된 환경의 LiDAR-inertial mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "NV-LIOM: LiDAR-Inertial Odometry and Mapping Using Normal Vectors towards Robust SLAM in Multifloor Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 83,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3457373",
+      "https://openalex.org/W4402389300"
+    ]
+  },
+  "LAB-8462d3118f": {
+    "summary": "서로 다른 supervision 정보를 이용해 3D occupancy를 예측한다.",
+    "basis": "paper-title",
+    "sourceTitle": "H3O: Hyper-Efficient 3D Occupancy Prediction with Heterogeneous Supervision",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 85,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128732",
+      "https://openalex.org/W4413945171"
+    ]
+  },
+  "LAB-ad1a994634": {
+    "summary": "3D occupancy 예측의 불확실성을 효율적으로 정량화하는 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "OCCUQ: Exploring Efficient Uncertainty Quantification for 3D Occupancy Prediction",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 87,
+    "metadataSources": [
+      "https://openalex.org/W4413925536"
+    ]
+  },
+  "LAB-0fa0b80296": {
+    "summary": "Vision-language latent space에서 불확실성을 표현하는 open-dictionary 연속 지도를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LatentBKI: Open-Dictionary Continuous Mapping in Visual-Language Latent Spaces with Quantifiable Uncertainty",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 91,
+    "metadataSources": [
+      "https://openalex.org/W4407213007"
+    ]
+  },
+  "LAB-6863ac6893": {
+    "summary": "Doppler LiDAR와 IMU를 결합해 odometry를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "FMCW-LIO: A Doppler LiDAR-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 93,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3396636",
+      "https://openalex.org/W4396604988"
+    ]
+  },
+  "LAB-3ebb907fbb": {
+    "summary": "거리 측정만을 사용하는 SLAM을 위한 equivariant filter를 설계한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Equivariant Filter Design for Range-Only SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 94,
+    "metadataSources": [
+      "https://openalex.org/W4413945795"
+    ]
+  },
+  "LAB-16c2566286": {
+    "summary": "일반화된 Bag of Words 표현으로 수심 지도 기반 SLAM의 loop closure를 탐지한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Shape BoW: Generalized Bag of Words for Appearance-Based Loop Closure Detection in Bathymetric SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 95,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3426370",
+      "https://openalex.org/W4400487953"
+    ]
+  },
+  "LAB-69dc6ee760": {
+    "summary": "Lighthouse를 이용해 소형 무선 로봇의 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Lighthouse Localization of Miniature Wireless Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 96,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3405345",
+      "https://openalex.org/W4398788541"
+    ]
+  },
+  "LAB-207a913f4f": {
+    "summary": "Submodular 최적화로 SLAM에서 사용할 keyframe을 선택한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Submodular Optimization for Keyframe Selection & Usage in SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 97,
+    "metadataSources": [
+      "https://openalex.org/W4413925271"
+    ]
+  },
+  "LAB-03424a0cf5": {
+    "summary": "소수의 측정과 preimage intersection을 이용해 UAV의 실내 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Indoor Localization of UAVs Using Only Few Measurements by Output-Sensitive Preimage Intersection",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 100,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127316",
+      "https://openalex.org/W4413917192"
+    ]
+  },
+  "LAB-49d8b45b31": {
+    "summary": "4D imaging radar SLAM에서 loop closure를 자체적으로 평가하는 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Introspective Loop Closure for SLAM with 4D Imaging Radar",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 106,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127330",
+      "https://openalex.org/W4413917342"
+    ]
+  },
+  "LAB-842882e325": {
+    "summary": "거리 측정이 보조하는 SLAM에서 해의 정확성을 인증하는 분산 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Distributed Certifiably Correct Range-Aided SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 107,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128603",
+      "https://openalex.org/W4413944781"
+    ]
+  },
+  "LAB-3500ac8878": {
+    "summary": "흐릿한 radar 관측을 이용한 odometry 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Radar4VoxMap: Accurate Odometry from Blurred Radar Observations",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 108,
+    "metadataSources": [
+      "https://openalex.org/W4413918155"
+    ]
+  },
+  "LAB-205ccdcabe": {
+    "summary": "농업 환경에서 LiDAR·영상·IMU를 긴밀하게 결합하는 odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "IMU Augment Tightly Coupled Lidar-Visual-Inertial Odometry for Agricultural Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 113,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3440728",
+      "https://openalex.org/W4401414874"
+    ]
+  },
+  "LAB-f84e50f8a7": {
+    "summary": "Hybrid visual odometry에 적응적 학습을 적용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Adaptive Learning for Hybrid Visual Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 114,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3418271",
+      "https://openalex.org/W4399939213"
+    ]
+  },
+  "LAB-7f71e32eff": {
+    "summary": "LiDAR 또는 깊이 카메라에 맞춰 구성하는 visual-inertial SLAM으로 MAV 탐사를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Efficient Submap-Based Autonomous MAV Exploration Using Visual-Inertial SLAM Configurable for LiDARs or Depth Cameras",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 115,
+    "metadataSources": [
+      "https://openalex.org/W4413925188"
+    ]
+  },
+  "LAB-1172764610": {
+    "summary": "Submap을 이용해 LiDAR와 영상 기반 재위치 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SOLVR: Submap Oriented LiDAR-Visual Re-Localisation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 116,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127845",
+      "https://openalex.org/W4413925999"
+    ]
+  },
+  "LAB-281811e4c5": {
+    "summary": "적응적 가중치를 이용해 LiDAR odometry의 퇴화 문제에 대응한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GenZ-ICP: Generalizable and Degeneracy-Robust LiDAR Odometry Using an Adaptive Weighting",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 118,
+    "metadataSources": [
+      "https://openalex.org/W4404370924"
+    ]
+  },
+  "LAB-3567dfb9b0": {
+    "summary": "GPU의 gradient-guided particle filter로 거리 기반 6-DoF SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Range-Based 6-DoF Monte Carlo SLAM with Gradient-Guided Particle Filter on GPU",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 120,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128385",
+      "https://openalex.org/W4413926080"
+    ]
+  },
+  "LAB-d2cf33eb88": {
+    "summary": "공개 LLM을 활용해 연속 환경에서 zero-shot vision-language navigation을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Open-Nav: Exploring Zero-Shot Vision-And-Language Navigation in Continuous Environment with Open-Source LLMs",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 122,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127584",
+      "https://openalex.org/W4413925269"
+    ]
+  },
+  "LAB-4396d78e64": {
+    "summary": "Equivariant network를 이용해 4D millimeter-wave radar odometry를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Equi-RO: A 4D Millimeter-Wave Radar Odometry Based on Equivariant Networks",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 127,
+    "metadataSources": []
+  },
+  "LAB-6893a4bbfb": {
+    "summary": "기하 제약을 결합한 Bag of Words 영상 검색으로 지면 무늬 기반 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Improved Bag-Of-Words Image Retrieval with Geometric Constraints for Ground Texture Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 129,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128781",
+      "https://openalex.org/W4413925960"
+    ]
+  },
+  "LAB-d353001e53": {
+    "summary": "형태를 바꾸는 구형 모듈 로봇에서 구성 변화에 적응하는 영상 상대 위치 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 130,
+    "metadataSources": [
+      "https://openalex.org/W4413925748"
+    ]
+  },
+  "LAB-0e029cbe04": {
+    "summary": "적응적 submap 연결과 egocentric factor graph로 장기간 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LiLoc: Lifelong Localization Using Adaptive Submap Joining and Egocentric Factor Graph",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 131,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127560",
+      "https://openalex.org/W4413945039"
+    ]
+  },
+  "LAB-f112275b37": {
+    "summary": "수중 환경을 위한 단안 visual odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "UR-MVO: Robust Monocular Visual Odometry for Underwater Scenarios",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 132,
+    "metadataSources": [
+      "https://openalex.org/W4413925167"
+    ]
+  },
+  "LAB-fdc0c0226f": {
+    "summary": "3D dynamic scene graph를 이용해 사람의 장기 이동 경로를 예측한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Long-Term Human Trajectory Prediction Using 3D Dynamic Scene Graphs",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 133,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3482169",
+      "https://openalex.org/W4403446304"
+    ]
+  },
+  "LAB-b56125d560": {
+    "summary": "Scene graph 기반 world modeling을 embodied agent의 내비게이션에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Imaginative World Modeling with Scene Graphs for Embodied Agent Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 136,
+    "metadataSources": [
+      "https://openalex.org/W4417497268"
+    ]
+  },
+  "LAB-62ca685627": {
+    "summary": "신경망을 활용한 ranging-inertial odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Neural Ranging Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 138,
+    "metadataSources": [
+      "https://openalex.org/W4413945189"
+    ]
+  },
+  "LAB-59952d1916": {
+    "summary": "비포장도로 차량에서 preintegrated wheel odometry를 이용한 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Robust Preintegrated Wheel Odometry for Off-Road Autonomous Ground Vehicles",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 139,
+    "metadataSources": [
+      "https://openalex.org/W4404238375"
+    ]
+  },
+  "LAB-397d179190": {
+    "summary": "회전형 radar odometry에서 Doppler 속도 측정의 유용성을 살펴본다.",
+    "basis": "paper-title",
+    "sourceTitle": "Are Doppler Velocity Measurements Useful for Spinning Radar Odometry?",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 140,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3505821",
+      "https://openalex.org/W4404627598"
+    ]
+  },
+  "LAB-2c190e637f": {
+    "summary": "3D Gaussian Splatting으로 open-set 의미 지도를 구성하고 물체 수준 장면 이해에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 142,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11127983",
+      "https://openalex.org/W4413925283"
+    ]
+  },
+  "LAB-ce554f68fe": {
+    "summary": "하늘빛 편광 패턴의 제약을 visual-inertial localization에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual-Inertial Localization Leveraging Skylight Polarization Pattern Constraints",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 145,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3495375",
+      "https://openalex.org/W4404238351"
+    ]
+  },
+  "LAB-ad7631ca40": {
+    "summary": "중력 정보를 radar·LiDAR·IMU를 결합한 odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GaRLIO: Gravity Enhanced Radar-LiDAR-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 152,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128334",
+      "https://openalex.org/W4413945281"
+    ]
+  },
+  "LAB-2d9a7d04ba": {
+    "summary": "어려운 환경에서 radar·LiDAR·IMU 정보의 적응적 융합으로 odometry를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "AF-RLIO: Adaptive Fusion of Radar-LiDAR-Inertial Information for Robust Odometry in Challenging Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 153,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128046",
+      "https://openalex.org/W4413925728"
+    ]
+  },
+  "LAB-8c5d31d8c2": {
+    "summary": "계층적 범주를 가진 Gaussian Splatting으로 SLAM의 의미 정보를 표현한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Hier-SLAM: Scaling-Up Semantics in SLAM with a Hierarchically Categorical Gaussian Splatting",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 155,
+    "metadataSources": [
+      "https://openalex.org/W4413925399"
+    ]
+  },
+  "LAB-131adda71b": {
+    "summary": "Vision-language model로 보강한 그래프 대응점 정합으로 물체 기반 전역 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "CLIP-Clique: Graph-Based Correspondence Matching Augmented by Vision Language Models for Object-Based Global Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 156,
+    "metadataSources": [
+      "https://openalex.org/W4403094391"
+    ]
+  },
+  "LAB-3f8c219489": {
+    "summary": "분산 invariant Kalman filter로 물체 수준 multi-robot pose SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Distributed Invariant Kalman Filter for Object-Level Multi-Robot Pose SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 157,
+    "metadataSources": [
+      "https://openalex.org/W4413925169"
+    ]
+  },
+  "LAB-7e76297443": {
+    "summary": "지면 정보를 고려해 차량 radar odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Ground-Aware Automotive Radar Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 160,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128161",
+      "https://openalex.org/W4413917434"
+    ]
+  },
+  "LAB-8e581df1f4": {
+    "summary": "동적 환경에 대응하는 실시간 SLAM에 3D Gaussian Splatting을 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GARAD-SLAM: 3D GAussian Splatting for Real-Time Anti Dynamic SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 164,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128757",
+      "https://openalex.org/W4413917602"
+    ]
+  },
+  "LAB-32b5821a2f": {
+    "summary": "경계가 정해지지 않은 실외 장면에서 RGB 영상만으로 Gaussian Splatting SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 165,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128286",
+      "https://openalex.org/W4413917033"
+    ]
+  },
+  "LAB-906a649c5c": {
+    "summary": "사전 topo-metric 정보를 이용해 SLAM을 고려한 그래프 기반 탐사를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Graph-Based SLAM-Aware Exploration with Prior Topo-Metric Information",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 168,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2024.3420817",
+      "https://openalex.org/W4400111252"
+    ]
+  },
+  "LAB-f552bacd73": {
+    "summary": "3D scene graph를 이용해 open-vocabulary 질의에 해당하는 물체를 찾는다.",
+    "basis": "paper-title",
+    "sourceTitle": "Beyond Bare Queries: Open-Vocabulary Object Grounding with 3D Scene Graph",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 180,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128059",
+      "https://openalex.org/W4413917118"
+    ]
+  },
+  "LAB-b7ef8e2337": {
+    "summary": "Gaussian Splatting을 모바일 로봇의 visual localization에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LoGS: Visual Localization for Mobile Robots with Gaussian Splatting",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 191,
+    "metadataSources": []
+  },
+  "LAB-d8b86ade25": {
+    "summary": "실시간 open-vocabulary 지도로 zero-shot 다중 물체 탐색을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "One Map to Find Them All: Real-Time Open-Vocabulary Mapping for Zero-Shot Multi-Object Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA 2025",
+    "sourceRow": 200,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra55743.2025.11128393",
+      "https://openalex.org/W4413926125"
+    ]
+  },
+  "LAB-3fea7fd1b4": {
+    "summary": "Neural rendering에 필요한 point 검색과 sampling을 가속한다.",
+    "basis": "paper-title",
+    "sourceTitle": "HashPoint: Accelerated Point Searching and Sampling for Neural Rendering",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2024",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52733.2024.00427",
+      "https://openalex.org/W4402716242"
+    ]
+  },
+  "LAB-1cde40825f": {
+    "summary": "동적 영상에서 전방향 local radiance field를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "OmniLocalRF: Omnidirectional Local Radiance Fields from Dynamic Videos",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2024",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52733.2024.00656",
+      "https://openalex.org/W4402727500"
+    ]
+  },
+  "LAB-9430b546d0": {
+    "summary": "방향 정보를 고려한 표현으로 동적 장면을 모델링한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DaReNeRF: Direction-aware Representation for Dynamic Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2024",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52733.2024.00481",
+      "https://openalex.org/W4402754107"
+    ]
+  },
+  "LAB-10ab2e39b7": {
+    "summary": "농업 노지에서 quantitative window 기반 stereo visual-inertial odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Field-VIO: Stereo Visual-Inertial Odometry Based on Quantitative Windows in Agricultural Open Fields",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10611284",
+      "https://openalex.org/W4401415345"
+    ]
+  },
+  "LAB-c34d59226d": {
+    "summary": "압축된 LiDAR 지도에 질의해 영상의 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "VOLoc: Visual Place Recognition by Querying Compressed Lidar Map",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610530",
+      "https://openalex.org/W4401414662"
+    ]
+  },
+  "LAB-472c2785b6": {
+    "summary": "Vision-language frontier map을 zero-shot semantic navigation에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 5,
+    "metadataSources": []
+  },
+  "LAB-c6821cd406": {
+    "summary": "회전·inpainting·completion을 이용한 장면 복원을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "RIC: Rotate-Inpaint-Complete for Generalizable Scene Reconstruction",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://openalex.org/W4401414745"
+    ]
+  },
+  "LAB-a443208012": {
+    "summary": "Visual SLAM의 bundle adjustment에서 outlier 임계값을 적응적으로 설정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Adaptive Outlier Thresholding for Bundle Adjustment in Visual SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610433",
+      "https://openalex.org/W4401415500"
+    ]
+  },
+  "LAB-79ee10a4d4": {
+    "summary": "지상과 위성 영상 사이의 의미 정보 정합으로 visual localization을 보조한다.",
+    "basis": "paper-title",
+    "sourceTitle": "From Satellite to Ground: Satellite Assisted Visual Localization with Cross-View Semantic Matching",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10611658",
+      "https://openalex.org/W4401415753"
+    ]
+  },
+  "LAB-49d0442bc8": {
+    "summary": "실내 안내 지도를 이용해 영상 기반 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "WayIL: Image-Based Indoor Localization with Wayfinding Maps",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://openalex.org/W4401415994"
+    ]
+  },
+  "LAB-9a662133f2": {
+    "summary": "공유 local feature를 이용한 영상 검색과 자세 추정으로 visual localization을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Globalizing Local Features: Image Retrieval Using Shared Local Features with Pose Estimation for Faster Visual Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://openalex.org/W4401416984"
+    ]
+  },
+  "LAB-492f34b91a": {
+    "summary": "Particle을 이용해 동적 환경의 연속 occupancy map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Continuous Occupancy Mapping in Dynamic Environments Using Particles",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 17,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2023.3323841",
+      "https://openalex.org/W4387682314"
+    ]
+  },
+  "LAB-7bb3ba5524": {
+    "summary": "공간·시간 attention을 이용해 카메라의 절대 자세를 회귀한다.",
+    "basis": "paper-title",
+    "sourceTitle": "TransAPR: Absolute Camera Pose Regression with Spatial and Temporal Attention",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 18,
+    "metadataSources": [
+      "https://openalex.org/W4380607116"
+    ]
+  },
+  "LAB-90dc91be50": {
+    "summary": "장소 인식을 이용해 topological navigation을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "PlaceNav: Topological Navigation through Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 19,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610575",
+      "https://openalex.org/W4401416066"
+    ]
+  },
+  "LAB-cd85e3597e": {
+    "summary": "Square-root filter를 이용해 visual-inertial navigation을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Ultrafast Square-Root Filter-Based VINS",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 24,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610916",
+      "https://openalex.org/W4401415706"
+    ]
+  },
+  "LAB-7830a60f19": {
+    "summary": "여러 시점의 VO·SLAM·BEV 추정을 위한 대규모 캠퍼스 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Campus Map: A Large-Scale Dataset to Support Multi-View VO, SLAM and BEV Estimation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610656",
+      "https://openalex.org/W4401415202"
+    ]
+  },
+  "LAB-dd5aecd7b2": {
+    "summary": "까다로운 상황에 대응하는 저비용 지상 SLAM 시스템을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Ground-Fusion: A Low-Cost Ground SLAM System Robust to Corner Cases",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 26,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610070",
+      "https://openalex.org/W4401416115"
+    ]
+  },
+  "LAB-c55d4e5402": {
+    "summary": "지상 영상과 위성 영상의 정합을 SLAM 자세 추정에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Increasing SLAM Pose Accuracy by Ground-To-Satellite Image Registration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 28,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10611079",
+      "https://openalex.org/W4401415305"
+    ]
+  },
+  "LAB-bf74edc9b8": {
+    "summary": "의미 정보를 ICP point cloud 정합에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SAGE-ICP: Semantic Information-Assisted ICP",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 29,
+    "metadataSources": [
+      "https://openalex.org/W4401414336"
+    ]
+  },
+  "LAB-789a1f3acc": {
+    "summary": "지면 무늬를 이용하는 경량 위치 추정 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Lightweight Ground Texture Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 35,
+    "metadataSources": [
+      "https://openalex.org/W4401417306"
+    ]
+  },
+  "LAB-42ddc9907d": {
+    "summary": "3D key text graph로 반복·대칭 구조가 있는 실내 주차장에서 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual Localization in Repetitive and Symmetric Indoor Parking Lots Using 3D Key Text Graph",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 36,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10611591",
+      "https://openalex.org/W4401415182"
+    ]
+  },
+  "LAB-34e0782361": {
+    "summary": "다양한 환경에 적용할 수 있는 visual place recognition을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "AnyLoc: Towards Universal Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 37,
+    "metadataSources": [
+      "https://openalex.org/W4389819300"
+    ]
+  },
+  "LAB-478bd5f39e": {
+    "summary": "Visual place recognition의 개념과 방법을 설명하는 튜토리얼이다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual Place Recognition: A Tutorial",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 43,
+    "metadataSources": [
+      "https://openalex.org/W4323571933"
+    ]
+  },
+  "LAB-6303d30e85": {
+    "summary": "저전력 컴퓨팅 장치에서 고속 stereo visual SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "High-Speed Stereo Visual SLAM for Low-Powered Computing Devices",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 45,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2023.3329621",
+      "https://openalex.org/W4388240406"
+    ]
+  },
+  "LAB-208db3452f": {
+    "summary": "LiDAR 위치 추정과 mesh 생성을 함께 수행하는 프레임워크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "ImMesh: An Immediate LiDAR Localization and Meshing Framework",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 46,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2023.3321227",
+      "https://openalex.org/W4388145520"
+    ]
+  },
+  "LAB-8dc0246d71": {
+    "summary": "Self-organizing Gaussian mixture model로 다중 모달 surface map을 점진적으로 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Incremental Multimodal Surface Mapping Via Self-Organizing Gaussian Mixture Models",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 53,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2023.3327670",
+      "https://openalex.org/W4387934958"
+    ]
+  },
+  "LAB-7569797e5a": {
+    "summary": "비정형 환경에서 여러 진행 방향의 주행 가능성 지도를 실시간으로 생성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "A Framework for Real-Time Generation of Multi-Directional Traversability Maps in Unstructured Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 54,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610312",
+      "https://openalex.org/W4401414893"
+    ]
+  },
+  "LAB-c247888bd7": {
+    "summary": "양자화를 이용한 visual-inertial odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Quantized Visual-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2024",
+    "sourceRow": 56,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra57147.2024.10610513",
+      "https://openalex.org/W4401415026"
+    ]
+  },
+  "LAB-7aa1b8cecd": {
+    "summary": "Radon transform과 가변 임계값을 이용해 imaging radar의 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "RaPlace: Place Recognition for Imaging Radar Using Radon Transform and Mutable Threshold",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10341883",
+      "https://openalex.org/W4389667489"
+    ]
+  },
+  "LAB-3a8282de70": {
+    "summary": "Semantic line과 plane을 이용해 위치 추정용 경량 multi-session LiDAR 지도를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Multi-Session, Localization-oriented and Lightweight LiDAR Mapping Using Semantic Lines and Planes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 3,
+    "metadataSources": []
+  },
+  "LAB-b6af9ca877": {
+    "summary": "Pyramid semantic graph로 겹침이 적은 point cloud를 전역 정합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Pyramid Semantic Graph-based Global Point Cloud Registration with Low Overlap",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://openalex.org/W4389666581"
+    ]
+  },
+  "LAB-b9e092d97f": {
+    "summary": "iPhone 12 Pro의 영상·LiDAR·IMU를 결합한 SLAM 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual-LiDAR-Inertial Odometry: A New Visual-Inertial SLAM Method Based on an iPhone 12 Pro",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://openalex.org/W4389665372"
+    ]
+  },
+  "LAB-0b2e91f6e2": {
+    "summary": "Visual-inertial SLAM의 sliding-window filtering에서 비관측 상태와 일관성을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Know What You Don't Know: Consistency in Sliding Window Filtering with Unobservable States Applied to Visual-Inertial SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2023.3268043",
+      "https://openalex.org/W4366148847"
+    ]
+  },
+  "LAB-58d9efbffd": {
+    "summary": "점과 선을 이용해 조명 변화에 대응하는 visual odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "AirVO: An Illumination-Robust Point-Line Visual Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10341914",
+      "https://openalex.org/W4389668085"
+    ]
+  },
+  "LAB-5fbeef2c6c": {
+    "summary": "Neural radiance field를 이용해 실시간 dense monocular SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10341922",
+      "https://openalex.org/W4389665446"
+    ]
+  },
+  "LAB-73c3ee6f60": {
+    "summary": "Semi-dense epipolar search를 이용해 line-based SLAM의 선 추적을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Enhancing Robustness of Line Tracking through Semi-Dense Epipolar Search in Line-Based SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://openalex.org/W4389665470"
+    ]
+  },
+  "LAB-242f2ef03f": {
+    "summary": "NeRF 장면 안에서 영상만으로 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "FVLoc-NeRF: Fast Vision-Only Localization within Neural Radiation Field",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10342310",
+      "https://openalex.org/W4389667114"
+    ]
+  },
+  "LAB-8f417f9c78": {
+    "summary": "Neural implicit 표현의 불확실성을 자율 3D 복원에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "NeurAR: Neural Uncertainty for Autonomous 3D Reconstruction with Implicit Neural Representations",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://openalex.org/W4313887267"
+    ]
+  },
+  "LAB-7dd2a2947d": {
+    "summary": "다양한 시점에서 구성한 semantic object map으로 비정형 환경의 전역 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Global Localization in Unstructured Environments Using Semantic Object Maps Built from Various Viewpoints",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://openalex.org/W4389666908"
+    ]
+  },
+  "LAB-ec92a7c180": {
+    "summary": "Bayesian ground filling과 주행 가능성 분석으로 UGV용 elevation map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Real-Time Elevation Mapping with Bayesian Ground Filling and Traversability Analysis for UGV Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2023",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros55552.2023.10341662",
+      "https://openalex.org/W4389666202"
+    ]
+  },
+  "LAB-fcf6bee58f": {
+    "summary": "반정적 환경에서 물체를 고려하는 확률적 variational SLAM을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "POV-SLAM: Probabilistic Object-Aware Variational SLAM in Semi-Static Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2023.xix.069",
+      "https://openalex.org/W4385430724"
+    ]
+  },
+  "LAB-2ec8fc5b5a": {
+    "summary": "Instance 학습으로 실내 LiDAR 관측의 one-shot 전역 위치 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "InstaLoc: One-shot Global Lidar Localisation in Indoor Environments through Instance Learning",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://openalex.org/W4385430494"
+    ]
+  },
+  "LAB-d46fa20cd6": {
+    "summary": "이기종 로봇 팀에서 능동적인 협력 위치 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Active Collaborative Localization in Heterogeneous Robot Teams",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://openalex.org/W4385403799"
+    ]
+  },
+  "LAB-b40ff57d06": {
+    "summary": "Wavelet 기반 압축으로 여러 공간 규모의 volumetric map을 표현한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Efficient volumetric mapping of multi-scale environments using wavelet-based compression",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2023.xix.065",
+      "https://openalex.org/W4385430534"
+    ]
+  },
+  "LAB-e5ad7147e2": {
+    "summary": "Gaussian process를 자율 내비게이션·지도 작성·탐사에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Autonomous Navigation, Mapping and Exploration with Gaussian Processes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2023.xix.104",
+      "https://openalex.org/W4385430692"
+    ]
+  },
+  "LAB-3c4fe3a181": {
+    "summary": "Hybrid dynamics VIO를 이용해 위치와 외란을 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "HDVIO: Improving Localization and Disturbance Estimation with Hybrid Dynamics VIO",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2023.xix.071",
+      "https://openalex.org/W4385430610"
+    ]
+  },
+  "LAB-158cc5d3fd": {
+    "summary": "학습된 단일 영상 깊이 정보를 monocular visual-inertial 초기화에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Fast Monocular Visual-Inertial Initialization Leveraging Learned Single-View Depth",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "RSS2023-Paper",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.15607/rss.2023.xix.072",
+      "https://openalex.org/W4385430487"
+    ]
+  },
+  "LAB-f4941396b4": {
+    "summary": "GMM 기반 확률적 scan matching을 sonar 기반 AUV 내비게이션에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GMM Registration: A Probabilistic Scan Matching Approach for Sonar-Based AUV Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://openalex.org/W4383097405"
+    ]
+  },
+  "LAB-b253f16988": {
+    "summary": "비정형 자연환경에서 LiDAR 장소 인식을 평가하는 대규모 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Wild-Places: A Large-Scale Dataset for Lidar Place Recognition in Unstructured Natural Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160432",
+      "https://openalex.org/W4383108448"
+    ]
+  },
+  "LAB-1e451b34f8": {
+    "summary": "분리된 표현을 이용해 가림과 외관 변화가 있는 상황에서 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Place Recognition under Occlusion and Changing Appearance Via Disentangled Representations",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160506",
+      "https://openalex.org/W4383097678"
+    ]
+  },
+  "LAB-784ee79fae": {
+    "summary": "지면 무늬를 이용해 단안 SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Monocular Simultaneous Localization and Mapping Using Ground Textures",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161558",
+      "https://openalex.org/W4383066254"
+    ]
+  },
+  "LAB-20f45623cb": {
+    "summary": "밀리미터 수준의 기준을 가진 SLAM 평가용 Hilti-Oxford 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Hilti-Oxford Dataset : A Milimeter-Accurate Benchmark for Simultaneous Localization and Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 9,
+    "metadataSources": []
+  },
+  "LAB-2631a7cf50": {
+    "summary": "모호한 장면에서 영상 위치 추정을 위한 확률적 프레임워크를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "A Probabilistic Framework for Visual Localization in Ambiguous Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160466",
+      "https://openalex.org/W4383172027"
+    ]
+  },
+  "LAB-2798debf0e": {
+    "summary": "의미 정보의 일관성을 이용해 사전 LiDAR 지도에서 단안 카메라 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Cross-Modal Monocular Localization in Prior LiDAR Maps Utilizing Semantic Consistency",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160810",
+      "https://openalex.org/W4383097459"
+    ]
+  },
+  "LAB-a2583b0596": {
+    "summary": "Outlier에 대응하는 incremental smoothing and mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Robust Incremental Smoothing and Mapping (riSAM)",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161438",
+      "https://openalex.org/W4383108750"
+    ]
+  },
+  "LAB-696d481918": {
+    "summary": "LiDAR intensity를 이용해 실시간 SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Real-Time Simultaneous Localization and Mapping with LiDAR Intensity",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 13,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160713",
+      "https://openalex.org/W4383108920"
+    ]
+  },
+  "LAB-c91fd6b83e": {
+    "summary": "점·선·면을 이용해 단안·RGB-D·stereo 카메라의 sparse mapping과 위치 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Structure PLP-SLAM: Efficient Sparse Mapping and Localization Using Point, Line and Plane for Monocular, RGB-D and Stereo Cameras",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 14,
+    "metadataSources": []
+  },
+  "LAB-4f8674ea15": {
+    "summary": "이산 변수와 연속 변수를 함께 사용하는 smoothing and mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Discrete-Continuous Smoothing and Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3216938",
+      "https://openalex.org/W4312426155"
+    ]
+  },
+  "LAB-6532be2375": {
+    "summary": "3D Bag of Words를 이용해 LiDAR SLAM에서 실시간 loop closure를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "BoW3D: Bag of Words for Real-Time Loop Closing in 3D LiDAR SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3221336",
+      "https://openalex.org/W4309591753"
+    ]
+  },
+  "LAB-ccd1c1ddac": {
+    "summary": "여러 센서 모달리티를 지원하는 모듈형 mapping 프레임워크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "maplab 2.0 – A Modular and Multi-Modal Mapping Framework",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 17,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3227865",
+      "https://openalex.org/W4312629830"
+    ]
+  },
+  "LAB-31af68eb08": {
+    "summary": "Scene graph를 이용해 시점 변화에 대응하는 loop detection을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Towards View-Invariant and Accurate Loop Detection Based on Scene Graph",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 18,
+    "metadataSources": [
+      "https://openalex.org/W4383066378"
+    ]
+  },
+  "LAB-d617c9a1de": {
+    "summary": "Bayesian persistence filter로 전역 지도를 예측해 장기 visual SLAM에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Long-Term Visual Simultaneous Localization and Mapping: Using a Bayesian Persistence Filter-Based Global Map Prediction",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 19,
+    "metadataSources": [
+      "https://openalex.org/W4313590817"
+    ]
+  },
+  "LAB-160594befc": {
+    "summary": "평면도 지도의 의미 단서를 이용해 장기간 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Long-term localization using semantic cues in floor plan map",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 22,
+    "metadataSources": []
+  },
+  "LAB-e17ca4c9c4": {
+    "summary": "여러 비행 로봇이 능동적으로 metric-semantic map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Active Metric-Semantic Mapping by Multiple Aerial Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161564",
+      "https://openalex.org/W4383066195"
+    ]
+  },
+  "LAB-e2c808ec6b": {
+    "summary": "Stein ICP를 이용해 point cloud 정합의 불확실성을 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Stein ICP for Uncertainty Estimation in Point Cloud Matching",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 26,
+    "metadataSources": []
+  },
+  "LAB-5e04e9cb78": {
+    "summary": "학습 가능한 local geometric feature로 LiDAR odometry를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 28,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3219022",
+      "https://openalex.org/W4309328286"
+    ]
+  },
+  "LAB-87739c2391": {
+    "summary": "Scene graph의 자기지도 학습으로 설명 가능한 행동 예측을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Explainable Action Prediction through Self-Supervision on Scene Graphs",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 31,
+    "metadataSources": [
+      "https://openalex.org/W4383066236"
+    ]
+  },
+  "LAB-e7a5b02481": {
+    "summary": "안정적인 삼각형 descriptor로 3D 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "STD: Stable Triangle Descriptor for 3D Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 33,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160413",
+      "https://openalex.org/W4383066341"
+    ]
+  },
+  "LAB-792350726d": {
+    "summary": "회전·이동에 불변인 표현을 학습해 LiDAR 장소 인식에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DeepRING: Learning Roto-Translation Invariant Representation for LiDAR Based Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 34,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161435",
+      "https://openalex.org/W4383097417"
+    ]
+  },
+  "LAB-9b81652ae6": {
+    "summary": "협력 visual-inertial SLAM을 위한 범용 back-end를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "COVINS-G: A Generic Back-End for Collaborative Visual-Inertial SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 35,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160938",
+      "https://openalex.org/W4383108534"
+    ]
+  },
+  "LAB-eee3ee44cd": {
+    "summary": "로봇 군집에서 분산 LiDAR-inertial odometry를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Swarm-LIO: Decentralized Swarm LiDAR-inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 36,
+    "metadataSources": [
+      "https://openalex.org/W4383066061"
+    ]
+  },
+  "LAB-61d09c1baa": {
+    "summary": "LiDAR 위치 추정과 mesh 지도를 실시간으로 함께 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SLAMesh: Real-time LiDAR Simultaneous Localization and Meshing",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 37,
+    "metadataSources": [
+      "https://openalex.org/W4383108462"
+    ]
+  },
+  "LAB-3431de984b": {
+    "summary": "비지도 품질 예측을 단일 영상 및 가중 시퀀스 장소 인식에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Unsupervised Quality Prediction for Improved Single-Frame and Weighted Sequential Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 38,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160679",
+      "https://openalex.org/W4383108891"
+    ]
+  },
+  "LAB-863e06c950": {
+    "summary": "Pyramid 구조의 학습 가능한 token으로 3D LiDAR 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Pyramid Learnable Tokens for 3D LiDAR Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 39,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161523",
+      "https://openalex.org/W4383108829"
+    ]
+  },
+  "LAB-cb88b625a6": {
+    "summary": "표면 법선 제약과 optimal particle filter로 LiDAR 실내 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LiDAR-Based Indoor Localization with Optimal Particle Filters Using Surface Normal Constraints",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day1",
+    "sourceRow": 43,
+    "metadataSources": [
+      "https://openalex.org/W4383108488"
+    ]
+  },
+  "LAB-cab46732ac": {
+    "summary": "평면의 규칙성을 이용해 monocular visual-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Monocular Visual-Inertial Odometry with Planar Regularities",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160620",
+      "https://openalex.org/W4383108876"
+    ]
+  },
+  "LAB-fdf5bc459b": {
+    "summary": "문맥을 고려한 line descriptor를 visual localization에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Line as a Visual Sentence: Context-aware Line Descriptor for Visual Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 3,
+    "metadataSources": []
+  },
+  "LAB-ef8f1d7e63": {
+    "summary": "동일 평면 위 점과 선을 위한 bundle adjustment를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Efficient Bundle Adjustment for Coplanar Points and Lines",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160834",
+      "https://openalex.org/W4383108584"
+    ]
+  },
+  "LAB-5691acb496": {
+    "summary": "Egocentric neural network로 도시 규모 point cloud의 6-DoF 재위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3133593",
+      "https://openalex.org/W3209386405"
+    ]
+  },
+  "LAB-f5e6467635": {
+    "summary": "Homography 기반 손실 함수를 카메라 자세 회귀에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Homography-Based Loss Function for Camera Pose Regression",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://openalex.org/W4225961913"
+    ]
+  },
+  "LAB-26e0c317e1": {
+    "summary": "희소하고 변하는 pixel의 event 정보를 이용해 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "How Many Events Do You Need? Event-Based Visual Place Recognition Using Sparse but Varying Pixels",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3216226",
+      "https://openalex.org/W4308084260"
+    ]
+  },
+  "LAB-e5c6ceee78": {
+    "summary": "Neural field를 이용해 단안 영상을 실시간 dense map으로 누적한다.",
+    "basis": "paper-title",
+    "sourceTitle": "IMODE: Real-Time Incremental Monocular Dense Mapping Using Neural Field",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161538",
+      "https://openalex.org/W4383066059"
+    ]
+  },
+  "LAB-86e1ce882f": {
+    "summary": "Convolutional Bayesian kernel inference로 3D 의미 지도를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Convolutional Bayesian Kernel Inference for 3D Semantic Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://openalex.org/W4383097420"
+    ]
+  },
+  "LAB-a52cd6b04c": {
+    "summary": "Parallel sparse incremental voxel을 이용해 LiDAR-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Faster-LIO: Lightweight Tightly Coupled Lidar-Inertial Odometry Using Parallel Sparse Incremental Voxels",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 14,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3152830",
+      "https://openalex.org/W4292544413"
+    ]
+  },
+  "LAB-6ef5fbc7e5": {
+    "summary": "명시적인 data association 없이 landmark 기반 SLAM을 수행하는 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Data-Association-Free Landmark-Based SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160719",
+      "https://openalex.org/W4383108518"
+    ]
+  },
+  "LAB-d28922380d": {
+    "summary": "추상적인 구조 분포 표현으로 LiDAR loop detection과 metric pose 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160337",
+      "https://openalex.org/W4383097620"
+    ]
+  },
+  "LAB-fe55fe194a": {
+    "summary": "NeRF 기반 능동 3D 복원에서 불확실성을 로봇의 정책에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Uncertainty Guided Policy for Active Robotic 3D Reconstruction Using Neural Radiance Fields",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 18,
+    "metadataSources": [
+      "https://openalex.org/W4306248542"
+    ]
+  },
+  "LAB-a48b2a291a": {
+    "summary": "그래프 기반 maximum consensus 추정으로 point cloud를 정합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GMCR: Graph-Based Maximum Consensus Estimation for Point Cloud Registration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 21,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161215",
+      "https://openalex.org/W4383097419"
+    ]
+  },
+  "LAB-565a820857": {
+    "summary": "분산 협력 SLAM에서 다른 에이전트의 정보를 이용해 재위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Cross-Agent Relocalization for Decentralized Collaborative SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 22,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160941",
+      "https://openalex.org/W4383108431"
+    ]
+  },
+  "LAB-9520b931a8": {
+    "summary": "Co-attention 기반 계층적 영상 표현으로 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "CAHIR: Co-Attentive Hierarchical Image Representations for Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 24,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160512",
+      "https://openalex.org/W4383109186"
+    ]
+  },
+  "LAB-c09f238a9e": {
+    "summary": "Topometric floorplan 정합을 학습해 로봇 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "FloorplanNet: Learning Topometric Floorplan Matching for Robot Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://openalex.org/W4383109143"
+    ]
+  },
+  "LAB-cf0cdff36d": {
+    "summary": "Cycle-consistent contrastive learning으로 망각에 대응하는 온라인 visual SLAM 적응을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Online Visual SLAM Adaptation against Catastrophic Forgetting with Cycle-Consistent Contrastive Learning",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 26,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161464",
+      "https://openalex.org/W4383066358"
+    ]
+  },
+  "LAB-16b0343079": {
+    "summary": "Descriptor distillation을 여러 로봇의 SLAM에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Descriptor Distillation for Efficient Multi-Robot SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 27,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160541",
+      "https://openalex.org/W4383108516"
+    ]
+  },
+  "LAB-e219f6a0f8": {
+    "summary": "Momentum contrast를 이용해 point cloud 기반 장소 인식 표현을 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "KPPR: Exploiting Momentum Contrast for Point Cloud-Based Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 29,
+    "metadataSources": [
+      "https://openalex.org/W4313213824"
+    ]
+  },
+  "LAB-4e1aad1b66": {
+    "summary": "Bayesian optimization으로 ICP의 초기값을 구한다.",
+    "basis": "paper-title",
+    "sourceTitle": "BO-ICP: Initialization of Iterative Closest Point Based on Bayesian Optimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 30,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160570",
+      "https://openalex.org/W4383109132"
+    ]
+  },
+  "LAB-08afd4177d": {
+    "summary": "도시 규모 NeRF에서 truncated dynamic low-pass filter로 로봇의 전역 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LATITUDE: Robotic Global Localization with Truncated Dynamic Low-Pass Filter in City-Scale NeRF",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 33,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10161570",
+      "https://openalex.org/W4383109009"
+    ]
+  },
+  "LAB-504a0d1911": {
+    "summary": "희소한 계층적 implicit neural 표현으로 대규모 3D 지도를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "SHINE-Mapping: Large-Scale 3D Mapping Using Sparse Hierarchical Implicit Neural Representations",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day2",
+    "sourceRow": 35,
+    "metadataSources": [
+      "https://openalex.org/W4383108551"
+    ]
+  },
+  "LAB-b4ecb25499": {
+    "summary": "ORB feature와 NeRF mapping을 결합해 실시간 monocular SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Orbeez-SLAM: A Real-Time Monocular Visual SLAM with ORB Features and NeRF-Realized Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160950",
+      "https://openalex.org/W4383109324"
+    ]
+  },
+  "LAB-67c492f0bc": {
+    "summary": "확률적 plane 추출과 모델링을 능동 visual-inertial mapping에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Probabilistic Plane Extraction and Modeling for Active Visual-Inertial Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://openalex.org/W4383108365"
+    ]
+  },
+  "LAB-160a2f236c": {
+    "summary": "3D 선과 면을 전역 정합해 시점 차이가 큰 LiDAR 관측을 연결한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GraffMatch: Global Matching of 3D Lines and Planes for Wide Baseline LiDAR Registration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3229224",
+      "https://openalex.org/W4312226124"
+    ]
+  },
+  "LAB-8c9e538d9d": {
+    "summary": "로봇 내비게이션에 사용할 visual language map을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual Language Maps for Robot Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra48891.2023.10160969",
+      "https://openalex.org/W4383108296"
+    ]
+  },
+  "LAB-15df8c509d": {
+    "summary": "동적 환경에서 visual-inertial SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DynaVINS: A Visual-Inertial SLAM for Dynamic Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://openalex.org/W4293812019"
+    ]
+  },
+  "LAB-b5d8ed03bc": {
+    "summary": "Multitask learning으로 dense multilayer Bayesian map을 추론한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Multitask Learning for Scalable and Dense Multilayer Bayesian Map Inference",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://openalex.org/W3174083630"
+    ]
+  },
+  "LAB-854a4bb4f5": {
+    "summary": "자기지도 feature 학습을 장기간 metric visual localization에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Self-Supervised Feature Learning for Long-Term Metric Visual Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2023-Day3",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3227866",
+      "https://openalex.org/W4312674867"
+    ]
+  },
+  "LAB-b7626fd541": {
+    "summary": "영상 시퀀스 기반 장소 인식을 위한 sequential descriptor를 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning Sequential Descriptors for Sequence-Based Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3194310",
+      "https://openalex.org/W4285044825"
+    ]
+  },
+  "LAB-a5b8ea15ad": {
+    "summary": "Scale을 고려하는 direct monocular odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Scale-Aware Direct Monocular Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9982173",
+      "https://openalex.org/W3201569612"
+    ]
+  },
+  "LAB-6aca7d73b2": {
+    "summary": "물체 형상 완성을 학습해 동적 장면의 물체 수준 지도 작성에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning to Complete Object Shapes for Object-Level Mapping in Dynamic Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981545",
+      "https://openalex.org/W4313016343"
+    ]
+  },
+  "LAB-9b349f7de9": {
+    "summary": "계층적 정합과 hybrid bundle adjustment를 loop closure에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DH-LC: Hierarchical Matching and Hybrid Bundle Adjustment towards Accurate and Robust Loop Closure",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://openalex.org/W4312871952"
+    ]
+  },
+  "LAB-1a998f0f3e": {
+    "summary": "Semantic map과 LiDAR를 활용해 visual-inertial 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LiDAR-Aided Visual-Inertial Localization with Semantic Maps",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9982152",
+      "https://openalex.org/W4312346369"
+    ]
+  },
+  "LAB-aff7574b31": {
+    "summary": "지리 좌표를 가진 2D 지도로 UAV의 visual-inertial 위치 추정을 보조한다.",
+    "basis": "paper-title",
+    "sourceTitle": "A 2D Georeferenced Map Aided Visual-Inertial System for Precise UAV Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9982254",
+      "https://openalex.org/W4312676512"
+    ]
+  },
+  "LAB-c57bb42fb7": {
+    "summary": "UAV를 위한 대규모 온라인 dense mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "LODM: Large-Scale Online Dense Mapping for UAV",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981994",
+      "https://openalex.org/W4312804097"
+    ]
+  },
+  "LAB-a3fd951e2c": {
+    "summary": "Null space 분석으로 점·선 대응 관계에서 카메라 자세를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "An Efficient and Accurate Solution to Camera Pose Estimation Problem from Point and Line Correspondences Based on Null Space Analysis",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 14,
+    "metadataSources": [
+      "https://openalex.org/W4313125049"
+    ]
+  },
+  "LAB-d5a1f66e2f": {
+    "summary": "직접 영상 정렬과 photometric bundle adjustment로 여러 3D 물체를 추적한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DirectTracker: 3D Multi-Object Tracking Using Direct Image Alignment and Photometric Bundle Adjustment",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981260",
+      "https://openalex.org/W4312974511"
+    ]
+  },
+  "LAB-638885974f": {
+    "summary": "변화하는 환경에서 text spotting을 로봇의 onboard 위치 추정에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Robust Onboard Localization in Changing Environments Exploiting Text Spotting",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 18,
+    "metadataSources": [
+      "https://openalex.org/W4312449213"
+    ]
+  },
+  "LAB-a0c8d91029": {
+    "summary": "확률적 물체 지도를 로봇의 장기 위치 추정에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Probabilistic Object Maps for Long-Term Robot Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 20,
+    "metadataSources": [
+      "https://openalex.org/W3204310325"
+    ]
+  },
+  "LAB-cb7df0577e": {
+    "summary": "지각이 어려운 지하 환경에서 salient region loop closure로 위치와 의미 지도를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "ULSM: Underground Localization and Semantic Mapping with Salient Region Loop Closure under Perceptually-Degraded Environment",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 23,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9982170",
+      "https://openalex.org/W4313066287"
+    ]
+  },
+  "LAB-8d1bfb4dab": {
+    "summary": "단안 카메라를 이용해 도로변 HD map의 물체를 복원한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Roadside HD Map Object Reconstruction Using Monocular Camera",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 24,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3185367",
+      "https://openalex.org/W4285157173"
+    ]
+  },
+  "LAB-ff809880d1": {
+    "summary": "단안 영상으로 전역적으로 일관된 지도를 구성하는 BEV-SLAM을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "BEV-SLAM: Building a Globally-Consistent World Map Using Monocular Vision",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981258",
+      "https://openalex.org/W4312541592"
+    ]
+  },
+  "LAB-60e09e3d81": {
+    "summary": "대규모 semantic SLAM에서 확률적 data association을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Probabilistic Data Association for Semantic SLAM at Scale",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 26,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981750",
+      "https://openalex.org/W4312284325"
+    ]
+  },
+  "LAB-2d83b85f78": {
+    "summary": "Dense hybrid stereo visual odometry 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "A New Dense Hybrid Stereo Visual Odometry Approach",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 27,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981814",
+      "https://openalex.org/W4313050368"
+    ]
+  },
+  "LAB-6cc40ab0bd": {
+    "summary": "데이터 효율을 고려한 분산 협력 thermal-inertial odometry를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Data-Efficient Collaborative Decentralized\nThermal-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 28,
+    "metadataSources": [
+      "https://openalex.org/W4288391263"
+    ]
+  },
+  "LAB-ba861a1933": {
+    "summary": "Negative plane을 포함하는 넓은 시야각 카메라를 위한 VIO 프레임워크를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LF-VIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras with Negative Plane",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day1",
+    "sourceRow": 29,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981217",
+      "https://openalex.org/W4312397894"
+    ]
+  },
+  "LAB-15a306be6b": {
+    "summary": "Imaging sonar를 장착한 수중 로봇 팀에서 음향 통신 효율을 고려한 분산 SLAM을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 2,
+    "metadataSources": []
+  },
+  "LAB-261d149227": {
+    "summary": "수중 로봇의 음향 ranging과 위치 추정을 시뮬레이션하는 공개 ROS 프레임워크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "UWRange: An Open ROS Framework for Simulating Acoustic Ranging and Localization for Underwater Robots under Realistic Conditions",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981364",
+      "https://openalex.org/W4312579748"
+    ]
+  },
+  "LAB-721aa31454": {
+    "summary": "Thermal radiance field를 이용해 투명 물체의 깊이를 렌더링한다.",
+    "basis": "paper-title",
+    "sourceTitle": "TeRF: Thermal Radiance Field for Rendering Depth in Transparent Objects",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 4,
+    "metadataSources": []
+  },
+  "LAB-27fb5a87fa": {
+    "summary": "Self-teaching 방식으로 장소 인식의 불확실성을 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "STUN: Self-Teaching Uncertainty Estimation for Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981546",
+      "https://openalex.org/W4312644255"
+    ]
+  },
+  "LAB-071efbf313": {
+    "summary": "실시간 3D mapping을 위한 LiDAR odometry 시스템을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LOCUS 2.0: Robust and Computationally Efficient LiDAR Odometry for Real-Time 3D Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3181357",
+      "https://openalex.org/W4281555123"
+    ]
+  },
+  "LAB-e205d30321": {
+    "summary": "Non-projective signed distance field를 온라인 계획과 3D 복원에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Voxfield: Non-Projective Signed Distance Fields for Online Planning and 3D Reconstruction",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981318",
+      "https://openalex.org/W4312870968"
+    ]
+  },
+  "LAB-9ffb63a8a4": {
+    "summary": "통신이 제한된 환경에서 topological map 기반 multi-robot 탐사를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MR-TopoMap: Multi-Robot Exploration Based on Topological Map in Communication Restricted Environment",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://openalex.org/W4286367218"
+    ]
+  },
+  "LAB-9774269cd2": {
+    "summary": "계산 자원이 제한된 로봇에서 동적 환경용 RGB-D inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "RGB-D Inertial Odometry for a Resource-Restricted Robot in Dynamic Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://openalex.org/W4285507666"
+    ]
+  },
+  "LAB-ea23c6d1fc": {
+    "summary": "Hilti SLAM Challenge의 평가용 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "The Hilti SLAM Challenge Dataset",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 10,
+    "metadataSources": [
+      "https://openalex.org/W3200664388"
+    ]
+  },
+  "LAB-90d134a4aa": {
+    "summary": "Binary neural network를 visual place recognition에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Highly-Efficient Binary Neural Networks for Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://openalex.org/W4312367792"
+    ]
+  },
+  "LAB-d1907f7d3d": {
+    "summary": "온라인 시공간 보정을 포함하는 square-root robocentric VIO를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Square-Root Robocentric Visual-Inertial Odometry with Online Spatiotemporal Calibration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 12,
+    "metadataSources": [
+      "https://openalex.org/W4285611200"
+    ]
+  },
+  "LAB-98a7f630f6": {
+    "summary": "다양한 날씨에서 radar가 LiDAR를 대신해 mapping과 위치 추정을 수행할 수 있는지 살펴본다.",
+    "basis": "paper-title",
+    "sourceTitle": "Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localization?",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 13,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3192885",
+      "https://openalex.org/W4286543002"
+    ]
+  },
+  "LAB-e8a494144d": {
+    "summary": "Self-attention distillation network로 경량 visual place recognition을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LSDNet: A Lightweight Self-Attentional Distillation Network for Visual Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9982272",
+      "https://openalex.org/W4312790972"
+    ]
+  },
+  "LAB-d60b74bef4": {
+    "summary": "어려운 대규모 지하 환경에서 동작하는 multi-robot SLAM 시스템을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LAMP 2.0: A Robust Multi-Robot SLAM System for Operation in Challenging Large-Scale Underground Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 17,
+    "metadataSources": [
+      "https://openalex.org/W4285506552"
+    ]
+  },
+  "LAB-30990aa928": {
+    "summary": "이동 로봇을 위해 지형의 특성을 실시간으로 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "These Maps Are Made for Walking:Real-Time Terrain Property Estimation for Mobile Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 18,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3180439",
+      "https://openalex.org/W4285169760"
+    ]
+  },
+  "LAB-09ebac133a": {
+    "summary": "기존 SD map을 이용해 HD map을 온라인으로 추론한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MapLite 2.0:Online HD Map inference Using a Prior SD map",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 19,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3186491",
+      "https://openalex.org/W4289950755"
+    ]
+  },
+  "LAB-667562eccf": {
+    "summary": "공간적으로 노출을 달리하는 카메라를 이용해 HDR 환경의 visual odometry를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual Odometry in HDR Environments by Using Spatially Varying Exposure Camera",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 20,
+    "metadataSources": [
+      "https://openalex.org/W4312759964"
+    ]
+  },
+  "LAB-e77162b53d": {
+    "summary": "공간 불확실성을 가진 instance 수준 도로 표식으로 영상 지도와 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Visual Mapping and Localization System Based on Compact Instance-Level Road Markings with Spatial Uncertainty",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 21,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3196470",
+      "https://openalex.org/W4292258322"
+    ]
+  },
+  "LAB-aae97434ea": {
+    "summary": "내시경의 단일 시점 영상에서 photometric 정보를 이용해 dense 3D 구조를 복원한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Photometric Single-View Dense 3D Reconstruction in Endoscopy",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 23,
+    "metadataSources": [
+      "https://openalex.org/W4312335606"
+    ]
+  },
+  "LAB-c9dd936c40": {
+    "summary": "미지 환경에서 불확실성을 고려해 온라인 mapping과 안전한 motion planning을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Online Mapping and Motion Planning under Uncertainty for Safe Navigation in Unknown Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://openalex.org/W3214464180"
+    ]
+  },
+  "LAB-c187f741b7": {
+    "summary": "Spectral 정보를 이용해 pose-graph SLAM의 측정을 희소화한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Spectral Measurement Sparsification for Pose-Graph SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 26,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981584",
+      "https://openalex.org/W4312882723"
+    ]
+  },
+  "LAB-e6b9c18852": {
+    "summary": "Intensity 영상의 자기지도 feature 선택으로 sparse LiDAR odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Fast Sparse LiDAR Odometry Using Self-Supervised Feature Selection on Intensity Images",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day2",
+    "sourceRow": 27,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3184454",
+      "https://openalex.org/W4285257801"
+    ]
+  },
+  "LAB-eb2cc0552b": {
+    "summary": "여러 단서를 결합하는 direct SLAM 방법을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "MD-SLAM: Multi-cue Direct SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day3",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/iros47612.2022.9981147",
+      "https://openalex.org/W4312260963"
+    ]
+  },
+  "LAB-e65b4d1d75": {
+    "summary": "불확실성을 고려한 ensemble로 photometric visual-inertial navigation을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day3",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2021.3139964",
+      "https://openalex.org/W4205833767"
+    ]
+  },
+  "LAB-df1dc3c067": {
+    "summary": "도시 규모에서 지상 영상과 위성 영상을 이용해 이동체의 지리적 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "City-Wide Street-To-Satellite Image Geolocalization of a Mobile Ground Agent",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "IROS2022-Day3",
+    "sourceRow": 8,
+    "metadataSources": []
+  },
+  "LAB-c270f3711d": {
+    "summary": "Delayed marginalization을 이용해 visual-inertial odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DM-VIO: Delayed Marginalization Visual-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3140129",
+      "https://openalex.org/W4205544116"
+    ]
+  },
+  "LAB-dbf37c2afc": {
+    "summary": "Overlap attention을 포함하는 3D descriptor로 point cloud를 정합한다.",
+    "basis": "paper-title",
+    "sourceTitle": "G3DOA: Generalizable 3D Descriptor with Overlap Attention for Point Cloud Registration",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 4,
+    "metadataSources": []
+  },
+  "LAB-e7fb2d8ff1": {
+    "summary": "동적 환경의 lifelong navigation을 위해 시공간 occupancy grid map을 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812297",
+      "https://openalex.org/W3195092934"
+    ]
+  },
+  "LAB-a11e48a019": {
+    "summary": "여러 카메라의 상대 자세 제약으로 약지도 6D 물체 자세 회귀를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "WS-OPE: Weakly Supervised 6D Object Pose Regression Using Relative Multi-Camera Pose Constraints",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3146924",
+      "https://openalex.org/W4210467447"
+    ]
+  },
+  "LAB-7a72fad048": {
+    "summary": "상공 영상에서 얻은 factor를 수중 sonar SLAM에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Overhead Image Factors for Underwater Sonar-Based SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3154048",
+      "https://openalex.org/W4213415561"
+    ]
+  },
+  "LAB-dabb7beb26": {
+    "summary": "Fourier transform의 이동 불변성을 radar odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Fast-MbyM: Leveraging Translational Invariance of the Fourier Transform for Efficient and Accurate Radar Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 12,
+    "metadataSources": []
+  },
+  "LAB-77a9e3bec4": {
+    "summary": "단일 칩 차량 radar로 장소를 인식한다.",
+    "basis": "paper-title",
+    "sourceTitle": "AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 13,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811869",
+      "https://openalex.org/W4285102256"
+    ]
+  },
+  "LAB-dcff367158": {
+    "summary": "Scan Context와 전역·지역 그래프 최적화를 결합해 분산 multi-robot LiDAR SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DiSCo-SLAM: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM with Two-Stage Global-Local Graph Optimization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 14,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3138156",
+      "https://openalex.org/W4205616157"
+    ]
+  },
+  "LAB-c63a23b941": {
+    "summary": "GNSS·영상·IMU를 긴밀하게 융합해 상태를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GVINS: Tightly Coupled GNSS-Visual-Inertial Fusion for Smooth and Consistent State Estimation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/tro.2021.3133730",
+      "https://openalex.org/W3138764046"
+    ]
+  },
+  "LAB-f4503c7fc6": {
+    "summary": "WiFi의 방향 측정을 이용해 실내 로봇의 SLAM을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "P2SLAM: Bearing Based WiFi SLAM for Indoor Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 17,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3144796",
+      "https://openalex.org/W4210560029"
+    ]
+  },
+  "LAB-c49c056cd3": {
+    "summary": "HD map을 이용해 자율주행 차량의 장기 semantic relocalization을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LTSR: Long-Term Semantic Relocalization Based on HD Map for Autonomous Vehicles",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 19,
+    "metadataSources": []
+  },
+  "LAB-e691ce3cf2": {
+    "summary": "Deep feature aggregation network로 실내 카메라 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "A Deep Feature Aggregation Network for Accurate Indoor Camera Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 21,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3146946",
+      "https://openalex.org/W4210717773"
+    ]
+  },
+  "LAB-de034f841c": {
+    "summary": "동적 장면에서 주목할 영역을 학습해 loop closure를 탐지한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LoopNet: Where to Focus? Detecting Loop Closures in Dynamic Scenes",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 22,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3142901",
+      "https://openalex.org/W4206030429"
+    ]
+  },
+  "LAB-8030ce73cb": {
+    "summary": "서로 다른 scale의 영상 표현을 학습해 실시간 지리적 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning Cross-Scale Visual Representations for Real-Time Image Geo-Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 23,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3154035",
+      "https://openalex.org/W3197878128"
+    ]
+  },
+  "LAB-8d0530a796": {
+    "summary": "저비용 고해상도 수중 mapping을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "High Definition, Inexpensive, Underwater Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 24,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811695",
+      "https://openalex.org/W4285102646"
+    ]
+  },
+  "LAB-77034a750b": {
+    "summary": "같은 위치에 배치된 영상·촉각 센서를 visual servoing과 위치 추정에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Using Collocated Vision and Tactile Sensors for Visual Servoing and Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 25,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3146565",
+      "https://openalex.org/W4210400012"
+    ]
+  },
+  "LAB-7a07918378": {
+    "summary": "영상으로부터 지도를 생성하는 문제를 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "Translating Images into Maps",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 27,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811901",
+      "https://openalex.org/W3203158837"
+    ]
+  },
+  "LAB-2a78721f73": {
+    "summary": "Loop closure를 포함하는 실시간 elastic LiDAR odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "CT-ICP: Real-time Elastic LiDAR Odometry with Loop Closure",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 28,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811849",
+      "https://openalex.org/W3203066970"
+    ]
+  },
+  "LAB-cd92da4af9": {
+    "summary": "지역 정보를 활용해 3D 장소 인식용 global descriptor를 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 30,
+    "metadataSources": []
+  },
+  "LAB-c40c84f8ef": {
+    "summary": "GPS를 사용할 수 없는 실내에서 지면 제약을 LiDAR odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "GCLO: Ground Constrained LiDAR Odometry with Low-Drifts for GPS-Denied Indoor Environments",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 31,
+    "metadataSources": []
+  },
+  "LAB-5b435ab3fb": {
+    "summary": "CNN과 기하 제약을 융합해 영상 기반 실내 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Fusing Convolutional Neural Network and Geometric Constraint for Image-Based Indoor Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 32,
+    "metadataSources": []
+  },
+  "LAB-0abc70ec81": {
+    "summary": "Bundle adjustment와 template matching으로 UAV 영상에서 식물의 3D 구조를 복원한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Precise 3D Reconstruction of Plants from UAV Imagery Combining Bundle Adjustment and Template Matching",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 33,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811358",
+      "https://openalex.org/W4285102202"
+    ]
+  },
+  "LAB-2d5fa64f03": {
+    "summary": "항공 광학 영상과 수중 음향 영상 사이의 대응으로 수중 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Cross-View and Cross-Domain Underwater Localization Based on Optical Aerial and Acoustic Underwater Images",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 37,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3154482",
+      "https://openalex.org/W4214694300"
+    ]
+  },
+  "LAB-9a58b17df5": {
+    "summary": "Dense point cloud를 이용해 direct LiDAR odometry를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Direct LiDAR Odometry: Fast Localization with Dense Point Clouds",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 38,
+    "metadataSources": []
+  },
+  "LAB-bee9428154": {
+    "summary": "카메라 영상에서 회귀한 깊이의 불확실성을 고려해 이동 로봇의 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Mobile Robot Localization Considering Uncertainty of Depth Regression From Camera Image",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day1 (24)",
+    "sourceRow": 39,
+    "metadataSources": []
+  },
+  "LAB-49f578385d": {
+    "summary": "평면도를 보조 정보로 이용하는 경량 LiDAR 위치 추정을 다룬다.",
+    "basis": "paper-title",
+    "sourceTitle": "FP-Loc: Lightweight and Drift-Free Floor Plan-Assisted LiDAR Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 2,
+    "metadataSources": []
+  },
+  "LAB-9dc8f2664a": {
+    "summary": "회전형 LiDAR를 위한 저지연 odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LLOL: Low-Latency Odometry for Spinning Lidars",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811605",
+      "https://openalex.org/W3203485577"
+    ]
+  },
+  "LAB-32a083b16f": {
+    "summary": "학습된 deep feature를 장기간 visual localization에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3136867",
+      "https://openalex.org/W3198835173"
+    ]
+  },
+  "LAB-9b6f3622a5": {
+    "summary": "영상 기반 SLAM에서 연속 시간과 이산 시간 접근을 비교한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Continuous-Time vs. Discrete-Time Vision-based SLAM: A Comparative Study",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 5,
+    "metadataSources": []
+  },
+  "LAB-b78da0be78": {
+    "summary": "RGB-D·IMU·평면 정보를 긴밀하게 결합한 SLAM을 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "VIP-SLAM: An Efficient Tightly-Coupled RGB-D Visual Inertial Planar SLAM",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 7,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9812354",
+      "https://openalex.org/W4283832649"
+    ]
+  },
+  "LAB-bb7dfab28f": {
+    "summary": "Manhattan 및 구조 제약을 visual odometry에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MSC-VO: Exploiting Manhattan and Structural Constraints for Visual Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3142900",
+      "https://openalex.org/W3214073694"
+    ]
+  },
+  "LAB-bf91aaf39f": {
+    "summary": "낮은 해상도의 영상을 이용해 장소 인식 학습 데이터를 보강한다.",
+    "basis": "paper-title",
+    "sourceTitle": "MultiRes-NetVLAD: Augmenting Place Recognition Training with Low-Resolution Imagery",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 9,
+    "metadataSources": []
+  },
+  "LAB-f5380bbf1b": {
+    "summary": "Neural radiance field의 supervision으로 dense object descriptor를 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "NeRF-Supervision: Learning Dense Object Descriptors from Neural Radiance Fields",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 10,
+    "metadataSources": []
+  },
+  "LAB-8a2b5a8732": {
+    "summary": "3D 물체 탐지와 위치 추정을 위해 LiDAR beam 배치를 end-to-end로 최적화한다.",
+    "basis": "paper-title",
+    "sourceTitle": "End-to-End Optimization of LiDAR Beam Configuration for 3D Object Detection and Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 15,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2022.3142738",
+      "https://openalex.org/W4206403182"
+    ]
+  },
+  "LAB-695e9c7a08": {
+    "summary": "점과 선을 함께 이용하는 direct visual odometry를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "EDPLVO: Efficient Direct Point-Line Visual Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 16,
+    "metadataSources": []
+  },
+  "LAB-5607211531": {
+    "summary": "분산 확률적 SLAM 그래프에서 점진적인 추상화를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Incremental Abstraction in Distributed Probabilistic SLAM Graphs",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 17,
+    "metadataSources": []
+  },
+  "LAB-a3e0a2b460": {
+    "summary": "지상 로봇의 여러 센서와 시나리오를 포함하는 SLAM 데이터셋을 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "M2DGR: A Multi-Sensor and Multi-Scenario SLAM Dataset for Ground Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day2 (25)",
+    "sourceRow": 19,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/lra.2021.3138527",
+      "https://openalex.org/W4285512293"
+    ]
+  },
+  "LAB-276f0c9406": {
+    "summary": "LiDAR 기반 lifelong mapping을 위한 모듈형 프레임워크를 제공한다.",
+    "basis": "paper-title",
+    "sourceTitle": "LT-Mapper: A Modular Framework for LiDAR-Based Lifelong Mapping",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811916",
+      "https://openalex.org/W3186380594"
+    ]
+  },
+  "LAB-0242ece298": {
+    "summary": "계층적 표현과 명시적 memory를 갖춘 GNN으로 3D scene graph 위 내비게이션 정책을 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Hierarchical Representations and Explicit Memory: Learning Effective Navigation Policies on 3D Scene Graphs Using Graph Neural Networks",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 3,
+    "metadataSources": []
+  },
+  "LAB-d52a49c9d3": {
+    "summary": "Event-based visual odometry를 위한 비동기 최적화를 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Asynchronous Optimisation for Event-Based Visual Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811943",
+      "https://openalex.org/W4214956431"
+    ]
+  },
+  "LAB-f1fe193df2": {
+    "summary": "보행 로봇의 주기적 제약을 visual-inertial SLAM에 활용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Periodic SLAM: Using Cyclic Constraints to Improve the Performance of Visual-Inertial SLAM on Legged Robots",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811634",
+      "https://openalex.org/W4285102143"
+    ]
+  },
+  "LAB-6331d55288": {
+    "summary": "GNSS를 긴밀하게 결합해 visual-inertial 위치 추정을 보조한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Tightly-Coupled GNSS-Aided Visual-Inertial Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811362",
+      "https://openalex.org/W4285102496"
+    ]
+  },
+  "LAB-619b30e85e": {
+    "summary": "여러 카메라의 VIO에서 계산 예산을 고려해 feature를 선택하고 추적한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Balancing the Budget: Feature Selection and Tracking for Multi-Camera Visual-Inertial Odometry",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 8,
+    "metadataSources": []
+  },
+  "LAB-78d1bdc778": {
+    "summary": "압축된 3D 지도에서 point cloud를 검색한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Retriever: Point Cloud Retrieval in Compressed 3D Maps",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "ICRA2022-Day3 (26)",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/icra46639.2022.9811785",
+      "https://openalex.org/W4285102223"
+    ]
+  },
+  "LAB-fbc9757be9": {
+    "summary": "대규모 장면에서 neural view synthesis를 수행하는 Block-NeRF를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Block-NeRF: Scalable Large Scene Neural View Synthesis",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day2",
+    "sourceRow": 2,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00807",
+      "https://openalex.org/W4312280420"
+    ]
+  },
+  "LAB-2fd60a7821": {
+    "summary": "Manhattan-world 가정 아래 neural 3D scene reconstruction을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Neural 3D Scene Reconstruction with the Manhattan-world Assumption",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day2",
+    "sourceRow": 6,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00543",
+      "https://openalex.org/W4313186498"
+    ]
+  },
+  "LAB-bd1eab2744": {
+    "summary": "상대 자세 추정의 불안정성과 RANSAC의 역할을 살펴본다.",
+    "basis": "paper-title",
+    "sourceTitle": "On the Instability of Relative Pose Estimation and RANSAC’s Role",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day2",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00873",
+      "https://openalex.org/W4312583779"
+    ]
+  },
+  "LAB-8003fe1fbd": {
+    "summary": "미분 가능한 직접 카메라 자세 추정을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "DiffPoseNet: Direct Differentiable Camera Pose Estimation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day2",
+    "sourceRow": 9,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00672",
+      "https://openalex.org/W4312795764"
+    ]
+  },
+  "LAB-829d5dd0c5": {
+    "summary": "대규모 응용을 위한 visual geo-localization 접근을 검토한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Rethinking Visual Geo-localization for Large-Scale Applications",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day1",
+    "sourceRow": 4,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00483",
+      "https://openalex.org/W4312854990"
+    ]
+  },
+  "LAB-dd5d78b92b": {
+    "summary": "Transformer를 이용해 서로 다른 시점의 영상에서 지리적 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day1",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00123",
+      "https://openalex.org/W4312703192"
+    ]
+  },
+  "LAB-ed7ed878f0": {
+    "summary": "Vision-language navigation을 위한 cross-modal map을 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Cross-Modal Map Learning for Vision and Language Navigation",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day3",
+    "sourceRow": 3,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.01502",
+      "https://openalex.org/W4221144910"
+    ]
+  },
+  "LAB-f09aaaa5d3": {
+    "summary": "카메라 위치 추정에 사용할 장면 landmark의 탐지를 학습한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Learning to Detect Scene Landmarks for Camera Localization",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day3",
+    "sourceRow": 5,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.01085",
+      "https://openalex.org/W4312280188"
+    ]
+  },
+  "LAB-25f6de1704": {
+    "summary": "실내 3D 장면 복원 결과에 style transfer를 적용한다.",
+    "basis": "paper-title",
+    "sourceTitle": "StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day3",
+    "sourceRow": 8,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00610",
+      "https://openalex.org/W3215522568"
+    ]
+  },
+  "LAB-0634ecdc06": {
+    "summary": "경계가 정해지지 않은 장면에서 aliasing을 줄이는 neural radiance field를 구성한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day3",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.00539",
+      "https://openalex.org/W3215769467"
+    ]
+  },
+  "LAB-e917bbeb7d": {
+    "summary": "Neural bipartite graph matching으로 여러 로봇의 active mapping을 수행한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Multi-Robot Active Mapping via Neural Bipartite Graph Matching",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day3",
+    "sourceRow": 14,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.01442",
+      "https://openalex.org/W4312776494"
+    ]
+  },
+  "LAB-7f105320b0": {
+    "summary": "Global instance recognition을 이용해 대규모 환경에서 위치를 추정한다.",
+    "basis": "paper-title",
+    "sourceTitle": "Efficient Large-scale Localization by Global Instance Recognition",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day4",
+    "sourceRow": 11,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.01683",
+      "https://openalex.org/W4312751457"
+    ]
+  },
+  "LAB-4d9025ef47": {
+    "summary": "현실적인 PointGoal navigation에 mapping이 필요한지 살펴본다.",
+    "basis": "paper-title",
+    "sourceTitle": "Is Mapping Necessary for Realistic PointGoal Navigation?",
+    "sourceUrl": "https://docs.google.com/spreadsheets/d/1wMdpIKw94etHejbiVCTLv7FkZVe91zan/edit",
+    "sourceSheet": "CVPR2022-Day4",
+    "sourceRow": 16,
+    "metadataSources": [
+      "https://api.crossref.org/works/10.1109/cvpr52688.2022.01672",
+      "https://openalex.org/W4312396969"
+    ]
+  }
+}
