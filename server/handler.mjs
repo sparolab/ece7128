@@ -20,11 +20,11 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
  return async function handle(request,env){
   const origin=request.headers.get('Origin');
   const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Vary':'Origin'};
-  if(origin===allowedOrigin){headers['Access-Control-Allow-Origin']=origin;headers['Access-Control-Allow-Headers']='Content-Type, X-Course-Code';headers['Access-Control-Allow-Methods']='GET, POST, PATCH, OPTIONS';}
+  if(origin===allowedOrigin){headers['Access-Control-Allow-Origin']=origin;headers['Access-Control-Allow-Headers']='Content-Type';headers['Access-Control-Allow-Methods']='GET, POST, PATCH, OPTIONS';}
   const reply=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
   if(request.method==='OPTIONS')return new Response(null,{status:origin===allowedOrigin?204:403,headers});
   if(!['GET','POST','PATCH'].includes(request.method))return reply({error:'지원하지 않는 요청입니다.'},405);
-  if(!env.GITHUB_CONTENTS_TOKEN||!env.COURSE_SUBMISSION_CODE)return reply({error:'등록 기능을 준비 중입니다. 아직 저장되지 않았습니다.'},503);
+  if(!env.GITHUB_CONTENTS_TOKEN)return reply({error:'등록 기능을 준비 중입니다. 아직 저장되지 않았습니다.'},503);
   const ghHeaders={'Authorization':`Bearer ${env.GITHUB_CONTENTS_TOKEN}`,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2026-03-10','User-Agent':'ECE7128-Course-Registry'};
   const endpoint=`https://api.github.com/repos/${REPOSITORY}/contents/${FILE}`;
   async function read(){
@@ -37,8 +37,6 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
   try{
    if(request.method==='GET')return reply(publicData((await read()).data));
    if(origin!==allowedOrigin)return reply({error:'수업 페이지에서 등록해 주세요.'},403);
-   const supplied=request.headers.get('X-Course-Code')||'';
-   if(supplied.length>200||await hash(supplied)!==await hash(env.COURSE_SUBMISSION_CODE))return reply({error:'수업 등록 코드를 확인해 주세요.'},401);
    if(!request.headers.get('Content-Type')?.includes('application/json'))return reply({error:'잘못된 입력 형식입니다.'},415);
    const raw=await request.text();if(encoder.encode(raw).length>16000)return reply({error:'입력 내용이 너무 깁니다.'},413);
    let b;try{b=JSON.parse(raw);}catch{return reply({error:'입력 내용을 읽을 수 없습니다.'},400);}

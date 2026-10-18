@@ -15,7 +15,7 @@ http.createServer(async(req,res)=>{
  const url=new URL(req.url,origin);
  if(url.pathname==='/api/course-registry'){
   const chunks=[];for await(const chunk of req)chunks.push(chunk);
-  const response=await handle(new Request(url,{method:req.method,headers:req.headers,body:['POST','PATCH'].includes(req.method)?Buffer.concat(chunks):undefined}),{GITHUB_CONTENTS_TOKEN:'test-token',COURSE_SUBMISSION_CODE:'preview-only'});
+  const response=await handle(new Request(url,{method:req.method,headers:req.headers,body:['POST','PATCH'].includes(req.method)?Buffer.concat(chunks):undefined}),{GITHUB_CONTENTS_TOKEN:'test-token'});
   res.writeHead(response.status,Object.fromEntries(response.headers));res.end(await response.text());return;
  }
  const rel=url.pathname.replace(/^\/ece7128\//,'/');

@@ -52,10 +52,9 @@ async function submitForm(form,kind){
  const editing=kind==='team'&&editingTeam;
  const body=Object.fromEntries(new FormData(form));body.kind=kind;body.id=editing||(kind==='paper'?paperRequestId:teamRequestId);
  if(!API||!registrationReady){status.textContent='등록 기능은 서버 연결 후 사용할 수 있습니다. 아직 저장되지 않았습니다.';return;}
- const courseCode=String(body.courseCode||'');delete body.courseCode;
  if(kind==='team')body.editKey=editing?editKeys[editingTeam]:newEditKey;
  button.disabled=true;status.textContent='저장 중입니다…';
- try{const r=await fetch(API+'/api/course-registry',{method:editing?'PATCH':'POST',headers:{'Content-Type':'application/json','X-Course-Code':courseCode},body:JSON.stringify(body)});let d;try{d=await r.json()}catch{throw new Error('서버 응답을 받지 못했습니다. 다시 시도해 주세요.')}
+ try{const r=await fetch(API+'/api/course-registry',{method:editing?'PATCH':'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});let d;try{d=await r.json()}catch{throw new Error('서버 응답을 받지 못했습니다. 다시 시도해 주세요.')}
  if(!r.ok){status.textContent=d.error||'저장하지 못했습니다.';if(d.signIn)status.insertAdjacentHTML('beforeend',` <a class="textlink" href="/signin-with-chatgpt?return_to=${encodeURIComponent('/#'+(kind==='paper'?'add':'projects'))}" target="_top">로그인 →</a>`);return;}
  if(kind==='paper'){if(!papers.some(p=>p.id===d.paper.id))papers.push(d.paper);form.reset();paperRequestId=crypto.randomUUID();rebuildOptions();status.innerHTML=(d.existing?'이미 등록된 논문입니다. ':'논문을 등록했습니다. ')+ '<a href="#library" class="textlink">논문 리스트 보기 →</a>';}
  else{editKeys[d.team.id]=body.editKey;try{localStorage.setItem('ece7128-team-keys',JSON.stringify(editKeys))}catch{}d.team.canEdit=true;const i=communityTeams.findIndex(t=>t.id===d.team.id);if(i<0)communityTeams.push(d.team);else communityTeams[i]=d.team;resetTeam();renderTeams();status.textContent=editing?'팀 정보를 수정했습니다.':'팀을 등록했습니다. 아래 팀 현황에서 확인하세요.';}

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {createHandler} from '../server/handler.mjs';
 const origin='https://sparolab.github.io';
 const catalog={topics:['SLAM'],papers:[{id:'base',title:'Existing paper'}]};
-const env={GITHUB_CONTENTS_TOKEN:'test-token',COURSE_SUBMISSION_CODE:'test-course-code'};
+const env={GITHUB_CONTENTS_TOKEN:'test-token'};
 const paper={kind:'paper',title:'새 논문 — SLAM',venue:'CVPR',year:2026,topic:'SLAM',paperUrl:'https://example.com/paper'};
 function fixture(){
  let data={version:1,papers:[],teams:[]},revision=0,conflicts=0,failWrite=false,calls=[];
@@ -20,10 +20,10 @@ function fixture(){
  };
  return {handle:createHandler({catalog,fetcher}),get data(){return data},get calls(){return calls},set conflicts(n){conflicts=n},set failWrite(v){failWrite=v}};
 }
-const req=(body,options={})=>new Request('https://server.example/api/course-registry',{method:options.method||'POST',headers:{Origin:options.origin||origin,'Content-Type':'application/json','X-Course-Code':options.code??env.COURSE_SUBMISSION_CODE},body:JSON.stringify(body)});
-test('writes metadata only to fixed repository; retries are idempotent',async()=>{const f=fixture();let r=await f.handle(req({...paper,repo:'another/repo',pdf:'not saved'}),env);assert.equal(r.status,201);assert.equal(f.data.papers[0].title,paper.title);assert.equal(f.data.papers[0].pdf,undefined);r=await f.handle(req(paper),env);assert.equal(r.status,200);assert.equal((await r.json()).existing,true);assert.equal(f.data.papers.length,1);});
+const req=(body,options={})=>new Request('https://server.example/api/course-registry',{method:options.method||'POST',headers:{Origin:options.origin||origin,'Content-Type':'application/json'},body:JSON.stringify(body)});
+test('accepts submissions without a course code; writes only metadata; retries are idempotent',async()=>{const f=fixture();let r=await f.handle(req({...paper,repo:'another/repo',pdf:'not saved'}),env);assert.equal(r.status,201);assert.equal(f.data.papers[0].title,paper.title);assert.equal(f.data.papers[0].pdf,undefined);r=await f.handle(req(paper),env);assert.equal(r.status,200);assert.equal((await r.json()).existing,true);assert.equal(f.data.papers.length,1);});
 test('existing catalog title is not duplicated',async()=>{const f=fixture();assert.equal((await f.handle(req({...paper,title:' Existing   paper '}),env)).status,200);assert.equal(f.data.papers.length,0);});
-test('rejects invalid code and cross-origin writes before GitHub call',async()=>{const f=fixture();assert.equal((await f.handle(req(paper,{code:'bad'}),env)).status,401);assert.equal((await f.handle(req(paper,{origin:'https://other.example'}),env)).status,403);assert.equal(f.calls.length,0);});
+test('rejects cross-origin writes before GitHub call',async()=>{const f=fixture();assert.equal((await f.handle(req(paper,{origin:'https://other.example'}),env)).status,403);assert.equal(f.calls.length,0);});
 test('validates links, required fields and payload size',async()=>{const f=fixture();for(const b of [{...paper,paperUrl:'javascript:alert(1)'},{...paper,title:''},{...paper,year:0},{...paper,topic:'No'}])assert.equal((await f.handle(req(b),env)).status,400);assert.equal((await f.handle(req({...paper,summary:'x'.repeat(20000)}),env)).status,413);assert.equal(f.data.papers.length,0);});
 test('optimistic concurrency preserves another submission',async()=>{const f=fixture();f.conflicts=1;assert.equal((await f.handle(req(paper),env)).status,201);assert.equal(f.data.papers.length,2);});
 test('write failure is not reported as success',async()=>{const f=fixture();f.failWrite=true;assert.equal((await f.handle(req(paper),env)).status,503);assert.equal(f.data.papers.length,0);});
