@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHandler} from '../server/handler.mjs';
 const port=8768,origin=`http://127.0.0.1:${port}`;
-let data={version:1,papers:[],teams:[]},revision=0;
+let data=JSON.parse(fs.readFileSync('data/submissions.json')),revision=0;
 const handle=createHandler({catalog:JSON.parse(fs.readFileSync('site/catalog.json')),allowedOrigin:origin,fetcher:async(url,options)=>{
  if(options.method!=='PUT')return Response.json({sha:String(revision),content:Buffer.from(JSON.stringify(data)).toString('base64')});
  const b=JSON.parse(options.body);if(b.sha!==String(revision))return Response.json({}, {status:409});data=JSON.parse(Buffer.from(b.content,'base64'));revision++;return Response.json({});

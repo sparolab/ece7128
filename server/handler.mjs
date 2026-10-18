@@ -11,6 +11,14 @@ function text(value,max,required=true) {
  if(typeof value!=='string'||value.trim().length>max||(required&&!value.trim()))throw new Error('입력 항목과 길이를 확인해 주세요.');
  return value.trim();
 }
+function entries(value,maxItems,maxLength,separator){
+ if(value==null||value==='')return [];
+ const values=Array.isArray(value)?value:text(value,maxLength,false).split(separator);
+ if(values.length>maxItems)throw new Error('입력 항목과 길이를 확인해 주세요.');
+ const result=[...new Set(values.map(v=>text(v,300,false)).filter(Boolean))];
+ if(result.join('; ').length>maxLength)throw new Error('입력 항목과 길이를 확인해 주세요.');
+ return result;
+}
 function url(value,required=false){
  const s=text(value??'',2000,required);if(!s)return '';
  try{const u=new URL(s);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw new Error();return u.href;}catch{throw new Error('http 또는 https 링크를 입력해 주세요.');}
@@ -45,7 +53,8 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
    if(b.kind==='paper'&&request.method==='POST'){
     const title=text(b.title,500),venue=text(b.venue,100),year=Number(b.year),topic=text(b.topic,100);
     if(!Number.isInteger(year)||year<1900||year>2100||!catalog.topics.includes(topic))return reply({error:'발표 연도와 연구 주제를 확인해 주세요.'},400);
-    paper={id:'student-'+(await hash(key(title))).slice(0,24),title,venue,year,topic,tags:[topic],prerequisites:[],links:[],paperUrl:url(b.paperUrl,true),projectUrl:url(b.projectUrl),codeUrl:url(b.codeUrl),summary:text(b.summary??'',2000,false),createdAt:new Date().toISOString()};
+    const authors=entries(b.authors,100,3000,/[,;\n]+/),affiliations=entries(b.affiliations,40,3000,/[;\n]+/),keywords=entries(b.keywords,40,1000,/[,;\n]+/);
+    paper={authors,affiliations,keywords,id:'student-'+(await hash(key(title))).slice(0,24),title,venue,year,topic,tags:[topic],prerequisites:[],links:[],paperUrl:url(b.paperUrl,true),projectUrl:url(b.projectUrl),codeUrl:url(b.codeUrl),summary:text(b.summary??'',2000,false),createdAt:new Date().toISOString()};
    }else if(b.kind==='team'){
     const id=text(b.id,80),editKey=text(b.editKey,128);
     if(!/^[a-z0-9-]{20,80}$/i.test(id)||!/^[-a-z0-9]{32,128}$/i.test(editKey))return reply({error:'팀 수정 키를 확인해 주세요.'},400);
