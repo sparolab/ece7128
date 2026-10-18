@@ -43,7 +43,7 @@ $('#reset').onclick=()=>{topic='';interest='';for(const id of ['search','venue',
 $('#page-size').onchange=()=>{pageSize=Number($('#page-size').value);page=1;render()};
 function movePage(n){page=n;render();$('#library-title').scrollIntoView({block:'start',behavior:'smooth'});}
 $('#previous-page').onclick=()=>movePage(page-1);$('#next-page').onclick=()=>movePage(page+1);$('#page-number').onchange=()=>movePage(Number($('#page-number').value));
-$('#interests').innerHTML=[{id:'',label:'전체'},...L.interests].map(i=>`<button class="interest-chip" data-interest="${i.id}" aria-pressed="false">${i.label}</button>`).join('');
+$('#interests').innerHTML=[{id:'',label:'All'},...L.interests].map(i=>`<button class="interest-chip" data-interest="${i.id}" aria-pressed="false">${i.label}</button>`).join('');
 document.querySelectorAll('[data-interest]').forEach(b=>b.onclick=()=>{interest=b.dataset.interest;page=1;render()});
 $('#paper-dialog .close').onclick=()=>$('#paper-dialog').close();$('#paper-dialog').addEventListener('close',()=>document.body.classList.remove('dialog-open'));
 $('#paper-dialog').addEventListener('click',e=>{if(e.target===$('#paper-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});

@@ -4,12 +4,12 @@
  const normalize=v=>String(v??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[‐‑–—]/g,'-');
  const contains=(text,query)=>normalize(query).trim().split(/[\s,;]+/).filter(Boolean).every(w=>normalize(text).includes(w));
  const interests=[
-  {id:'motion',label:'로봇의 위치와 이동',topics:['SLAM','Odometry','Localization']},
-  {id:'photos',label:'사진으로 3D 복원',topics:['SfM']},
-  {id:'rendering',label:'3D 표현과 렌더링',topics:['Gaussian'],pattern:/nerf|radiance field/i},
-  {id:'semantics',label:'물체와 의미 이해',topics:['Semantic Mapping']},
-  {id:'robots',label:'여러 로봇의 협력',pattern:/multi[- ](?:robot|agent)|collaborat|decentrali|여러.*(?:로봇|에이전트)/i},
-  {id:'change',label:'움직이거나 변하는 환경',pattern:/dynamic|changing environment|lifelong|long[- ]term|동적|움직이는|장기/i}
+  {id:'motion',label:'SLAM / Odometry / Localization',topics:['SLAM','Odometry','Localization']},
+  {id:'photos',label:'3D Reconstruction (SfM)',topics:['SfM']},
+  {id:'rendering',label:'3D Representation & Rendering',topics:['Gaussian'],pattern:/nerf|radiance field/i},
+  {id:'semantics',label:'Semantic Understanding',topics:['Semantic Mapping']},
+  {id:'robots',label:'Multi-Robot Collaboration',pattern:/multi[- ](?:robot|agent)|collaborat|decentrali|여러.*(?:로봇|에이전트)/i},
+  {id:'change',label:'Dynamic Environments',pattern:/dynamic|changing environment|lifelong|long[- ]term|동적|움직이는|장기/i}
  ];
  function fields(p){
   const keywords=[...list(p.tags),...list(p.keywords),...list(p.prerequisites)];
