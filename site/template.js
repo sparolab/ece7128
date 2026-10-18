@@ -2,7 +2,7 @@
 'use strict';
 const selectedId=new URLSearchParams(location.search).get('paper');
 let paper=window.CATALOG.papers.find(p=>p.id===selectedId);
-if(selectedId&&!paper){try{const response=await fetch(window.COURSE_CONFIG?.apiBase?window.COURSE_CONFIG.apiBase+'/api/course-registry':'community.json');if(!response.ok)throw new Error();const shared=await response.json();paper=shared.papers.find(p=>p.id===selectedId);if(!paper)throw new Error();}catch{document.querySelector('#editor').insertAdjacentHTML('beforebegin','<p role="status">선택한 논문을 불러오지 못했습니다. 제목과 출처를 직접 입력하거나 새로고침해 주세요.</p>');}}
+if(selectedId&&!paper){try{const response=await fetch(window.COURSE_CONFIG?.apiBase?window.COURSE_CONFIG.apiBase+'/api/course-registry':'community.json');let result=response;if(!result.ok)result=await fetch('community.json');if(!result.ok)throw new Error();const shared=await result.json();paper=shared.papers.find(p=>p.id===selectedId);if(!paper)throw new Error();}catch{document.querySelector('#editor').insertAdjacentHTML('beforebegin','<p role="status">선택한 논문을 불러오지 못했습니다. 제목과 출처를 직접 입력하거나 새로고침해 주세요.</p>');}}
 const key='ece7128-draft-v1-'+(paper?.id||'blank');
 const sections=[
  ['title','논문 제목','발표할 논문의 정식 제목을 적으세요.','input'],

@@ -3,6 +3,8 @@ let communityTeams=[],editingTeam=null,communityReady=false,paperRequestId=crypt
 const pf=$('#paper-form'),tf=$('#team-form');
 const API=window.COURSE_CONFIG?.apiBase;
 let editKeys={};try{editKeys=JSON.parse(localStorage.getItem('ece7128-team-keys')||'{}')}catch{}
+let registrationReady=false;
+function setRegistrationReady(ready){registrationReady=ready;for(const form of [pf,tf]){form.querySelector('[type=submit]').disabled=!ready;form.querySelector('.form-status').textContent=ready?'':'등록 기능을 준비 중입니다. 논문 리스트는 이용할 수 있습니다.';}}
 let newEditKey=crypto.randomUUID()+crypto.randomUUID();
 function applyEditAccess(){communityTeams.forEach(t=>t.canEdit=!!editKeys[t.id]);}
 
@@ -33,19 +35,23 @@ function resetTeam(){editingTeam=null;teamRequestId=crypto.randomUUID();newEditK
 $('#cancel-edit').onclick=resetTeam;
 async function refreshCommunity(){
  const button=$('#refresh-teams');button.disabled=true;
- try {const r=await fetch(API?API+'/api/course-registry':'community.json',{cache:'no-store'});if(!r.ok)throw new Error();const d=await r.json();
- for(const p of d.papers){const i=papers.findIndex(x=>x.id===p.id);if(i<0)papers.push(p);else papers[i]=p;}
- communityTeams=d.teams;applyEditAccess();communityReady=true;rebuildOptions();renderTeams();
- document.querySelectorAll('.shared-error').forEach(n=>n.remove());
- }catch{communityReady=false;$('#team-projects').innerHTML='<div class="empty"><h3>팀 현황을 불러오지 못했습니다.</h3><p>새로고침을 눌러 다시 시도해 주세요.</p></div>';if(!$('.shared-error'))$('#library-view').insertAdjacentHTML('afterbegin','<p class="shared-error" role="status">기본 논문 리스트를 표시하고 있습니다. 학생들이 추가한 목록을 불러오려면 <button class="quiet" id="retry-community">다시 시도</button>해 주세요.</p>');$('#retry-community').onclick=refreshCommunity;
- }finally{button.disabled=false;}
+ let d,live=false;
+ try {
+  if(API){try{const r=await fetch(API+'/api/course-registry',{cache:'no-store'});if(r.ok){d=await r.json();live=true;}}catch{}}
+  if(!d){const r=await fetch('community.json',{cache:'no-store'});if(!r.ok)throw new Error();d=await r.json();}
+  for(const p of d.papers){const i=papers.findIndex(x=>x.id===p.id);if(i<0)papers.push(p);else papers[i]=p;}
+  communityTeams=d.teams;applyEditAccess();communityReady=true;rebuildOptions();renderTeams();setRegistrationReady(live);
+  document.querySelectorAll('.shared-error').forEach(n=>n.remove());
+  if(!live)$('#team-projects').insertAdjacentHTML('afterbegin','<p class="shared-error" role="status">마지막으로 반영된 목록입니다. 등록 기능은 준비 중입니다.</p>');
+ }catch{communityReady=false;setRegistrationReady(false);$('#team-projects').innerHTML='<div class="empty"><h3>팀 현황을 불러오지 못했습니다.</h3><p>새로고침을 눌러 다시 시도해 주세요.</p></div>';}
+ finally{button.disabled=false;}
 }
 $('#refresh-teams').onclick=refreshCommunity;
 async function submitForm(form,kind){
  const status=form.querySelector('.form-status'),button=form.querySelector('[type=submit]');if(button.disabled)return;
  const editing=kind==='team'&&editingTeam;
  const body=Object.fromEntries(new FormData(form));body.kind=kind;body.id=editing||(kind==='paper'?paperRequestId:teamRequestId);
- if(!API){status.textContent='등록 기능은 서버 연결 후 사용할 수 있습니다. 아직 저장되지 않았습니다.';return;}
+ if(!API||!registrationReady){status.textContent='등록 기능은 서버 연결 후 사용할 수 있습니다. 아직 저장되지 않았습니다.';return;}
  const courseCode=String(body.courseCode||'');delete body.courseCode;
  if(kind==='team')body.editKey=editing?editKeys[editingTeam]:newEditKey;
  button.disabled=true;status.textContent='저장 중입니다…';
@@ -56,5 +62,5 @@ async function submitForm(form,kind){
  }catch(e){status.textContent=e.message||'연결을 확인한 뒤 다시 시도해 주세요. 입력 내용은 유지됩니다.';}finally{button.disabled=false;}
 }
 pf.onsubmit=e=>{e.preventDefault();submitForm(pf,'paper')};tf.onsubmit=e=>{e.preventDefault();submitForm(tf,'team')};
-rebuildOptions();refreshCommunity();
+setRegistrationReady(false);rebuildOptions();refreshCommunity();
 if(!API){for(const form of [pf,tf]){form.querySelector('[type=submit]').disabled=true;form.querySelector('.form-status').textContent='등록 기능은 서버 연결 후 열립니다.';}}
