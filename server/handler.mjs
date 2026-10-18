@@ -28,8 +28,8 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
   const ghHeaders={'Authorization':`Bearer ${env.GITHUB_CONTENTS_TOKEN}`,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2026-03-10','User-Agent':'ECE7128-Course-Registry'};
   const endpoint=`https://api.github.com/repos/${REPOSITORY}/contents/${FILE}`;
   async function read(){
-   const r=await fetcher(endpoint+'?ref=main',{headers:ghHeaders,redirect:'error'});
-   if(!r.ok)throw new Error('저장소에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.');
+   const r=await fetcher(endpoint+'?ref=main',{headers:ghHeaders,redirect:'manual'});
+   if(!r.ok){console.error('registry-read-status',r.status);throw new Error('저장소에 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.');}
    const file=await r.json();const data=JSON.parse(decode(file.content));
    if(data.version!==1||!Array.isArray(data.papers)||!Array.isArray(data.teams))throw new Error('저장된 목록 형식을 확인해야 합니다.');
    return {sha:file.sha,data};
@@ -74,7 +74,7 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
     }
     const content=JSON.stringify(data,null,2)+'\n';
     if(encoder.encode(content).length>900000)return reply({error:'목록 저장 공간을 정리해야 합니다. 담당자에게 알려 주세요.'},507);
-    const r=await fetcher(endpoint,{method:'PUT',headers:{...ghHeaders,'Content-Type':'application/json'},redirect:'error',body:JSON.stringify({message:paper?'Update course paper list':'Update course team list',content:encode(content),sha,branch:'main'})});
+    const r=await fetcher(endpoint,{method:'PUT',headers:{...ghHeaders,'Content-Type':'application/json'},redirect:'manual',body:JSON.stringify({message:paper?'Update course paper list':'Update course team list',content:encode(content),sha,branch:'main'})});
     if(r.status===409)continue;
     if(!r.ok)return reply({error:'저장하지 못했습니다. 입력 내용을 유지한 채 다시 시도해 주세요.'},503);
     return reply(result,request.method==='POST'?201:200);
@@ -82,6 +82,7 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
    return reply({error:'다른 등록과 겹쳤습니다. 잠시 후 다시 시도해 주세요.'},409);
   }catch(e){
    const m=e instanceof Error?e.message:'';
+   console.error('registry-error',m.replace(/github_pat_[A-Za-z0-9_]+/g,'[redacted]').slice(0,300));
    const validation=m.startsWith('입력 항목')||m.startsWith('http 또는');
    return reply({error:validation?m:'목록에 연결하지 못했습니다. 입력 내용은 저장되지 않았습니다.'},validation?400:503);
   }

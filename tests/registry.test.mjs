@@ -8,6 +8,7 @@ const paper={kind:'paper',title:'새 논문 — SLAM',venue:'CVPR',year:2026,top
 function fixture(){
  let data={version:1,papers:[],teams:[]},revision=0,conflicts=0,failWrite=false,calls=[];
  const fetcher=async(url,options)=>{
+  if(options.redirect==='error')throw new TypeError('Worker runtime supports only follow or manual redirects');
   calls.push({url,method:options.method||'GET'});
   assert.ok(url.startsWith('https://api.github.com/repos/sparolab/ece7128/contents/data/submissions.json'));
   if(options.method!=='PUT')return Response.json({sha:String(revision),content:Buffer.from(JSON.stringify(data)).toString('base64')});
@@ -29,3 +30,5 @@ test('write failure is not reported as success',async()=>{const f=fixture();f.fa
 test('missing secrets disables registration',async()=>{const f=fixture();assert.equal((await f.handle(req(paper),{})).status,503);assert.equal(f.calls.length,0);});
 test('team edit key is required; public API omits hash',async()=>{const f=fixture();const team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Team',member1:'A',member2:'B',paperId:'base'};assert.equal((await f.handle(req(team),env)).status,201);assert.equal((await f.handle(req({...team,editKey:crypto.randomUUID()},{method:'PATCH'}),env)).status,403);assert.equal((await f.handle(req({...team,url:'https://example.com/team'},{method:'PATCH'}),env)).status,200);const r=await f.handle(new Request('https://server.example/api/course-registry'),env);const d=await r.json();assert.equal(d.teams[0].editHash,undefined);assert.equal(d.teams[0].editKey,undefined);assert.equal(d.teams[0].url,'https://example.com/team');});
 test('CORS preflight admits only course origin',async()=>{const f=fixture();const r=await f.handle(new Request('https://server.example/api/course-registry',{method:'OPTIONS',headers:{Origin:origin}}),env);assert.equal(r.status,204);assert.equal(r.headers.get('Access-Control-Allow-Origin'),origin);});
+
+test('does not follow GitHub redirects carrying credentials',async()=>{let calls=0;const h=createHandler({catalog,fetcher:async()=>{calls++;return new Response(null,{status:302,headers:{Location:'https://other.example'}})}});const r=await h(new Request('https://server.example/api/course-registry'),env);assert.equal(r.status,503);assert.equal(calls,1);});
