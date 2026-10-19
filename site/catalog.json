@@ -9821,6 +9821,2072 @@
         "Gaussian"
       ],
       "eligibility": "candidate"
+    },
+    {
+      "id": "vision-545a532037",
+      "title": "Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Fast3R_Towards_3D_Reconstruction_of_1000_Images_in_One_Forward_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Fast3R_Towards_3D_Reconstruction_of_1000_Images_in_One_Forward_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Multi-view Reconstruction",
+        "Feed-forward Reconstruction",
+        "Transformer"
+      ],
+      "summary": "Predicts aligned 3D point maps from many images in a single forward pass, replacing pairwise reconstruction and iterative global alignment.",
+      "authors": [
+        "Jianing Yang",
+        "Alexander Sax",
+        "Kevin J. Liang",
+        "Mikael Henaff",
+        "Hao Tang",
+        "Ang Cao",
+        "Joyce Chai",
+        "Franziska Meier",
+        "Matt Feiszli"
+      ],
+      "affiliations": [
+        "Meta FAIR",
+        "University of Michigan"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-621222e287",
+      "title": "Structure-from-Motion with a Non-Parametric Camera Model",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Structure-from-Motion_with_a_Non-Parametric_Camera_Model_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Structure-from-Motion_with_a_Non-Parametric_Camera_Model_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "keywords": [
+        "Camera Calibration",
+        "Non-parametric Camera",
+        "Bundle Adjustment"
+      ],
+      "summary": "Performs structure from motion with a non-parametric camera model that adapts to available calibration constraints and varied camera optics.",
+      "authors": [
+        "Yihan Wang",
+        "Linfei Pan",
+        "Marc Pollefeys",
+        "Viktor Larsson"
+      ],
+      "affiliations": [
+        "EPFL",
+        "ETH Zurich",
+        "Microsoft Spatial AI Lab",
+        "Lund University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-cfccf944e5",
+      "title": "Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Reloc3r_Large-Scale_Training_of_Relative_Camera_Pose_Regression_for_Generalizable_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Reloc3r_Large-Scale_Training_of_Relative_Camera_Pose_Regression_for_Generalizable_CVPR_2025_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization",
+        "SfM"
+      ],
+      "keywords": [
+        "Relative Pose",
+        "Pose Regression",
+        "Motion Averaging"
+      ],
+      "summary": "Combines learned relative camera pose regression with motion averaging to localize images across previously unseen scenes.",
+      "authors": [
+        "Siyan Dong",
+        "Shuzhe Wang",
+        "Shaohui Liu",
+        "Lulu Cai",
+        "Qingnan Fan",
+        "Juho Kannala",
+        "Yanchao Yang"
+      ],
+      "affiliations": [
+        "The University of Hong Kong",
+        "Aalto University",
+        "ETH Zurich",
+        "VIVO",
+        "University of Oulu"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-c043446a81",
+      "title": "MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MoGe_Unlocking_Accurate_Monocular_Geometry_Estimation_for_Open-Domain_Images_with_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MoGe_Unlocking_Accurate_Monocular_Geometry_Estimation_for_Open-Domain_Images_with_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "SfM"
+      ],
+      "keywords": [
+        "Monocular Depth",
+        "Point Map",
+        "Geometry Estimation"
+      ],
+      "summary": "Estimates an affine-invariant 3D point map from a single image using training objectives that balance global geometry and local detail.",
+      "authors": [
+        "Ruicheng Wang",
+        "Sicheng Xu",
+        "Cassie Dai",
+        "Jianfeng Xiang",
+        "Yu Deng",
+        "Xin Tong",
+        "Jiaolong Yang"
+      ],
+      "affiliations": [
+        "University of Science and Technology of China",
+        "Microsoft Research",
+        "Harvard University",
+        "Tsinghua University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-ae5ffdea71",
+      "title": "FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_FLARE_Feed-forward_Geometry_Appearance_and_Camera_Estimation_from_Uncalibrated_Sparse_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_FLARE_Feed-forward_Geometry_Appearance_and_Camera_Estimation_from_Uncalibrated_Sparse_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Sparse-view Reconstruction",
+        "Feed-forward Reconstruction",
+        "Camera Pose"
+      ],
+      "summary": "Uses a cascaded feed-forward model to estimate cameras, scene geometry, and appearance from sparse uncalibrated images.",
+      "authors": [
+        "Shangzhan Zhang",
+        "Jianyuan Wang",
+        "Yinghao Xu",
+        "Nan Xue",
+        "Christian Rupprecht",
+        "Xiaowei Zhou",
+        "Yujun Shen",
+        "Gordon Wetzstein"
+      ],
+      "affiliations": [
+        "Zhejiang University",
+        "Ant Group",
+        "University of Oxford",
+        "Stanford University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-f4c93e3bdc",
+      "title": "MUSt3R: Multi-view Network for Stereo 3D Reconstruction",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "SfM"
+      ],
+      "keywords": [
+        "Multi-view Stereo",
+        "Point Map",
+        "Memory Network"
+      ],
+      "summary": "Extends stereo point-map prediction to multiple views using a symmetric architecture and a memory mechanism for shared-frame 3D reconstruction.",
+      "authors": [
+        "Yohann Cabon",
+        "Lucas Stoffl",
+        "Leonid Antsfeld",
+        "Gabriela Csurka",
+        "Boris Chidlovskii",
+        "Jerome Revaud",
+        "Vincent Leroy"
+      ],
+      "affiliations": [
+        "Naver Labs Europe",
+        "EPFL"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-931fc4ea62",
+      "title": "Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Camera Priors",
+        "Depth Priors",
+        "Point Map"
+      ],
+      "summary": "Conditions learned 3D reconstruction on available camera intrinsics, relative poses, and depth priors while retaining support for unconstrained inputs.",
+      "authors": [
+        "Wonbong Jang",
+        "Philippe Weinzaepfel",
+        "Vincent Leroy",
+        "Lourdes Agapito",
+        "Jerome Revaud"
+      ],
+      "affiliations": [
+        "University College London",
+        "Naver Labs Europe"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-56d9d0c3ab",
+      "title": "Light3R-SfM: Towards Feed-forward Structure-from-Motion",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Elflein_Light3R-SfM_Towards_Feed-forward_Structure-from-Motion_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Elflein_Light3R-SfM_Towards_Feed-forward_Structure-from-Motion_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "keywords": [
+        "Feed-forward SfM",
+        "Global Alignment",
+        "Attention"
+      ],
+      "summary": "Aligns multi-view geometry in latent space with attention and a sparse view graph to enable feed-forward structure from motion.",
+      "authors": [
+        "Sven Elflein",
+        "Qunjie Zhou",
+        "Laura Leal-Taixé"
+      ],
+      "affiliations": [
+        "NVIDIA",
+        "Vector Institute",
+        "University of Toronto"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-39d79ff7e4",
+      "title": "Dense-SfM: Structure from Motion with Dense Consistent Matching",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Dense-SfM_Structure_from_Motion_with_Dense_Consistent_Matching_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Dense-SfM_Structure_from_Motion_with_Dense_Consistent_Matching_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "keywords": [
+        "Dense Matching",
+        "Feature Tracks",
+        "Multi-view Consistency"
+      ],
+      "summary": "Builds structure from motion around dense correspondences, extending tracks and refining matches to improve consistency across views.",
+      "authors": [
+        "JongMin Lee",
+        "Sungjoo Yoo"
+      ],
+      "affiliations": [
+        "Seoul National University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-3e5c367b09",
+      "title": "DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DiffusionSfM_Predicting_Structure_and_Motion_via_Ray_Origin_and_Endpoint_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DiffusionSfM_Predicting_Structure_and_Motion_via_Ray_Origin_and_Endpoint_CVPR_2025_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Diffusion Model",
+        "Camera Rays",
+        "Joint Reconstruction"
+      ],
+      "summary": "Uses diffusion to predict camera ray origins and endpoints in a shared frame, jointly recovering camera motion and scene structure.",
+      "authors": [
+        "Qitao Zhao",
+        "Amy Lin",
+        "Jeff Tan",
+        "Jason Y. Zhang",
+        "Deva Ramanan",
+        "Shubham Tulsiani"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-32697487c3",
+      "title": "MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_MV-DUSt3R_Single-Stage_Scene_Reconstruction_from_Sparse_Views_In_2_Seconds_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_MV-DUSt3R_Single-Stage_Scene_Reconstruction_from_Sparse_Views_In_2_Seconds_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "SfM",
+        "Gaussian"
+      ],
+      "keywords": [
+        "Sparse-view Reconstruction",
+        "Point Map",
+        "Gaussian Splatting"
+      ],
+      "summary": "Fuses sparse uncalibrated images through multi-view and cross-reference decoding to predict scene geometry and Gaussian representations in one stage.",
+      "authors": [
+        "Zhenggang Tang",
+        "Yuchen Fan",
+        "Dilin Wang",
+        "Hongyu Xu",
+        "Rakesh Ranjan",
+        "Alexander Schwing",
+        "Zhicheng Yan"
+      ],
+      "affiliations": [
+        "Meta Reality Labs",
+        "University of Illinois Urbana-Champaign"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-07a102ee4d",
+      "title": "ZeroVO: Visual Odometry with Minimal Assumptions",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_ZeroVO_Visual_Odometry_with_Minimal_Assumptions_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_ZeroVO_Visual_Odometry_with_Minimal_Assumptions_CVPR_2025_paper.html"
+      ],
+      "topic": "Odometry",
+      "tags": [
+        "Odometry"
+      ],
+      "keywords": [
+        "Visual Odometry",
+        "Calibration-free",
+        "Geometry and Semantics"
+      ],
+      "summary": "Combines geometry-aware visual learning and language-derived priors for visual odometry without requiring camera calibration at inference.",
+      "authors": [
+        "Lei Lai",
+        "Zekai Yin",
+        "Eshed Ohn-Bar"
+      ],
+      "affiliations": [
+        "Boston University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-46be18cde2",
+      "title": "DepthSplat: Connecting Gaussian Splatting and Depth",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_DepthSplat_Connecting_Gaussian_Splatting_and_Depth_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_DepthSplat_Connecting_Gaussian_Splatting_and_Depth_CVPR_2025_paper.html"
+      ],
+      "topic": "Gaussian",
+      "tags": [
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Multi-view Depth",
+        "Depth Estimation",
+        "Feed-forward Gaussian Splatting"
+      ],
+      "summary": "Connects multi-view depth estimation with Gaussian prediction, using pretrained monocular features and rendering supervision to support both tasks.",
+      "authors": [
+        "Haofei Xu",
+        "Songyou Peng",
+        "Fangjinhua Wang",
+        "Hermann Blum",
+        "Daniel Barath",
+        "Andreas Geiger",
+        "Marc Pollefeys"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "University of Tübingen",
+        "Tübingen AI Center",
+        "Microsoft",
+        "University of Bonn"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-af5602c8e8",
+      "title": "Video Depth Anything: Consistent Depth Estimation for Super-Long Videos",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping"
+      ],
+      "keywords": [
+        "Video Depth",
+        "Temporal Consistency",
+        "Monocular Depth"
+      ],
+      "summary": "Combines a spatiotemporal depth model, temporal training losses, and keyframe-based inference to estimate consistent depth over long videos.",
+      "authors": [
+        "Sili Chen",
+        "Hengkai Guo",
+        "Shengnan Zhu",
+        "Feihu Zhang",
+        "Zilong Huang",
+        "Jiashi Feng",
+        "Bingyi Kang"
+      ],
+      "affiliations": [
+        "ByteDance"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-e2595b0e41",
+      "title": "FoundationStereo: Zero-Shot Stereo Matching",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Wen_FoundationStereo_Zero-Shot_Stereo_Matching_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Wen_FoundationStereo_Zero-Shot_Stereo_Matching_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping"
+      ],
+      "keywords": [
+        "Stereo Matching",
+        "Zero-shot Generalization",
+        "Cost Volume"
+      ],
+      "summary": "Combines synthetic stereo training, monocular foundation features, and long-range cost-volume reasoning for stereo depth estimation in unseen domains.",
+      "authors": [
+        "Bowen Wen",
+        "Matthew Trepte",
+        "Joseph Aribido",
+        "Jan Kautz",
+        "Orazio Gallo",
+        "Stan Birchfield"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-cd4304dc24",
+      "title": "GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Zuo_GaussianWorld_Gaussian_World_Model_for_Streaming_3D_Occupancy_Prediction_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Zuo_GaussianWorld_Gaussian_World_Model_for_Streaming_3D_Occupancy_Prediction_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "Gaussian",
+        "Semantic Mapping"
+      ],
+      "keywords": [
+        "3D Occupancy",
+        "World Model",
+        "Temporal Fusion"
+      ],
+      "summary": "Updates a Gaussian scene representation through ego-motion alignment, dynamic motion modeling, and scene completion for streaming 3D occupancy prediction.",
+      "authors": [
+        "Sicheng Zuo",
+        "Wenzhao Zheng",
+        "Yuanhui Huang",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-d009203f0d",
+      "title": "GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_GaussianFormer-2_Probabilistic_Gaussian_Superposition_for_Efficient_3D_Occupancy_Prediction_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_GaussianFormer-2_Probabilistic_Gaussian_Superposition_for_Efficient_3D_Occupancy_Prediction_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "Gaussian",
+        "Semantic Mapping"
+      ],
+      "keywords": [
+        "3D Occupancy",
+        "Gaussian Mixture",
+        "Probabilistic Modeling"
+      ],
+      "summary": "Represents geometry through probabilistic Gaussian superposition and semantics through Gaussian mixtures for efficient 3D occupancy prediction.",
+      "authors": [
+        "Yuanhui Huang",
+        "Amonnut Thammatadatrakoon",
+        "Wenzhao Zheng",
+        "Yunpeng Zhang",
+        "Dalong Du",
+        "Jiwen Lu"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Phigent Robotics"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-2064600ad6",
+      "title": "Dr. Splat: Directly Referring 3D Gaussian Splatting via Direct Language Embedding Registration",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Jun-Seong_Dr._Splat_Directly_Referring_3D_Gaussian_Splatting_via_Direct_Language_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Jun-Seong_Dr._Splat_Directly_Referring_3D_Gaussian_Splatting_via_Direct_Language_CVPR_2025_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "Open-vocabulary",
+        "Language Features",
+        "3D Scene Understanding"
+      ],
+      "summary": "Registers language embeddings directly onto 3D Gaussians and compresses them for text-driven querying of reconstructed scenes.",
+      "authors": [
+        "Kim Jun-Seong",
+        "GeonU Kim",
+        "Kim Yu-Ji",
+        "Yu-Chiang Frank Wang",
+        "Jaesung Choe",
+        "Tae-Hyun Oh"
+      ],
+      "affiliations": [
+        "POSTECH",
+        "NVIDIA",
+        "KAIST"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-1000d08081",
+      "title": "MAGiC-SLAM: Multi-Agent Gaussian Globally Consistent  SLAM",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Yugay_MAGiC-SLAM_Multi-Agent_Gaussian_Globally_Consistent__SLAM_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Yugay_MAGiC-SLAM_Multi-Agent_Gaussian_Globally_Consistent__SLAM_CVPR_2025_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Multi-agent SLAM",
+        "Loop Closure",
+        "Map Merging"
+      ],
+      "summary": "Combines Gaussian mapping across multiple agents with map merging and loop closure to maintain globally consistent camera trajectories and scene maps.",
+      "authors": [
+        "Vladimir Yugay",
+        "Theo Gevers",
+        "Martin R. Oswald"
+      ],
+      "affiliations": [
+        "University of Amsterdam"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-3f39d5d0ea",
+      "title": "ActiveGAMER: Active GAussian Mapping through Efficient Rendering",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_ActiveGAMER_Active_GAussian_Mapping_through_Efficient_Rendering_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_ActiveGAMER_Active_GAussian_Mapping_through_Efficient_Rendering_CVPR_2025_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "Active Mapping",
+        "Next Best View",
+        "Information Gain"
+      ],
+      "summary": "Uses information gain estimated through Gaussian rendering to choose camera viewpoints for active scene reconstruction.",
+      "authors": [
+        "Liyan Chen",
+        "Huangying Zhan",
+        "Kevin Chen",
+        "Xiangyu Xu",
+        "Qingan Yan",
+        "Changjiang Cai",
+        "Yi Xu"
+      ],
+      "affiliations": [
+        "OPPO US Research Center",
+        "Stevens Institute of Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-7a7cfaa8eb",
+      "title": "InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception",
+      "venue": "CVPR",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_InstanceGaussian_Appearance-Semantic_Joint_Gaussian_Representation_for_3D_Instance-Level_Perception_CVPR_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Li_InstanceGaussian_Appearance-Semantic_Joint_Gaussian_Representation_for_3D_Instance-Level_Perception_CVPR_2025_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "Instance Segmentation",
+        "Joint Appearance and Semantics",
+        "3D Perception"
+      ],
+      "summary": "Jointly learns Gaussian appearance and semantic features, then aggregates them into instances for 3D scene perception.",
+      "authors": [
+        "Haijie Li",
+        "Yanmin Wu",
+        "Jiarui Meng",
+        "Qiankun Gao",
+        "Zhiyao Zhang",
+        "Ronggang Wang",
+        "Jian Zhang"
+      ],
+      "affiliations": [
+        "Peking University",
+        "Northeastern University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-56bb6bf66c",
+      "title": "VGGSfM: Visual Geometry Grounded Deep Structure From Motion",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_VGGSfM_Visual_Geometry_Grounded_Deep_Structure_From_Motion_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_VGGSfM_Visual_Geometry_Grounded_Deep_Structure_From_Motion_CVPR_2024_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "keywords": [
+        "Feature Tracking",
+        "Camera Estimation",
+        "Differentiable Bundle Adjustment"
+      ],
+      "summary": "Combines learned feature tracking, camera estimation, and differentiable bundle adjustment in an end-to-end trainable structure-from-motion pipeline.",
+      "authors": [
+        "Jianyuan Wang",
+        "Nikita Karaev",
+        "Christian Rupprecht",
+        "David Novotny"
+      ],
+      "affiliations": [
+        "University of Oxford",
+        "Meta AI"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-fbc0628c12",
+      "title": "Detector-Free Structure from Motion",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Detector-Free_Structure_from_Motion_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/He_Detector-Free_Structure_from_Motion_CVPR_2024_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM"
+      ],
+      "keywords": [
+        "Detector-free Matching",
+        "Track Refinement",
+        "Bundle Adjustment"
+      ],
+      "summary": "Initializes structure from motion from quantized detector-free correspondences, then refines feature tracks and geometry across multiple views.",
+      "authors": [
+        "Xingyi He",
+        "Jiaming Sun",
+        "Yifan Wang",
+        "Sida Peng",
+        "Qixing Huang",
+        "Hujun Bao",
+        "Xiaowei Zhou"
+      ],
+      "affiliations": [
+        "Zhejiang University",
+        "The University of Texas at Austin"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-c739d19c69",
+      "title": "XFeat: Accelerated Features for Lightweight Image Matching",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Potje_XFeat_Accelerated_Features_for_Lightweight_Image_Matching_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Potje_XFeat_Accelerated_Features_for_Lightweight_Image_Matching_CVPR_2024_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Localization"
+      ],
+      "keywords": [
+        "Local Features",
+        "Image Matching",
+        "Lightweight Networks"
+      ],
+      "summary": "Extracts sparse and semi-dense local image features with a lightweight network and refines matches for efficient image correspondence estimation.",
+      "authors": [
+        "Guilherme Potje",
+        "Felipe Cadar",
+        "André Araujo",
+        "Renato Martins",
+        "Erickson R. Nascimento"
+      ],
+      "affiliations": [
+        "Universidade Federal de Minas Gerais",
+        "Université de Bourgogne",
+        "CNRS",
+        "Google Research",
+        "Université de Lorraine",
+        "Inria",
+        "Microsoft"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-e6a0275539",
+      "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping"
+      ],
+      "keywords": [
+        "Monocular Depth",
+        "Unlabeled Data",
+        "Foundation Models"
+      ],
+      "summary": "Learns monocular depth from large collections of automatically labeled images with strong augmentation and semantic guidance from pretrained visual features.",
+      "authors": [
+        "Lihe Yang",
+        "Bingyi Kang",
+        "Zilong Huang",
+        "Xiaogang Xu",
+        "Jiashi Feng",
+        "Hengshuang Zhao"
+      ],
+      "affiliations": [
+        "The University of Hong Kong",
+        "TikTok",
+        "The Chinese University of Hong Kong",
+        "Zhejiang University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-27cf0ea915",
+      "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Charatan_pixelSplat_3D_Gaussian_Splats_from_Image_Pairs_for_Scalable_Generalizable_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Charatan_pixelSplat_3D_Gaussian_Splats_from_Image_Pairs_for_Scalable_Generalizable_CVPR_2024_paper.html"
+      ],
+      "topic": "Gaussian",
+      "tags": [
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Image Pair",
+        "Generalizable Reconstruction",
+        "Novel View Synthesis"
+      ],
+      "summary": "Predicts 3D Gaussians from an image pair by differentiably sampling their locations from learned depth distributions for generalizable view synthesis.",
+      "authors": [
+        "David Charatan",
+        "Sizhe Lester Li",
+        "Andrea Tagliasacchi",
+        "Vincent Sitzmann"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology",
+        "Simon Fraser University",
+        "University of Toronto"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-d29a116798",
+      "title": "SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Guedon_SuGaR_Surface-Aligned_Gaussian_Splatting_for_Efficient_3D_Mesh_Reconstruction_and_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Guedon_SuGaR_Surface-Aligned_Gaussian_Splatting_for_Efficient_3D_Mesh_Reconstruction_and_CVPR_2024_paper.html"
+      ],
+      "topic": "Gaussian",
+      "tags": [
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Surface Reconstruction",
+        "Mesh Extraction",
+        "Poisson Reconstruction"
+      ],
+      "summary": "Regularizes Gaussians to align with surfaces, enabling mesh extraction and optional joint refinement of the mesh and Gaussian representation.",
+      "authors": [
+        "Antoine Guédon",
+        "Vincent Lepetit"
+      ],
+      "affiliations": [
+        "LIGM",
+        "École des Ponts",
+        "Université Gustave Eiffel",
+        "CNRS"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-4512fc5c20",
+      "title": "Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Lu_Scaffold-GS_Structured_3D_Gaussians_for_View-Adaptive_Rendering_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Lu_Scaffold-GS_Structured_3D_Gaussians_for_View-Adaptive_Rendering_CVPR_2024_paper.html"
+      ],
+      "topic": "Gaussian",
+      "tags": [
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Anchor Points",
+        "View-dependent Appearance",
+        "Adaptive Representation"
+      ],
+      "summary": "Organizes Gaussians around spatial anchors and predicts their attributes from viewing conditions for adaptive scene rendering.",
+      "authors": [
+        "Tao Lu",
+        "Mulin Yu",
+        "Linning Xu",
+        "Yuanbo Xiangli",
+        "Limin Wang",
+        "Dahua Lin",
+        "Bo Dai"
+      ],
+      "affiliations": [
+        "Shanghai Artificial Intelligence Laboratory",
+        "The Chinese University of Hong Kong",
+        "Nanjing University",
+        "Cornell University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-8b245e34c6",
+      "title": "LangSplat: 3D Language Gaussian Splatting",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "Language Features",
+        "Open-vocabulary",
+        "Scene Queries"
+      ],
+      "summary": "Stores compressed language features on 3D Gaussians and uses hierarchical semantic supervision to enable open-vocabulary scene queries.",
+      "authors": [
+        "Minghan Qin",
+        "Wanhua Li",
+        "Jiawei Zhou",
+        "Haoqian Wang",
+        "Hanspeter Pfister"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Harvard University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-58d19efe2c",
+      "title": "Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Koch_Open3DSG_Open-Vocabulary_3D_Scene_Graphs_from_Point_Clouds_with_Queryable_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Koch_Open3DSG_Open-Vocabulary_3D_Scene_Graphs_from_Point_Clouds_with_Queryable_CVPR_2024_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping"
+      ],
+      "keywords": [
+        "3D Scene Graph",
+        "Open-vocabulary",
+        "Object Relationships"
+      ],
+      "summary": "Aligns 3D scene-graph features with vision-language representations to support open-vocabulary object queries and flexible relationship descriptions.",
+      "authors": [
+        "Sebastian Koch",
+        "Narunas Vaskevicius",
+        "Mirco Colosi",
+        "Pedro Hermosilla",
+        "Timo Ropinski"
+      ],
+      "affiliations": [
+        "Bosch Center for Artificial Intelligence",
+        "Robert Bosch Corporate Research",
+        "University of Ulm",
+        "TU Wien"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-acd5f74e3e",
+      "title": "SNI-SLAM: Semantic Neural Implicit SLAM",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Semantic Mapping",
+        "Mapping"
+      ],
+      "keywords": [
+        "Neural Implicit SLAM",
+        "Semantic Features",
+        "RGB-D"
+      ],
+      "summary": "Fuses appearance, geometry, and semantic features through cross-attention in a neural implicit representation for semantic RGB-D SLAM.",
+      "authors": [
+        "Siting Zhu",
+        "Guangming Wang",
+        "Hermann Blum",
+        "Jiuming Liu",
+        "Liang Song",
+        "Marc Pollefeys",
+        "Hesheng Wang"
+      ],
+      "affiliations": [
+        "Shanghai Jiao Tong University",
+        "University of Cambridge",
+        "ETH Zurich",
+        "China University of Mining and Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-4958852dd9",
+      "title": "Loopy-SLAM: Dense Neural SLAM with Loop Closures",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Liso_Loopy-SLAM_Dense_Neural_SLAM_with_Loop_Closures_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Liso_Loopy-SLAM_Dense_Neural_SLAM_with_Loop_Closures_CVPR_2024_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Loop Closure",
+        "Neural Point Cloud",
+        "Pose Graph Optimization"
+      ],
+      "summary": "Builds neural point-cloud submaps and uses place recognition, loop closure, and pose-graph optimization to correct accumulated mapping drift.",
+      "authors": [
+        "Lorenzo Liso",
+        "Erik Sandström",
+        "Vladimir Yugay",
+        "Luc Van Gool",
+        "Martin R. Oswald"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "KU Leuven",
+        "University of Amsterdam",
+        "INSAIT"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-bb705ae3db",
+      "title": "LEAP-VO: Long-term Effective Any Point Tracking for Visual Odometry",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_LEAP-VO_Long-term_Effective_Any_Point_Tracking_for_Visual_Odometry_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_LEAP-VO_Long-term_Effective_Any_Point_Tracking_for_Visual_Odometry_CVPR_2024_paper.html"
+      ],
+      "topic": "Odometry",
+      "tags": [
+        "Odometry"
+      ],
+      "keywords": [
+        "Point Tracking",
+        "Uncertainty",
+        "Dynamic Scenes"
+      ],
+      "summary": "Uses long-term point tracking with temporal uncertainty estimation as the front end of visual odometry in occluded and dynamic scenes.",
+      "authors": [
+        "Weirong Chen",
+        "Le Chen",
+        "Rui Wang",
+        "Marc Pollefeys"
+      ],
+      "affiliations": [
+        "Technical University of Munich",
+        "Munich Center for Machine Learning",
+        "Max Planck Institute for Intelligent Systems",
+        "Microsoft"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-a23196585e",
+      "title": "Optimal Transport Aggregation for Visual Place Recognition",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Izquierdo_Optimal_Transport_Aggregation_for_Visual_Place_Recognition_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Izquierdo_Optimal_Transport_Aggregation_for_Visual_Place_Recognition_CVPR_2024_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization"
+      ],
+      "keywords": [
+        "Visual Place Recognition",
+        "Optimal Transport",
+        "Global Descriptors"
+      ],
+      "summary": "Aggregates local features through optimal transport, selectively discarding uninformative features to form global descriptors for visual place recognition.",
+      "authors": [
+        "Sergio Izquierdo",
+        "Javier Civera"
+      ],
+      "affiliations": [
+        "University of Zaragoza"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-59f4256490",
+      "title": "CricaVPR: Cross-image Correlation-aware Representation Learning for Visual Place Recognition",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Lu_CricaVPR_Cross-image_Correlation-aware_Representation_Learning_for_Visual_Place_Recognition_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Lu_CricaVPR_Cross-image_Correlation-aware_Representation_Learning_for_Visual_Place_Recognition_CVPR_2024_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization"
+      ],
+      "keywords": [
+        "Visual Place Recognition",
+        "Cross-image Attention",
+        "Foundation Models"
+      ],
+      "summary": "Learns place descriptors using cross-image correlations and multi-scale adaptation of pretrained visual features to account for viewpoint and appearance changes.",
+      "authors": [
+        "Feng Lu",
+        "Xiangyuan Lan",
+        "Lijun Zhang",
+        "Dongmei Jiang",
+        "Yaowei Wang",
+        "Chun Yuan"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Peng Cheng Laboratory",
+        "University of Chinese Academy of Sciences"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-b5765ccbd3",
+      "title": "SG-PGM: Partial Graph Matching Network with Semantic Geometric Fusion for 3D Scene Graph Alignment and Its Downstream Tasks",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_SG-PGM_Partial_Graph_Matching_Network_with_Semantic_Geometric_Fusion_for_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_SG-PGM_Partial_Graph_Matching_Network_with_Semantic_Geometric_Fusion_for_CVPR_2024_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Localization"
+      ],
+      "keywords": [
+        "3D Scene Graph",
+        "Partial Graph Matching",
+        "Point Cloud Registration"
+      ],
+      "summary": "Fuses semantic and geometric features to partially match 3D scene graphs and guide point-cloud registration in overlapping scene regions.",
+      "authors": [
+        "Yaxu Xie",
+        "Alain Pagani",
+        "Didier Stricker"
+      ],
+      "affiliations": [
+        "German Research Center for Artificial Intelligence"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-f573666bd6",
+      "title": "Point Transformer V3: Simpler Faster Stronger",
+      "venue": "CVPR",
+      "year": 2024,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Mapping"
+      ],
+      "keywords": [
+        "Point Cloud",
+        "Transformer",
+        "Serialized Attention"
+      ],
+      "summary": "Uses serialized point-cloud neighborhoods to scale transformer processing efficiently for 3D representation learning and downstream perception tasks.",
+      "authors": [
+        "Xiaoyang Wu",
+        "Li Jiang",
+        "Peng-Shuai Wang",
+        "Zhijian Liu",
+        "Xihui Liu",
+        "Yu Qiao",
+        "Wanli Ouyang",
+        "Tong He",
+        "Hengshuang Zhao"
+      ],
+      "affiliations": [
+        "The University of Hong Kong",
+        "Shanghai Artificial Intelligence Laboratory",
+        "The Chinese University of Hong Kong, Shenzhen",
+        "Peking University",
+        "Massachusetts Institute of Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-ca27110e27",
+      "title": "Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Co-SLAM_Joint_Coordinate_and_Sparse_Parametric_Encodings_for_Neural_Real-Time_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Co-SLAM_Joint_Coordinate_and_Sparse_Parametric_Encodings_for_Neural_Real-Time_CVPR_2023_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Neural Implicit SLAM",
+        "Hash Grid",
+        "Global Bundle Adjustment"
+      ],
+      "summary": "Combines coordinate and sparse parametric encodings with global keyframe bundle adjustment for RGB-D camera tracking and neural surface mapping.",
+      "authors": [
+        "Hengyi Wang",
+        "Jingwen Wang",
+        "Lourdes Agapito"
+      ],
+      "affiliations": [
+        "University College London"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-e84e997c48",
+      "title": "ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Johari_ESLAM_Efficient_Dense_SLAM_System_Based_on_Hybrid_Representation_of_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Johari_ESLAM_Efficient_Dense_SLAM_System_Based_on_Hybrid_Representation_of_CVPR_2023_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Signed Distance Field",
+        "Feature Planes",
+        "RGB-D"
+      ],
+      "summary": "Represents scene geometry and color with multi-scale feature planes and shallow decoders for joint RGB-D camera tracking and dense reconstruction.",
+      "authors": [
+        "Mohammad Mahdi Johari",
+        "Camilla Carta",
+        "François Fleuret"
+      ],
+      "affiliations": [
+        "Idiap Research Institute",
+        "EPFL",
+        "ams OSRAM",
+        "University of Geneva"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-079adfaa07",
+      "title": "vMAP: Vectorised Object Mapping for Neural Field SLAM",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Kong_vMAP_Vectorised_Object_Mapping_for_Neural_Field_SLAM_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Kong_vMAP_Vectorised_Object_Mapping_for_Neural_Field_SLAM_CVPR_2023_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping",
+        "Semantic Mapping"
+      ],
+      "keywords": [
+        "Object Mapping",
+        "Neural Fields",
+        "Vectorized Training"
+      ],
+      "summary": "Maps detected objects as separate neural fields and optimizes them with vectorized training during object-level RGB-D SLAM.",
+      "authors": [
+        "Xin Kong",
+        "Shikun Liu",
+        "Marwan Taher",
+        "Andrew J. Davison"
+      ],
+      "affiliations": [
+        "Imperial College London"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-436dd00ea2",
+      "title": "Neuralangelo: High-Fidelity Neural Surface Reconstruction",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Li_Neuralangelo_High-Fidelity_Neural_Surface_Reconstruction_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Li_Neuralangelo_High-Fidelity_Neural_Surface_Reconstruction_CVPR_2023_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping"
+      ],
+      "keywords": [
+        "Neural Surface Reconstruction",
+        "Hash Grid",
+        "Coarse-to-fine Optimization"
+      ],
+      "summary": "Combines multi-resolution hash grids, numerical gradients, and coarse-to-fine optimization to reconstruct detailed surfaces from multi-view RGB images.",
+      "authors": [
+        "Zhaoshuo Li",
+        "Thomas Müller",
+        "Alex Evans",
+        "Russell H. Taylor",
+        "Mathias Unberath",
+        "Ming-Yu Liu",
+        "Chen-Hsuan Lin"
+      ],
+      "affiliations": [
+        "NVIDIA Research",
+        "Johns Hopkins University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-1e452ac3aa",
+      "title": "OpenScene: 3D Scene Understanding With Open Vocabularies",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Peng_OpenScene_3D_Scene_Understanding_With_Open_Vocabularies_CVPR_2023_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Mapping"
+      ],
+      "keywords": [
+        "Open-vocabulary",
+        "CLIP",
+        "3D Semantic Segmentation"
+      ],
+      "summary": "Embeds 3D scene points in a shared image-text feature space, enabling open-vocabulary semantic queries without labeled 3D training data.",
+      "authors": [
+        "Songyou Peng",
+        "Kyle Genova",
+        "Chiyu “Max” Jiang",
+        "Andrea Tagliasacchi",
+        "Marc Pollefeys",
+        "Thomas Funkhouser"
+      ],
+      "affiliations": [
+        "Google Research",
+        "ETH Zurich",
+        "Max Planck Institute for Intelligent Systems",
+        "Waymo",
+        "Simon Fraser University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-16356db2d1",
+      "title": "OrienterNet: Visual Localization in 2D Public Maps With Neural Matching",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Sarlin_OrienterNet_Visual_Localization_in_2D_Public_Maps_With_Neural_Matching_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Sarlin_OrienterNet_Visual_Localization_in_2D_Public_Maps_With_Neural_Matching_CVPR_2023_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization",
+        "Mapping"
+      ],
+      "keywords": [
+        "Public Maps",
+        "Bird's-eye View",
+        "Visual Localization"
+      ],
+      "summary": "Matches a learned bird's-eye-view representation of a single image against a public 2D map to estimate camera pose probabilistically.",
+      "authors": [
+        "Paul-Edouard Sarlin",
+        "Daniel DeTone",
+        "Tsun-Yi Yang",
+        "Armen Avetisyan",
+        "Julian Straub",
+        "Tomasz Malisiewicz",
+        "Samuel Rota Bulò",
+        "Richard Newcombe",
+        "Peter Kontschieder",
+        "Vasileios Balntas"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "Meta Reality Labs"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-fda0e3d865",
+      "title": "R2Former: Unified Retrieval and Reranking Transformer for Place Recognition",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_R2Former_Unified_Retrieval_and_Reranking_Transformer_for_Place_Recognition_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_R2Former_Unified_Retrieval_and_Reranking_Transformer_for_Place_Recognition_CVPR_2023_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization"
+      ],
+      "keywords": [
+        "Visual Place Recognition",
+        "Retrieval",
+        "Reranking"
+      ],
+      "summary": "Uses a transformer to combine image retrieval and candidate reranking through feature correlations, attention, and spatial information for place recognition.",
+      "authors": [
+        "Sijie Zhu",
+        "Linjie Yang",
+        "Chen Chen",
+        "Mubarak Shah",
+        "Xiaohui Shen",
+        "Heng Wang"
+      ],
+      "affiliations": [
+        "ByteDance",
+        "University of Central Florida"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-3a60564956",
+      "title": "BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization",
+        "Mapping"
+      ],
+      "keywords": [
+        "Point Cloud Registration",
+        "Local Features",
+        "Correspondences"
+      ],
+      "summary": "Combines pointwise keypoints and orientations, patch descriptors, and correspondence filtering to balance accuracy and efficiency in point-cloud registration.",
+      "authors": [
+        "Sheng Ao",
+        "Qingyong Hu",
+        "Hanyun Wang",
+        "Kai Xu",
+        "Yulan Guo"
+      ],
+      "affiliations": [
+        "Sun Yat-sen University",
+        "University of Oxford",
+        "Information Engineering University",
+        "National University of Defense Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-b25fa8e763",
+      "title": "PVO: Panoptic Visual Odometry",
+      "venue": "CVPR",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/CVPR2023/html/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/CVPR2023/html/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.html"
+      ],
+      "topic": "Odometry",
+      "tags": [
+        "Odometry",
+        "Semantic Mapping"
+      ],
+      "keywords": [
+        "Panoptic Segmentation",
+        "Dynamic Scenes",
+        "Visual Odometry"
+      ],
+      "summary": "Jointly refines panoptic segmentation and visual odometry, using semantic masks to handle motion and geometry to propagate segmentation across frames.",
+      "authors": [
+        "Weicai Ye",
+        "Xinyue Lan",
+        "Shuo Chen",
+        "Yuhang Ming",
+        "Xingyuan Yu",
+        "Hujun Bao",
+        "Zhaopeng Cui",
+        "Guofeng Zhang"
+      ],
+      "affiliations": [
+        "Zhejiang University",
+        "ZJU-SenseTime Joint Lab of 3D Vision",
+        "Hangzhou Dianzi University",
+        "University of Bristol"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-843a66b0ac",
+      "title": "LightGlue: Local Feature Matching at Light Speed",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Lindenberger_LightGlue_Local_Feature_Matching_at_Light_Speed_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Lindenberger_LightGlue_Local_Feature_Matching_at_Light_Speed_ICCV_2023_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Localization"
+      ],
+      "keywords": [
+        "Local Feature Matching",
+        "Adaptive Computation",
+        "Attention"
+      ],
+      "summary": "Matches local image features with an attention-based network that adapts its computational effort to the difficulty of each image pair.",
+      "authors": [
+        "Philipp Lindenberger",
+        "Paul-Edouard Sarlin",
+        "Marc Pollefeys"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "Microsoft Mixed Reality & AI Lab"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-5849db5c14",
+      "title": "GlueStick: Robust Image Matching by Sticking Points and Lines Together",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Pautrat_GlueStick_Robust_Image_Matching_by_Sticking_Points_and_Lines_Together_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Pautrat_GlueStick_Robust_Image_Matching_by_Sticking_Points_and_Lines_Together_ICCV_2023_paper.html"
+      ],
+      "topic": "SfM",
+      "tags": [
+        "SfM",
+        "Localization"
+      ],
+      "keywords": [
+        "Point and Line Features",
+        "Wireframe",
+        "Graph Neural Network"
+      ],
+      "summary": "Matches points and line segments jointly by representing images as wireframes and exploiting their connectivity with a graph neural network.",
+      "authors": [
+        "Rémi Pautrat",
+        "Iago Suárez",
+        "Yifan Yu",
+        "Marc Pollefeys",
+        "Viktor Larsson"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "Qualcomm XR Labs Europe",
+        "Microsoft Mixed Reality & AI Lab",
+        "Lund University"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-03aed47cd6",
+      "title": "Point-SLAM: Dense Neural Point Cloud-based SLAM",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Sandstrom_Point-SLAM_Dense_Neural_Point_Cloud-based_SLAM_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Sandstrom_Point-SLAM_Dense_Neural_Point_Cloud-based_SLAM_ICCV_2023_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Neural Point Cloud",
+        "RGB-D",
+        "Differentiable Rendering"
+      ],
+      "summary": "Anchors neural features to an adaptive point cloud and uses rendering losses for camera tracking and dense RGB-D scene reconstruction.",
+      "authors": [
+        "Erik Sandström",
+        "Yue Li",
+        "Luc Van Gool",
+        "Martin R. Oswald"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "KU Leuven",
+        "University of Amsterdam"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-e99b3fc035",
+      "title": "GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_GO-SLAM_Global_Optimization_for_Consistent_3D_Instant_Reconstruction_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_GO-SLAM_Global_Optimization_for_Consistent_3D_Instant_Reconstruction_ICCV_2023_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Mapping"
+      ],
+      "keywords": [
+        "Global Optimization",
+        "Loop Closure",
+        "Neural Implicit Mapping"
+      ],
+      "summary": "Combines neural implicit reconstruction with loop closure and global bundle adjustment to jointly maintain consistent camera poses and scene geometry.",
+      "authors": [
+        "Youmin Zhang",
+        "Fabio Tosi",
+        "Stefano Mattoccia",
+        "Matteo Poggi"
+      ],
+      "affiliations": [
+        "University of Bologna"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-490673f222",
+      "title": "Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Barron_Zip-NeRF_Anti-Aliased_Grid-Based_Neural_Radiance_Fields_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Barron_Zip-NeRF_Anti-Aliased_Grid-Based_Neural_Radiance_Fields_ICCV_2023_paper.html"
+      ],
+      "topic": "Mapping",
+      "tags": [
+        "Mapping"
+      ],
+      "keywords": [
+        "NeRF",
+        "Anti-aliasing",
+        "Grid Representation"
+      ],
+      "summary": "Combines grid-based neural radiance fields with scale-aware sampling and anti-aliasing to render views with reduced sampling artifacts.",
+      "authors": [
+        "Jonathan T. Barron",
+        "Ben Mildenhall",
+        "Dor Verbin",
+        "Pratul P. Srinivasan",
+        "Peter Hedman"
+      ],
+      "affiliations": [
+        "Google Research"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-2312ab7fe0",
+      "title": "EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Berton_EigenPlaces_Training_Viewpoint_Robust_Models_for_Visual_Place_Recognition_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Berton_EigenPlaces_Training_Viewpoint_Robust_Models_for_Visual_Place_Recognition_ICCV_2023_paper.html"
+      ],
+      "topic": "Localization",
+      "tags": [
+        "Localization"
+      ],
+      "keywords": [
+        "Visual Place Recognition",
+        "Viewpoint Robustness",
+        "Global Descriptors"
+      ],
+      "summary": "Groups training images by place and viewing direction to learn global descriptors that support place recognition across viewpoint changes.",
+      "authors": [
+        "Gabriele Berton",
+        "Gabriele Trivigno",
+        "Barbara Caputo",
+        "Carlo Masone"
+      ],
+      "affiliations": [
+        "Politecnico di Torino"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-252f7f58fa",
+      "title": "SGAligner: 3D Scene Alignment with Scene Graphs",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Sarkar_SGAligner_3D_Scene_Alignment_with_Scene_Graphs_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Sarkar_SGAligner_3D_Scene_Alignment_with_Scene_Graphs_ICCV_2023_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Localization"
+      ],
+      "keywords": [
+        "Scene Graph Alignment",
+        "Multi-modal Features",
+        "Partial Overlap"
+      ],
+      "summary": "Learns joint multimodal embeddings to align 3D scene graphs under partial overlap and scene changes, supporting geometric scene registration.",
+      "authors": [
+        "Sayan Deb Sarkar",
+        "Ondrej Miksik",
+        "Marc Pollefeys",
+        "Daniel Barath",
+        "Iro Armeni"
+      ],
+      "affiliations": [
+        "ETH Zurich",
+        "Microsoft Mixed Reality & AI Lab"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-0c0fed01bd",
+      "title": "NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping",
+      "venue": "ICCV",
+      "year": 2023,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2023/html/Deng_NeRF-LOAM_Neural_Implicit_Representation_for_Large-Scale_Incremental_LiDAR_Odometry_and_ICCV_2023_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2023/html/Deng_NeRF-LOAM_Neural_Implicit_Representation_for_Large-Scale_Incremental_LiDAR_Odometry_and_ICCV_2023_paper.html"
+      ],
+      "topic": "Odometry",
+      "tags": [
+        "Odometry",
+        "Mapping"
+      ],
+      "keywords": [
+        "LiDAR",
+        "Signed Distance Field",
+        "Neural Mapping"
+      ],
+      "summary": "Uses a neural signed-distance representation for incremental LiDAR odometry and mapping, including separate treatment of ground and non-ground geometry.",
+      "authors": [
+        "Junyuan Deng",
+        "Qi Wu",
+        "Xieyuanli Chen",
+        "Songpengcheng Xia",
+        "Zhen Sun",
+        "Guoqing Liu",
+        "Wenxian Yu",
+        "Ling Pei"
+      ],
+      "affiliations": [
+        "Shanghai Jiao Tong University",
+        "National University of Defense Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-0850188e82",
+      "title": "4D Gaussian Splatting SLAM",
+      "venue": "ICCV",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_4D_Gaussian_Splatting_SLAM_ICCV_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/html/Li_4D_Gaussian_Splatting_SLAM_ICCV_2025_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Dynamic Scenes",
+        "4D Reconstruction",
+        "Optical Flow"
+      ],
+      "summary": "Separates static and dynamic Gaussians and learns time-dependent deformations with optical-flow constraints for RGB-D SLAM in changing scenes.",
+      "authors": [
+        "Yanyan Li",
+        "Youxu Fang",
+        "Zunjie Zhu",
+        "Kunyi Li",
+        "Yong  Ding",
+        "Federico Tombari"
+      ],
+      "affiliations": [
+        "Hangzhou Dianzi University",
+        "Technical University of Munich",
+        "Zhejiang University",
+        "Google"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-e2d85f939e",
+      "title": "Splat-LOAM: Gaussian Splatting LiDAR Odometry and Mapping",
+      "venue": "ICCV",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2025/html/Giacomini_Splat-LOAM_Gaussian_Splatting_LiDAR_Odometry_and_Mapping_ICCV_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/html/Giacomini_Splat-LOAM_Gaussian_Splatting_LiDAR_Odometry_and_Mapping_ICCV_2025_paper.html"
+      ],
+      "topic": "Odometry",
+      "tags": [
+        "Odometry",
+        "Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "LiDAR",
+        "Spherical Projection",
+        "Gaussian Splatting"
+      ],
+      "summary": "Uses spherical projection to refine a Gaussian scene representation from LiDAR measurements for joint odometry and mapping.",
+      "authors": [
+        "Emanuele Giacomini",
+        "Luca Di Giammarino",
+        "Lorenzo De Rebotti",
+        "Giorgio Grisetti",
+        "Martin R. Oswald"
+      ],
+      "affiliations": [
+        "Sapienza University of Rome",
+        "University of Amsterdam"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-c24830c9ae",
+      "title": "DyGS-SLAM: Real-Time Accurate Localization and Gaussian Reconstruction for Dynamic Scenes",
+      "venue": "ICCV",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2025/html/Hu_DyGS-SLAM_Real-Time_Accurate_Localization_and_Gaussian_Reconstruction_for_Dynamic_Scenes_ICCV_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/html/Hu_DyGS-SLAM_Real-Time_Accurate_Localization_and_Gaussian_Reconstruction_for_Dynamic_Scenes_ICCV_2025_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Dynamic Scenes",
+        "Motion Filtering",
+        "Gaussian Reconstruction"
+      ],
+      "summary": "Combines geometric, appearance, and semantic cues to identify dynamic content and build a Gaussian map of the static background during SLAM.",
+      "authors": [
+        "Xinggang Hu",
+        "Chenyangguang Zhang",
+        "Mingyuan Zhao",
+        "Yuanze Gui",
+        "Xiangkui Zhang",
+        "Xiangyang Ji"
+      ],
+      "affiliations": [
+        "Dalian University of Technology",
+        "Tsinghua University",
+        "University of Chinese Academy of Sciences",
+        "Beijing University of Technology"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-affaba2174",
+      "title": "ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration",
+      "venue": "ICCV",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2025/html/Conti_ToF-Splatting_Dense_SLAM_using_Sparse_Time-of-Flight_Depth_and_Multi-Frame_Integration_ICCV_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/html/Conti_ToF-Splatting_Dense_SLAM_using_Sparse_Time-of-Flight_Depth_and_Multi-Frame_Integration_ICCV_2025_paper.html"
+      ],
+      "topic": "SLAM",
+      "tags": [
+        "SLAM",
+        "Gaussian",
+        "Mapping"
+      ],
+      "keywords": [
+        "Time-of-Flight",
+        "Sparse Depth",
+        "Multi-frame Fusion"
+      ],
+      "summary": "Combines sparse time-of-flight depth with RGB observations and multi-frame geometry to support dense Gaussian mapping and camera tracking.",
+      "authors": [
+        "Andrea Conti",
+        "Matteo Poggi",
+        "Valerio Cambareri",
+        "Martin R. Oswald",
+        "Stefano Mattoccia"
+      ],
+      "affiliations": [
+        "University of Bologna",
+        "Sony DepthSensing Solutions",
+        "University of Amsterdam"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
+    },
+    {
+      "id": "vision-191cb82de0",
+      "title": "FROSS: Faster-Than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images",
+      "venue": "ICCV",
+      "year": 2025,
+      "paperUrl": "https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html",
+      "sourceUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html"
+      ],
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping",
+        "Mapping",
+        "Gaussian"
+      ],
+      "keywords": [
+        "3D Scene Graph",
+        "RGB-D",
+        "Online Mapping"
+      ],
+      "summary": "Lifts 2D scene graphs into a 3D Gaussian object representation to incrementally build semantic scene graphs from RGB-D observations.",
+      "authors": [
+        "Hao-Yu Hou",
+        "Chun-Yi Lee",
+        "Motoharu Sonogashira",
+        "Yasutomo Kawanishi"
+      ],
+      "affiliations": [
+        "National Tsing Hua University",
+        "National Taiwan University",
+        "RIKEN"
+      ],
+      "projectUrl": null,
+      "codeUrl": null
     }
   ],
   "teams": []
