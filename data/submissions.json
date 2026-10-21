@@ -17,6 +17,38 @@
       "codeUrl": "https://github.com/colmap/colmap",
       "summary": "순서가 정해지지 않은 이미지 모음에서 카메라 자세와 3D 구조를 복원하는 incremental SfM 방법을 제안한다. 공개 구현은 COLMAP이다.",
       "createdAt": "2026-10-18T07:15:24.119Z"
+    },
+    {
+      "authors": [
+        "Xinggang Hu",
+        "Chenyangguang Zhang",
+        "Zihan Zhu",
+        "Ruida Zhang",
+        "Xiangkui Zhang",
+        "Xiangyang Ji"
+      ],
+      "affiliations": [
+        "Tsinghua University, Dalian University of Technology, ETH Zurich"
+      ],
+      "keywords": [
+        "Functional Scene Graph",
+        "Semantic SLAM"
+      ],
+      "id": "student-916349bb2b4f496903f98372",
+      "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
+      "venue": "CoRL",
+      "year": 2026,
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping"
+      ],
+      "prerequisites": [],
+      "links": [],
+      "paperUrl": "https://arxiv.org/abs/2609.07497",
+      "projectUrl": "",
+      "codeUrl": "https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026",
+      "summary": "Functional-SLAM is an interaction-aware SLAM system that constructs an online functional 3D scene graph while estimating camera motion and dense scene geometry. It represents objects (O), functional carriers (C), robot-operable interaction units (U), and their local and remote functional relations.",
+      "createdAt": "2026-10-21T02:42:28.959Z"
     }
   ],
   "teams": []
