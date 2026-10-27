@@ -112,6 +112,19 @@
       "editHash": "89bb9f18cb5f45feb8029652b41ea01a39144524334ce0e65f03270e593f8f09",
       "paperTitle": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
       "createdAt": "2026-10-27T06:11:30.602Z"
+    },
+    {
+      "id": "dbde595b-a978-4e47-819c-447c95b5a476",
+      "name": "rcv",
+      "members": [
+        "박윤수",
+        "김보메나"
+      ],
+      "paperId": "add-slam-former-2026",
+      "url": "",
+      "editHash": "eb70b4ced4b65015050b1f24e0f87a94356c17cf2e52c466ea2d4c8379175bea",
+      "paperTitle": "SLAM-Former: Putting SLAM into One Transformer",
+      "createdAt": "2026-10-27T13:22:47.393Z"
     }
   ]
 }
