@@ -49,6 +49,54 @@
       "codeUrl": "https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026",
       "summary": "Functional-SLAM is an interaction-aware SLAM system that constructs an online functional 3D scene graph while estimating camera motion and dense scene geometry. It represents objects (O), functional carriers (C), robot-operable interaction units (U), and their local and remote functional relations.",
       "createdAt": "2026-10-21T02:42:28.959Z"
+    },
+    {
+      "authors": [
+        "Nadun Ranawaka",
+        "Josiah Wong",
+        "Wei-Lin Pai",
+        "Wei-Teng Chu",
+        "Tianyuan Dai",
+        "Masoud Moghani",
+        "Hang Yin",
+        "Yunfan Jiang",
+        "Wesley Durbano",
+        "Brandon Huynh",
+        "Yu Fang1",
+        "Danfei Xu",
+        "Ruohan Zhang",
+        "Li Fei-Fei",
+        "Linxi Fan",
+        "Bowen Wen",
+        "Ajay Mandlekar",
+        "Yuke Zhu"
+      ],
+      "affiliations": [
+        "NVIDIA",
+        "Georgia Institute of Technology",
+        "Stanford University",
+        "The University of Texas at Austin",
+        "University of Toronto"
+      ],
+      "keywords": [
+        "real2sim",
+        "3dgs"
+      ],
+      "id": "student-138fcc602686b1eead76aec1",
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "venue": "archive",
+      "year": 2026,
+      "topic": "Gaussian",
+      "tags": [
+        "Gaussian"
+      ],
+      "prerequisites": [],
+      "links": [],
+      "paperUrl": "https://arxiv.org/abs/2606.28276",
+      "projectUrl": "https://research.nvidia.com/labs/gear/simfoundry/",
+      "codeUrl": "https://github.com/NVlabs/SimFoundry",
+      "summary": "SimFoundry automatically converts a single real-world video into an interactive simulation environment for scalable robot policy training and evaluation.",
+      "createdAt": "2026-10-27T06:08:11.572Z"
     }
   ],
   "teams": []
