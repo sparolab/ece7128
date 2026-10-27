@@ -99,5 +99,19 @@
       "createdAt": "2026-10-27T06:08:11.572Z"
     }
   ],
-  "teams": []
+  "teams": [
+    {
+      "id": "378eea79-0197-4678-8978-cc125be46077",
+      "name": "Sim & Choi",
+      "members": [
+        "심태후",
+        "최지원"
+      ],
+      "paperId": "student-138fcc602686b1eead76aec1",
+      "url": "",
+      "editHash": "89bb9f18cb5f45feb8029652b41ea01a39144524334ce0e65f03270e593f8f09",
+      "paperTitle": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "createdAt": "2026-10-27T06:11:30.602Z"
+    }
+  ]
 }
