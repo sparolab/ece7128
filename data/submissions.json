@@ -190,6 +190,19 @@
       "editHash": "da520f897dc00d829c6b059a5c03149aab3ac1afabf4a5dcb3ca2bbff9c3f4a4",
       "paperTitle": "LAMP: Implicit Language Map for Robot Navigation",
       "createdAt": "2026-10-28T06:27:57.626Z"
+    },
+    {
+      "id": "a98d93e6-7d66-4b0e-bced-5ac506e21872",
+      "name": "MediaAI",
+      "members": [
+        "김찬영",
+        "김재형"
+      ],
+      "paperId": "vision-d29a116798",
+      "url": "",
+      "editHash": "0578acacc625f63cf0248cb9ea9879787a1e53b6840a95db43552d3d1e662ea7",
+      "paperTitle": "SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
+      "createdAt": "2026-10-28T07:54:19.199Z"
     }
   ]
 }
