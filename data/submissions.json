@@ -97,6 +97,45 @@
       "codeUrl": "https://github.com/NVlabs/SimFoundry",
       "summary": "SimFoundry automatically converts a single real-world video into an interactive simulation environment for scalable robot policy training and evaluation.",
       "createdAt": "2026-10-27T06:08:11.572Z"
+    },
+    {
+      "authors": [
+        "Haokun Zhu",
+        "Zongtai Li",
+        "Zihan Liu",
+        "Kevin Guo",
+        "Zhengzhi Lin",
+        "Yuxin Cai",
+        "Guofei Chen",
+        "Chen Lv",
+        "Wenshan Wang",
+        "Jean Oh"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "keywords": [
+        "Object Navigation",
+        "Cross-Embodiment",
+        "VLM Reasoning",
+        "Base Autonomy",
+        "RA-L"
+      ],
+      "id": "student-2ff1da9fb972c1f73bc4a005",
+      "title": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
+      "venue": "RA-L",
+      "year": 2026,
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping"
+      ],
+      "prerequisites": [],
+      "links": [],
+      "paperUrl": "https://arxiv.org/abs/2603.06914",
+      "projectUrl": "https://cmu-vln.github.io/",
+      "codeUrl": "https://github.com/cmu-vln/SysNav",
+      "summary": "SysNav enables building-scale, long-range object navigation across diverse robotic embodiments through multi-level systematic cooperation that decouples semantic reasoning, navigation planning, and motion control.",
+      "createdAt": "2026-10-28T01:42:33.592Z"
     }
   ],
   "teams": [
