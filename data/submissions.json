@@ -164,6 +164,19 @@
       "editHash": "eb70b4ced4b65015050b1f24e0f87a94356c17cf2e52c466ea2d4c8379175bea",
       "paperTitle": "SLAM-Former: Putting SLAM into One Transformer",
       "createdAt": "2026-10-27T13:22:47.393Z"
+    },
+    {
+      "id": "f41fb4ee-917e-4200-be3f-adab63287a83",
+      "name": "ToF-Splatters",
+      "members": [
+        "김경민",
+        "박도희"
+      ],
+      "paperId": "vision-affaba2174",
+      "url": "",
+      "editHash": "1f2bf4bf85a32af884f7e0868333addc874d9f33d8f04c9e727fdabf198de499",
+      "paperTitle": "ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration",
+      "createdAt": "2026-10-28T05:18:35.116Z"
     }
   ]
 }
