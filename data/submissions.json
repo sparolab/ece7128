@@ -177,6 +177,19 @@
       "editHash": "1f2bf4bf85a32af884f7e0868333addc874d9f33d8f04c9e727fdabf198de499",
       "paperTitle": "ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration",
       "createdAt": "2026-10-28T05:18:35.116Z"
+    },
+    {
+      "id": "62fdf707-8969-4474-89c2-f65b2cc717ed",
+      "name": "@home",
+      "members": [
+        "조동진",
+        "한지현"
+      ],
+      "paperId": "LAB-faf28d8263",
+      "url": "",
+      "editHash": "da520f897dc00d829c6b059a5c03149aab3ac1afabf4a5dcb3ca2bbff9c3f4a4",
+      "paperTitle": "LAMP: Implicit Language Map for Robot Navigation",
+      "createdAt": "2026-10-28T06:27:57.626Z"
     }
   ]
 }
