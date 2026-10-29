@@ -216,6 +216,19 @@
       "editHash": "81672aead14cad2439cbc8544aef89896e858dd9e0287ec4ec9f1dc08768a806",
       "paperTitle": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
       "createdAt": "2026-10-29T04:38:34.153Z"
+    },
+    {
+      "id": "7b3992c8-bd35-4533-9bfe-59c14e997ac8",
+      "name": "jeongyun",
+      "members": [
+        "정석환",
+        "윤승희"
+      ],
+      "paperId": "LAB-eb331d36c6",
+      "url": "",
+      "editHash": "f289162532aa46b84be0a264105d7b7ba51984033e783d134b2c88a86beef326",
+      "paperTitle": "OpenSU3D: Open World 3D Scene Understanding Using Foundation Models",
+      "createdAt": "2026-10-29T05:07:03.359Z"
     }
   ]
 }
