@@ -203,6 +203,19 @@
       "editHash": "0578acacc625f63cf0248cb9ea9879787a1e53b6840a95db43552d3d1e662ea7",
       "paperTitle": "SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
       "createdAt": "2026-10-28T07:54:19.199Z"
+    },
+    {
+      "id": "38e1cf12-6826-47ef-993c-f8198d600ea5",
+      "name": "LEE^2",
+      "members": [
+        "이정우",
+        "이기현"
+      ],
+      "paperId": "student-916349bb2b4f496903f98372",
+      "url": "",
+      "editHash": "81672aead14cad2439cbc8544aef89896e858dd9e0287ec4ec9f1dc08768a806",
+      "paperTitle": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
+      "createdAt": "2026-10-29T04:38:34.153Z"
     }
   ]
 }
