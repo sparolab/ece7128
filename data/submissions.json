@@ -229,6 +229,19 @@
       "editHash": "f289162532aa46b84be0a264105d7b7ba51984033e783d134b2c88a86beef326",
       "paperTitle": "OpenSU3D: Open World 3D Scene Understanding Using Foundation Models",
       "createdAt": "2026-10-29T05:07:03.359Z"
+    },
+    {
+      "id": "d5c54cc0-e764-42b9-a256-853c7af5d7c8",
+      "name": "LoveSPARO",
+      "members": [
+        "백운영",
+        "이민호"
+      ],
+      "paperId": "student-2ff1da9fb972c1f73bc4a005",
+      "url": "",
+      "editHash": "61b98e60494b1e1e6d4dd61e7765cecc361ebddf921d1bf6290e299e97012fb8",
+      "paperTitle": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
+      "createdAt": "2026-10-29T10:10:31.011Z"
     }
   ]
 }
