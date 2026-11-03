@@ -255,6 +255,19 @@
       "editHash": "cbecba46288c1a8bb4ae2ac45c5598a2f65a6c6ff37d1d0c9fb262691fb66dcf",
       "paperTitle": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
       "createdAt": "2026-11-03T07:56:44.881Z"
+    },
+    {
+      "id": "7053db5e-0919-4af6-b0b5-cf6c7b59ff9f",
+      "name": "X-Spatial",
+      "members": [
+        "이대연",
+        "Vacancy"
+      ],
+      "paperId": "vision-c739d19c69",
+      "url": "",
+      "editHash": "0a0e75220b9a05a48738678d62c87fd6e54d191f624a9984db24770a7973678b",
+      "paperTitle": "XFeat: Accelerated Features for Lightweight Image Matching",
+      "createdAt": "2026-11-03T09:58:36.372Z"
     }
   ]
 }
