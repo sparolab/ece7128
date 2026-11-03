@@ -242,6 +242,19 @@
       "editHash": "61b98e60494b1e1e6d4dd61e7765cecc361ebddf921d1bf6290e299e97012fb8",
       "paperTitle": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
       "createdAt": "2026-10-29T10:10:31.011Z"
+    },
+    {
+      "id": "b4b71686-ed8b-4319-a9a1-55af92093fe7",
+      "name": "SLAMDunk",
+      "members": [
+        "민창기",
+        "이상현"
+      ],
+      "paperId": "add-mast3r-slam-2025",
+      "url": "",
+      "editHash": "cbecba46288c1a8bb4ae2ac45c5598a2f65a6c6ff37d1d0c9fb262691fb66dcf",
+      "paperTitle": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+      "createdAt": "2026-11-03T07:56:44.881Z"
     }
   ]
 }
