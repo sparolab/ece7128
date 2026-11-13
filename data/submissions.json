@@ -136,6 +136,39 @@
       "codeUrl": "https://github.com/cmu-vln/SysNav",
       "summary": "SysNav enables building-scale, long-range object navigation across diverse robotic embodiments through multi-level systematic cooperation that decouples semantic reasoning, navigation planning, and motion control.",
       "createdAt": "2026-10-28T01:42:33.592Z"
+    },
+    {
+      "authors": [
+        "Ziwon Yoon",
+        "Seok Hwan Kim",
+        "Yiyu Chen",
+        "Quan Nguyen",
+        "Lu Gan",
+        "Ye Zhao"
+      ],
+      "affiliations": [
+        "Georgia Tech, VinMotion, USC"
+      ],
+      "keywords": [
+        "Semantic Mapping",
+        "Object Movability",
+        "NAMO"
+      ],
+      "id": "student-4319387949963783f088f9f3",
+      "title": "Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+      "venue": "CORL-WORKSHOP",
+      "year": 2026,
+      "topic": "Semantic Mapping",
+      "tags": [
+        "Semantic Mapping"
+      ],
+      "prerequisites": [],
+      "links": [],
+      "paperUrl": "https://arxiv.org/pdf/2611.11665",
+      "projectUrl": "https://yzwfromk.github.io/HINT_VLM/",
+      "codeUrl": "",
+      "summary": "HINT-VLM enables humanoid navigation among movable obstacles on rough terrain by correcting VLM movability priors with a residual Gaussian process trained on robot interaction data and planning over the resulting success probabilities with an uncertainty-aware planner.",
+      "createdAt": "2026-11-13T06:27:56.497Z"
     }
   ],
   "teams": [
