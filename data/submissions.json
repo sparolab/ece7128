@@ -301,6 +301,19 @@
       "editHash": "0a0e75220b9a05a48738678d62c87fd6e54d191f624a9984db24770a7973678b",
       "paperTitle": "XFeat: Accelerated Features for Lightweight Image Matching",
       "createdAt": "2026-11-03T09:58:36.372Z"
+    },
+    {
+      "id": "bf6347df-e8c6-4651-914b-d39ae9b3c7b7",
+      "name": "@Home",
+      "members": [
+        "조동진",
+        "한지현"
+      ],
+      "paperId": "student-4319387949963783f088f9f3",
+      "url": "",
+      "editHash": "9ed573956cbdf76ddb138c859a58d627a51203f9774366f856debf28bb9d567f",
+      "paperTitle": "Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+      "createdAt": "2026-11-13T06:30:03.382Z"
     }
   ]
 }
