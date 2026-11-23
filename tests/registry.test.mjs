@@ -34,3 +34,26 @@ test('CORS preflight admits only course origin',async()=>{const f=fixture();cons
 test('does not follow GitHub redirects carrying credentials',async()=>{let calls=0;const h=createHandler({catalog,fetcher:async()=>{calls++;return new Response(null,{status:302,headers:{Location:'https://other.example'}})}});const r=await h(new Request('https://server.example/api/course-registry'),env);assert.equal(r.status,503);assert.equal(calls,1);});
 test('preserves optional author, affiliation and keyword metadata',async()=>{const f=fixture();const r=await f.handle(req({...paper,authors:'Alice Park, Bob Cho',affiliations:'Inha University; ETH Zurich',keywords:'LiDAR, loop closure'}),env);assert.equal(r.status,201);assert.deepEqual(f.data.papers[0].authors,['Alice Park','Bob Cho']);assert.deepEqual(f.data.papers[0].affiliations,['Inha University','ETH Zurich']);assert.deepEqual(f.data.papers[0].keywords,['LiDAR','loop closure']);});
 test('rejects oversized metadata without writing',async()=>{const f=fixture();assert.equal((await f.handle(req({...paper,authors:'A'.repeat(3001)}),env)).status,400);assert.equal(f.data.papers.length,0);});
+
+test('proposal can be submitted before a project page; links and server timestamps survive reload',async()=>{
+ const f=fixture(),team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Proposal team',member1:'A',member2:'B',paperId:'base',proposalUrl:'https://youtu.be/abcdefghijk'};
+ const created=await f.handle(req(team),env);assert.equal(created.status,201);
+ const saved=(await created.json()).team;assert.equal(saved.url,'');assert.equal(saved.proposalUrl,team.proposalUrl);assert.ok(Date.parse(saved.proposalSubmittedAt));assert.equal(saved.proposalUpdatedAt,saved.proposalSubmittedAt);
+ const reload=await f.handle(new Request('https://server.example/api/course-registry'),env);assert.equal((await reload.json()).teams[0].proposalUrl,team.proposalUrl);
+ const {proposalUrl,...legacy}=team;
+ const changed=await f.handle(req({...legacy,url:'https://example.com/project'},{method:'PATCH'}),env);assert.equal(changed.status,200);
+ assert.equal(f.data.teams[0].proposalUrl,proposalUrl);assert.equal(f.data.teams[0].proposalSubmittedAt,saved.proposalSubmittedAt);assert.equal(f.data.teams[0].proposalUpdatedAt,saved.proposalUpdatedAt);
+ const updated=await f.handle(req({...team,proposalUrl:'https://www.youtube.com/watch?v=lmnopqrstuv',url:'https://example.com/project',proposalSubmittedAt:'forged'},{method:'PATCH'}),env);assert.equal(updated.status,200);
+ assert.equal(f.data.teams[0].proposalSubmittedAt,saved.proposalSubmittedAt);assert.equal(f.data.teams[0].url,'https://example.com/project');assert.equal(f.data.teams.length,1);
+ const removed=await f.handle(req({...team,proposalUrl:''},{method:'PATCH'}),env);assert.equal(removed.status,200);assert.equal(f.data.teams[0].proposalUrl,'');assert.equal(f.data.teams[0].proposalSubmittedAt,null);
+});
+test('existing teams can add a proposal; unauthorized and unsafe changes do not overwrite it',async()=>{
+ const f=fixture(),team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Existing team',member1:'A',member2:'B',paperId:'base',url:'https://example.com/project'};
+ await f.handle(req(team),env);
+ const withProposal={...team,proposalUrl:'https://youtu.be/abcdefghijk'};
+ assert.equal((await f.handle(req(withProposal,{method:'PATCH'}),env)).status,200);
+ for(const proposalUrl of ['javascript:alert(1)','data:text/html,test','https://user:password@example.com','x'.repeat(2001)])assert.equal((await f.handle(req({...team,proposalUrl},{method:'PATCH'}),env)).status,400);
+ assert.equal((await f.handle(req({...withProposal,editKey:crypto.randomUUID(),proposalUrl:''},{method:'PATCH'}),env)).status,403);
+ assert.equal(f.data.teams[0].proposalUrl,withProposal.proposalUrl);assert.equal(f.data.teams[0].url,team.url);
+ f.failWrite=true;assert.equal((await f.handle(req({...team,proposalUrl:''},{method:'PATCH'}),env)).status,503);assert.equal(f.data.teams[0].proposalUrl,withProposal.proposalUrl);
+});

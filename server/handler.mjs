@@ -23,7 +23,7 @@ function url(value,required=false){
  const s=text(value??'',2000,required);if(!s)return '';
  try{const u=new URL(s);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw new Error();return u.href;}catch{throw new Error('http 또는 https 링크를 입력해 주세요.');}
 }
-function publicData(data){return {papers:data.papers,teams:data.teams.map(({editHash,...team})=>team)};}
+function publicData(data){return {capabilities:{proposalSubmissions:true},papers:data.papers,teams:data.teams.map(({editHash,...team})=>team)};}
 export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
  return async function handle(request,env){
   const origin=request.headers.get('Origin');
@@ -60,7 +60,9 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
     if(!/^[a-z0-9-]{20,80}$/i.test(id)||!/^[-a-z0-9]{32,128}$/i.test(editKey))return reply({error:'팀 수정 키를 확인해 주세요.'},400);
     editHash=await hash(editKey);
     team={id,name:text(b.name,80),members:[text(b.member1,80),text(b.member2,80)],paperId:text(b.paperId,100),url:url(b.url),editHash};
+    if(Object.hasOwn(b,'proposalUrl'))team.proposalUrl=url(b.proposalUrl);
    }else return reply({error:'지원하지 않는 요청입니다.'},400);
+   const requestedTeam=team;
    for(let attempt=0;attempt<4;attempt++){
     const {sha,data}=await read();let result;
     if(paper){
@@ -69,13 +71,21 @@ export function createHandler({catalog,fetcher=fetch,allowedOrigin=ORIGIN}){
      if(data.papers.filter(p=>p.createdAt?.slice(0,10)===paper.createdAt.slice(0,10)).length>=500)return reply({error:'오늘 등록 가능한 수를 초과했습니다. 담당자에게 알려 주세요.'},429);
      data.papers.push(paper);result={paper};
     }else{
+     team={...requestedTeam};
      const selected=[...catalog.papers,...data.papers].find(p=>p.id===team.paperId);
      if(!selected)return reply({error:'리스트에서 논문을 선택해 주세요.'},400);
      const i=data.teams.findIndex(t=>t.id===team.id);
      if(i>=0&&data.teams[i].editHash!==editHash)return reply({error:'이 팀의 수정 키가 필요합니다.'},403);
      if(request.method==='PATCH'&&i<0)return reply({error:'팀을 찾을 수 없습니다.'},404);
      if(request.method==='POST'&&i>=0){const {editHash:_,...existing}=data.teams[i];return reply({team:existing,existing:true});}
-     team.paperTitle=selected.title;team.createdAt=i>=0?data.teams[i].createdAt:new Date().toISOString();
+     const previous=i>=0?data.teams[i]:null;
+     const proposalUrl=team.proposalUrl??previous?.proposalUrl??'';
+     const now=new Date().toISOString();
+     team={...previous,...team,proposalUrl,paperTitle:selected.title,createdAt:previous?.createdAt||now};
+     if(proposalUrl!==(previous?.proposalUrl||'')){
+      team.proposalSubmittedAt=proposalUrl?(previous?.proposalSubmittedAt||now):null;
+      team.proposalUpdatedAt=proposalUrl?now:null;
+     }
      if(i<0)data.teams.push(team);else data.teams[i]=team;
      const {editHash:_,...visible}=team;result={team:visible};
     }
