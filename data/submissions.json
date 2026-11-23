@@ -254,13 +254,24 @@
         "이기현"
       ],
       "paperId": "student-916349bb2b4f496903f98372",
-      "url": "",
+      "url": "https://jngu.io/functional-slam-project/",
       "editHash": "81672aead14cad2439cbc8544aef89896e858dd9e0287ec4ec9f1dc08768a806",
       "paperTitle": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
       "createdAt": "2026-10-29T04:38:34.153Z",
       "proposalUrl": "https://youtu.be/Ygf1uuvVnF8",
       "legacyProjectUrl": "https://youtu.be/Ygf1uuvVnF8",
-      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z",
+      "submissionHistory": [
+        {
+          "type": "project",
+          "previousUrl": "",
+          "url": "https://jngu.io/functional-slam-project/",
+          "submitter": "이정우",
+          "at": "2026-11-23T16:42:00.237Z"
+        }
+      ],
+      "projectSubmittedAt": "2026-11-23T16:42:00.237Z",
+      "projectUpdatedAt": "2026-11-23T16:42:00.237Z"
     },
     {
       "id": "c363d442-a703-4a0f-80b8-936845950eb5",
