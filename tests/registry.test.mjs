@@ -57,3 +57,34 @@ test('existing teams can add a proposal; unauthorized and unsafe changes do not 
  assert.equal(f.data.teams[0].proposalUrl,withProposal.proposalUrl);assert.equal(f.data.teams[0].url,team.url);
  f.failWrite=true;assert.equal((await f.handle(req({...team,proposalUrl:''},{method:'PATCH'}),env)).status,503);assert.equal(f.data.teams[0].proposalUrl,withProposal.proposalUrl);
 });
+
+test('separate submissions work without a browser edit key and cannot change team identity',async()=>{
+ const f=fixture(),team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Existing',member1:'Alice Park',member2:'Bob Cho',paperId:'base'};
+ await f.handle(req(team),env);
+ const body={kind:'submission',id:team.id,submissionType:'proposal',submitter:' Alice  Park ',submissionUrl:'https://youtu.be/abcdefghijk',name:'Tampered',member1:'Other',paperId:'other',url:'https://wrong.example'};
+ const r=await f.handle(req(body,{method:'PATCH'}),env);assert.equal(r.status,200);const result=(await r.json()).team;
+ assert.equal(result.name,team.name);assert.deepEqual(result.members,[team.member1,team.member2]);assert.equal(result.paperId,'base');assert.equal(result.url,'');assert.equal(result.proposalUrl,body.submissionUrl);assert.equal(result.editHash,undefined);assert.equal(result.submissionHistory,undefined);
+ assert.equal(f.data.teams.length,1);assert.equal(f.data.teams[0].submissionHistory.length,1);
+ assert.equal((await f.handle(req(body,{method:'PATCH'}),env)).status,200);assert.equal(f.data.teams[0].submissionHistory.length,1);
+ const project={...body,submissionType:'project',submitter:'Bob Cho',submissionUrl:'https://example.com/team'};
+ assert.equal((await f.handle(req(project,{method:'PATCH'}),env)).status,200);assert.equal(f.data.teams[0].proposalUrl,body.submissionUrl);assert.equal(f.data.teams[0].url,project.submissionUrl);
+ for(const bad of [{...body,submitter:'Unknown'},{...body,submissionType:'identity'},{...body,submissionUrl:'javascript:alert(1)'}])assert.equal((await f.handle(req(bad,{method:'PATCH'}),env)).status,400);
+ assert.equal((await f.handle(req({...body,id:crypto.randomUUID()},{method:'PATCH'}),env)).status,404);
+ assert.equal((await f.handle(req(body,{method:'PATCH',origin:'https://other.example'}),env)).status,403);
+ f.failWrite=true;assert.equal((await f.handle(req({...body,submissionUrl:'https://youtu.be/lmnopqrstuv'},{method:'PATCH'}),env)).status,503);assert.equal(f.data.teams[0].proposalUrl,body.submissionUrl);
+});
+test('same students cannot create duplicate teams even with another ID, name or member order',async()=>{
+ const f=fixture(),team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Original',member1:'Alice Park',member2:'Bob Cho',paperId:'base'};
+ await f.handle(req(team),env);
+ const duplicate={...team,id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Changed team',member1:'BobCho',member2:'Alice Park'};
+ let r=await f.handle(req(duplicate),env);assert.equal(r.status,409);assert.equal((await r.json()).existingTeamId,team.id);assert.equal(f.data.teams.length,1);
+ r=await f.handle(req({...duplicate,member1:'New Student'}),env);assert.equal(r.status,409);assert.equal(f.data.teams.length,1);
+ r=await f.handle(req({...duplicate,member1:'New Student',member2:'New Student'}),env);assert.equal(r.status,400);
+});
+test('team identity edits preserve links submitted from another browser',async()=>{
+ const f=fixture(),team={kind:'team',id:crypto.randomUUID(),editKey:crypto.randomUUID(),name:'Team',member1:'A',member2:'B',paperId:'base'};
+ await f.handle(req(team),env);
+ for(const [submissionType,submissionUrl] of [['proposal','https://youtu.be/test'],['project','https://example.com/project']])assert.equal((await f.handle(req({kind:'submission',id:team.id,submitter:'A',submissionType,submissionUrl},{method:'PATCH'}),env)).status,200);
+ assert.equal((await f.handle(req({...team,name:'Updated'},{method:'PATCH'}),env)).status,200);
+ assert.equal(f.data.teams[0].proposalUrl,'https://youtu.be/test');assert.equal(f.data.teams[0].url,'https://example.com/project');
+});

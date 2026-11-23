@@ -193,10 +193,13 @@
         "김보메나"
       ],
       "paperId": "add-slam-former-2026",
-      "url": "https://youtu.be/h7Bib6qdU9Q",
+      "url": "",
       "editHash": "eb70b4ced4b65015050b1f24e0f87a94356c17cf2e52c466ea2d4c8379175bea",
       "paperTitle": "SLAM-Former: Putting SLAM into One Transformer",
-      "createdAt": "2026-10-27T13:22:47.393Z"
+      "createdAt": "2026-10-27T13:22:47.393Z",
+      "proposalUrl": "https://youtu.be/h7Bib6qdU9Q",
+      "legacyProjectUrl": "https://youtu.be/h7Bib6qdU9Q",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
     },
     {
       "id": "f41fb4ee-917e-4200-be3f-adab63287a83",
@@ -206,23 +209,26 @@
         "박도희"
       ],
       "paperId": "vision-affaba2174",
-      "url": "https://youtu.be/FcMiJN5nqOk",
+      "url": "",
       "editHash": "1f2bf4bf85a32af884f7e0868333addc874d9f33d8f04c9e727fdabf198de499",
       "paperTitle": "ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration",
-      "createdAt": "2026-10-28T05:18:35.116Z"
+      "createdAt": "2026-10-28T05:18:35.116Z",
+      "proposalUrl": "https://youtu.be/FcMiJN5nqOk",
+      "legacyProjectUrl": "https://youtu.be/FcMiJN5nqOk",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
     },
     {
-      "id": "62fdf707-8969-4474-89c2-f65b2cc717ed",
-      "name": "@home",
+      "id": "bf6347df-e8c6-4651-914b-d39ae9b3c7b7",
+      "name": "@Home",
       "members": [
         "조동진",
         "한지현"
       ],
-      "paperId": "LAB-faf28d8263",
+      "paperId": "student-4319387949963783f088f9f3",
       "url": "",
-      "editHash": "da520f897dc00d829c6b059a5c03149aab3ac1afabf4a5dcb3ca2bbff9c3f4a4",
-      "paperTitle": "LAMP: Implicit Language Map for Robot Navigation",
-      "createdAt": "2026-10-28T06:27:57.626Z"
+      "editHash": "9ed573956cbdf76ddb138c859a58d627a51203f9774366f856debf28bb9d567f",
+      "paperTitle": "Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+      "createdAt": "2026-11-13T06:30:03.382Z"
     },
     {
       "id": "a98d93e6-7d66-4b0e-bced-5ac506e21872",
@@ -232,10 +238,13 @@
         "김재형"
       ],
       "paperId": "vision-d29a116798",
-      "url": "https://www.youtube.com/watch?v=03o1lZfPHXU",
+      "url": "",
       "editHash": "0578acacc625f63cf0248cb9ea9879787a1e53b6840a95db43552d3d1e662ea7",
       "paperTitle": "SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering",
-      "createdAt": "2026-10-28T07:54:19.199Z"
+      "createdAt": "2026-10-28T07:54:19.199Z",
+      "proposalUrl": "https://www.youtube.com/watch?v=03o1lZfPHXU",
+      "legacyProjectUrl": "https://www.youtube.com/watch?v=03o1lZfPHXU",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
     },
     {
       "id": "38e1cf12-6826-47ef-993c-f8198d600ea5",
@@ -245,23 +254,29 @@
         "이기현"
       ],
       "paperId": "student-916349bb2b4f496903f98372",
-      "url": "https://youtu.be/Ygf1uuvVnF8",
+      "url": "",
       "editHash": "81672aead14cad2439cbc8544aef89896e858dd9e0287ec4ec9f1dc08768a806",
       "paperTitle": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
-      "createdAt": "2026-10-29T04:38:34.153Z"
+      "createdAt": "2026-10-29T04:38:34.153Z",
+      "proposalUrl": "https://youtu.be/Ygf1uuvVnF8",
+      "legacyProjectUrl": "https://youtu.be/Ygf1uuvVnF8",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
     },
     {
-      "id": "7b3992c8-bd35-4533-9bfe-59c14e997ac8",
+      "id": "c363d442-a703-4a0f-80b8-936845950eb5",
       "name": "jeongyun",
       "members": [
         "정석환",
         "윤승희"
       ],
-      "paperId": "LAB-eb331d36c6",
+      "paperId": "LAB-90a5b9d1d8",
       "url": "",
-      "editHash": "f289162532aa46b84be0a264105d7b7ba51984033e783d134b2c88a86beef326",
-      "paperTitle": "OpenSU3D: Open World 3D Scene Understanding Using Foundation Models",
-      "createdAt": "2026-10-29T05:07:03.359Z"
+      "editHash": "913c1d534652bbf664a40500c781a61ef0bf0ddc7840255574373fe434012af2",
+      "paperTitle": "A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM",
+      "createdAt": "2026-11-20T04:52:09.251Z",
+      "proposalUrl": "https://www.youtube.com/watch?v=yc6Atd3W2_o",
+      "legacyProjectUrl": "https://www.youtube.com/watch?v=yc6Atd3W2_o",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
     },
     {
       "id": "d5c54cc0-e764-42b9-a256-853c7af5d7c8",
@@ -297,36 +312,50 @@
         "Vacancy"
       ],
       "paperId": "vision-c739d19c69",
-      "url": "https://youtu.be/9Fg_lg73O7w",
+      "url": "",
       "editHash": "0a0e75220b9a05a48738678d62c87fd6e54d191f624a9984db24770a7973678b",
       "paperTitle": "XFeat: Accelerated Features for Lightweight Image Matching",
-      "createdAt": "2026-11-03T09:58:36.372Z"
-    },
+      "createdAt": "2026-11-03T09:58:36.372Z",
+      "proposalUrl": "https://youtu.be/9Fg_lg73O7w",
+      "legacyProjectUrl": "https://youtu.be/9Fg_lg73O7w",
+      "proposalImportedAt": "2026-11-23T09:07:57.920Z"
+    }
+  ],
+  "archivedTeams": [
     {
-      "id": "bf6347df-e8c6-4651-914b-d39ae9b3c7b7",
-      "name": "@Home",
+      "id": "62fdf707-8969-4474-89c2-f65b2cc717ed",
+      "name": "@home",
       "members": [
         "조동진",
         "한지현"
       ],
-      "paperId": "student-4319387949963783f088f9f3",
+      "paperId": "LAB-faf28d8263",
       "url": "",
-      "editHash": "9ed573956cbdf76ddb138c859a58d627a51203f9774366f856debf28bb9d567f",
-      "paperTitle": "Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
-      "createdAt": "2026-11-13T06:30:03.382Z"
+      "editHash": "da520f897dc00d829c6b059a5c03149aab3ac1afabf4a5dcb3ca2bbff9c3f4a4",
+      "paperTitle": "LAMP: Implicit Language Map for Robot Navigation",
+      "createdAt": "2026-10-28T06:27:57.626Z",
+      "mergedIntoId": "bf6347df-e8c6-4651-914b-d39ae9b3c7b7",
+      "archivedAt": "2026-11-23T09:07:57.920Z",
+      "archiveReason": "Same members; professor selected latest registered paper."
     },
     {
-      "id": "c363d442-a703-4a0f-80b8-936845950eb5",
+      "id": "7b3992c8-bd35-4533-9bfe-59c14e997ac8",
       "name": "jeongyun",
       "members": [
         "정석환",
         "윤승희"
       ],
-      "paperId": "LAB-90a5b9d1d8",
-      "url": "https://www.youtube.com/watch?v=yc6Atd3W2_o",
-      "editHash": "913c1d534652bbf664a40500c781a61ef0bf0ddc7840255574373fe434012af2",
-      "paperTitle": "A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM",
-      "createdAt": "2026-11-20T04:52:09.251Z"
+      "paperId": "LAB-eb331d36c6",
+      "url": "",
+      "editHash": "f289162532aa46b84be0a264105d7b7ba51984033e783d134b2c88a86beef326",
+      "paperTitle": "OpenSU3D: Open World 3D Scene Understanding Using Foundation Models",
+      "createdAt": "2026-10-29T05:07:03.359Z",
+      "mergedIntoId": "c363d442-a703-4a0f-80b8-936845950eb5",
+      "archivedAt": "2026-11-23T09:07:57.920Z",
+      "archiveReason": "Same members; professor selected latest registered paper."
     }
+  ],
+  "migrations": [
+    "separate-submissions-v2"
   ]
 }

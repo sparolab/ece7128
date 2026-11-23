@@ -14,7 +14,7 @@ fs.rmSync('_site',{recursive:true,force:true});fs.cpSync('site','_site',{recursi
 const enriched={...catalog,papers:catalog.papers.map(enrich),bibliography,summaries,englishSummaries};
 fs.writeFileSync('_site/catalog.json',JSON.stringify(enriched));
 fs.writeFileSync('_site/data.js','window.CATALOG='+JSON.stringify(enriched)+';\n');
-fs.writeFileSync('_site/community.json',JSON.stringify({papers:data.papers.map(enrich),teams:data.teams.map(({editHash,...t})=>t)}));
+fs.writeFileSync('_site/community.json',JSON.stringify({papers:data.papers.map(enrich),teams:data.teams.map(({editHash,submissionHistory,...t})=>t)}));
 // Refresh changed scripts even when the browser cached a previous deployment.
 for(const name of ['index.html','template.html']){
  const file=path.join('_site',name);
