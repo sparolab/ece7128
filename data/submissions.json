@@ -289,7 +289,19 @@
       "url": "",
       "editHash": "61b98e60494b1e1e6d4dd61e7765cecc361ebddf921d1bf6290e299e97012fb8",
       "paperTitle": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
-      "createdAt": "2026-10-29T10:10:31.011Z"
+      "createdAt": "2026-10-29T10:10:31.011Z",
+      "proposalUrl": "https://www.youtube.com/watch?v=hwzq-lwX56U",
+      "submissionHistory": [
+        {
+          "type": "proposal",
+          "previousUrl": "",
+          "url": "https://www.youtube.com/watch?v=hwzq-lwX56U",
+          "submitter": "백운영",
+          "at": "2026-11-23T09:46:29.997Z"
+        }
+      ],
+      "proposalSubmittedAt": "2026-11-23T09:46:29.997Z",
+      "proposalUpdatedAt": "2026-11-23T09:46:29.997Z"
     },
     {
       "id": "b4b71686-ed8b-4319-a9a1-55af92093fe7",
