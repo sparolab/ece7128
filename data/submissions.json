@@ -183,7 +183,19 @@
       "url": "",
       "editHash": "89bb9f18cb5f45feb8029652b41ea01a39144524334ce0e65f03270e593f8f09",
       "paperTitle": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
-      "createdAt": "2026-10-27T06:11:30.602Z"
+      "createdAt": "2026-10-27T06:11:30.602Z",
+      "proposalUrl": "https://www.youtube.com/watch?v=0dOKwGOOpxw&feature=youtu.be",
+      "submissionHistory": [
+        {
+          "type": "proposal",
+          "previousUrl": "",
+          "url": "https://www.youtube.com/watch?v=0dOKwGOOpxw&feature=youtu.be",
+          "submitter": "심태후",
+          "at": "2026-11-24T07:25:30.897Z"
+        }
+      ],
+      "proposalSubmittedAt": "2026-11-24T07:25:30.897Z",
+      "proposalUpdatedAt": "2026-11-24T07:25:30.897Z"
     },
     {
       "id": "dbde595b-a978-4e47-819c-447c95b5a476",
