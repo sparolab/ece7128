@@ -228,7 +228,19 @@
       "url": "",
       "editHash": "9ed573956cbdf76ddb138c859a58d627a51203f9774366f856debf28bb9d567f",
       "paperTitle": "Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
-      "createdAt": "2026-11-13T06:30:03.382Z"
+      "createdAt": "2026-11-13T06:30:03.382Z",
+      "proposalUrl": "https://youtu.be/iYcXKWJ_W4o",
+      "submissionHistory": [
+        {
+          "type": "proposal",
+          "previousUrl": "",
+          "url": "https://youtu.be/iYcXKWJ_W4o",
+          "submitter": "한지현",
+          "at": "2026-11-24T00:33:55.659Z"
+        }
+      ],
+      "proposalSubmittedAt": "2026-11-24T00:33:55.659Z",
+      "proposalUpdatedAt": "2026-11-24T00:33:55.659Z"
     },
     {
       "id": "a98d93e6-7d66-4b0e-bced-5ac506e21872",
