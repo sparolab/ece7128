@@ -349,7 +349,19 @@
       "url": "",
       "editHash": "cbecba46288c1a8bb4ae2ac45c5598a2f65a6c6ff37d1d0c9fb262691fb66dcf",
       "paperTitle": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
-      "createdAt": "2026-11-03T07:56:44.881Z"
+      "createdAt": "2026-11-03T07:56:44.881Z",
+      "proposalUrl": "https://youtu.be/GRj_x-Hpvb0",
+      "submissionHistory": [
+        {
+          "type": "proposal",
+          "previousUrl": "",
+          "url": "https://youtu.be/GRj_x-Hpvb0",
+          "submitter": "민창기",
+          "at": "2026-11-28T12:13:32.958Z"
+        }
+      ],
+      "proposalSubmittedAt": "2026-11-28T12:13:32.958Z",
+      "proposalUpdatedAt": "2026-11-28T12:13:32.958Z"
     },
     {
       "id": "7053db5e-0919-4af6-b0b5-cf6c7b59ff9f",
